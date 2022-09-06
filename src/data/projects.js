@@ -6,6 +6,7 @@ export const projects = [
     type: 'Design – Product',
     context: 'Client – Agency',
     link: '',
+    cover: '',
   },
 
   {  
@@ -15,6 +16,7 @@ export const projects = [
     type: 'Web Development' + 'Design',
     context: 'Personal',
     link: 'http://playlistprompts.com/',
+    cover: '',
   },
 
 
@@ -25,6 +27,7 @@ export const projects = [
     type: 'Music',
     context: 'Personal',
     link: 'https://soundcloud.com/more-swans/sets/flowers-in-motion',
+    cover: '',
   },
 
 
@@ -35,6 +38,7 @@ export const projects = [
     type: 'Design – Brand',
     context: 'Client – Freelance',
     link: '',
+    cover: '',
   },
 
   {  
@@ -44,6 +48,7 @@ export const projects = [
     type: 'Animation',
     context: 'Client – Freelance',
     link: '',
+    cover: '',
   },
 
   {  
@@ -53,6 +58,7 @@ export const projects = [
     type: 'Animation',
     context: 'Client – Freelance',
     link: '',
+    cover: '',
   },
 
   {  
@@ -62,6 +68,7 @@ export const projects = [
     type: 'Design – Visual',
     context: 'Client – Freelance',
     link: '',
+    cover: '',
   },
 
   {  
@@ -71,6 +78,7 @@ export const projects = [
     type: 'Illustration',
     context: 'Exhibition',
     link: '',
+    cover: '',
   },
 
   {  
@@ -80,6 +88,7 @@ export const projects = [
     type: 'Illustration',
     context: 'Client – Freelance',
     link: '',
+    cover: '',
   },
 
   {  
@@ -89,6 +98,7 @@ export const projects = [
     type: 'Illustration',
     context: 'Personal',
     link: '',
+    cover: '',
   },
 
   {  
@@ -98,6 +108,7 @@ export const projects = [
     type: 'Animation' + 'Illustration',
     context: 'Personal',
     link: '',
+    cover: '',
   },
 
   {  
@@ -107,6 +118,7 @@ export const projects = [
     type: 'Web Development' + 'Design',
     context: 'Personal',
     link: '',
+    cover: '',
   },
 
 ];
