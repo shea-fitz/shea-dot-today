@@ -12,8 +12,11 @@ return (
                     <div className="proj-title">{title}</div>
                     <div className="proj-year">[{year}]</div>
                 </div>
-                <div className="proj-desc">{description}</div>
-                <div className="proj-type">{type}</div>
+                <div>
+                    <div className="proj-desc">{description}</div>
+                    <div className="proj-type">{type}</div>
+                </div>
+                
                 {/* <div className="proj-context">{context}</div> */}
             </div>
         </div>   

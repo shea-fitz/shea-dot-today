@@ -5,7 +5,8 @@ import './App.css';
 // DATA
 import {projects} from './data/projects';
 import {writing} from './data/writing';
-
+import arena from './icons/arena.svg';
+import mail from './icons/mail.svg';
 
 // COMPONENTS
 import Project from './components/Project';
@@ -19,6 +20,7 @@ function App() {
     {/* <span className="name">Shea Fitzpatrick</span> */}
 
     <div className="wrapper">
+
       <div className="left">
       <div className="header">Projects</div>
         
@@ -48,7 +50,10 @@ function App() {
           
 
       <div className="info">
-         Shea Fitzpatrick is a designer based in Brooklyn, NY, currently working as a digital product designer at a small software agency.
+         Shea currently works as a digital product designer at a small software agency in NYC. <br/><br/>
+
+         <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
+         <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
       </div>
       
       </div>        
