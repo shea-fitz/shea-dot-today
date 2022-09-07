@@ -86,6 +86,12 @@ h2 {
     flex-grow: 1;
     line-height: 150%;
 }
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
 /* PROJECTS */
 
 .proj-container {
@@ -125,7 +131,7 @@ h2 {
 .proj-year {
     margin-right: 16px;
     font-size: .75rem;
-    color: rgb(234, 81, 157);
+    color: #ea519d;
 }
 
 .proj-type {
@@ -162,11 +168,7 @@ h2 {
     border-radius: 0;
 }
 
-.space-between {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
+
 
 /* WRITING */
 
@@ -183,6 +185,8 @@ a.writing-link {
 a.writing-link:hover {
     color: rgb(234, 81, 157);
 }
+
+/* ICONOGRAPY */
 
 .icon {
     width: 12px;

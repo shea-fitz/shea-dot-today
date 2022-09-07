@@ -1,13 +1,4 @@
 export const projects = [
-  {  
-    title: "Altana Atlas",
-    description: "A source of truth for global supply chain",
-    year: '2022',
-    type: 'Product Design',
-    context: 'client',
-    link: '',
-    cover: './img/covers/altana.png',
-  },
 
   {  
     title: 'Playlist Prompts',
@@ -17,6 +8,16 @@ export const projects = [
     context: 'personal',
     link: 'http://playlistprompts.com/',
     cover: './img/covers/playlist.png',
+  },
+
+  {  
+    title: "Altana Atlas",
+    description: "A source of truth for global supply chain",
+    year: '2022',
+    type: 'Product Design',
+    context: 'client',
+    link: '',
+    cover: './img/covers/altana.png',
   },
 
 
@@ -45,7 +46,7 @@ export const projects = [
     title: "Sunny Place for Shady People",
     description: "A Western-inspired music visualizer",
     year: '2021',
-    type: 'Animation, 3D',
+    type: 'Animation',
     context: 'client',
     link: '',
     cover: './img/covers/sunny.png',
@@ -75,7 +76,7 @@ export const projects = [
     title: "Two People in a Room Over Time",
     description: "An series of Risograph prints exploring abstract narrative storytelling",
     year: '2019',
-    type: 'Illustration, 3D',
+    type: 'Illustration',
     context: 'personal',
     link: '',
     cover: './img/covers/people.png',
@@ -85,7 +86,7 @@ export const projects = [
     title: "Nature Magazine",
     description: "Commissioned illustrations for a leading scientific journal",
     year: '2019',
-    type: 'Illustration, 3D',
+    type: 'Illustration',
     context: 'client',
     link: '',
     cover: './img/covers/nature.png',
@@ -95,7 +96,7 @@ export const projects = [
     title: "I Didn't Ask for the Habit",
     description: "An abstract comic made with generative 3D models",
     year: '2018',
-    type: 'Illustration, 3D',
+    type: 'Illustration',
     context: 'personal',
     link: '',
     cover: './img/covers/habit.png',
@@ -105,20 +106,32 @@ export const projects = [
     title: "Digital Drawings",
     description: "Illustration and animation experiments",
     year: '2018 - 2020',
-    type: 'Animation, Illustration, 3D',
+    type: 'Animation, Illustration',
     context: 'personal',
     link: '',
     cover: './img/covers/sketch.png',
   },
 
-  // {  
-  //   title: "Website Archive",
-  //   description: "The evolution of my personal website",
-  //   year: '2018 - 2022',
-  //   type: 'Web Development, Design',
-  //   context: 'Personal',
-  //   link: '',
-  //   cover: './img/covers/bfa.png',
-  // },
+  {  
+    title: "Website Archive",
+    description: "The evolution of my personal website",
+    year: '2018 - 2022',
+    type: 'Web Development, Design',
+    context: 'Personal',
+    link: '',
+    cover: './img/covers/bfa.png',
+  },
+
+  {  
+    title: "Girltype Behaviors",
+    description: "A punk project",
+    year: '2016 - 2018',
+    type: 'Music',
+    context: 'personal',
+    link: '',
+    cover: './img/covers/sketch.png',
+  },
+
+ 
 
 ];
