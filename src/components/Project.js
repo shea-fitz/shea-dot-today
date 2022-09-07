@@ -1,6 +1,8 @@
 import React from 'react';
+import client from '../icons/client.svg';
+import personal from '../icons/personal.svg';
 
-const Project = ({cover, title, year, type, description}) => {
+const Project = ({cover, title, year, type, description, context}) => {
 
 return (
         <div className="proj-container">
@@ -14,7 +16,11 @@ return (
                 </div>
                 <div>
                     <div className="proj-desc">{description}</div>
+                <div className="space-between">
                     <div className="proj-type">{type}</div>
+                    <img className="icon proj-context" src={context==='personal' ? personal : client}></img>
+                </div>
+                   
                 </div>
                 
                 {/* <div className="proj-context">{context}</div> */}

@@ -7,6 +7,9 @@ import {projects} from './data/projects';
 import {writing} from './data/writing';
 import arena from './icons/arena.svg';
 import mail from './icons/mail.svg';
+import client from './icons/client.svg';
+import personal from './icons/personal.svg';
+
 
 // COMPONENTS
 import Project from './components/Project';
@@ -22,7 +25,14 @@ function App() {
     <div className="wrapper">
 
       <div className="left">
-      <div className="header">Projects</div>
+      <div className="header proj-header space-between">Projects <br/><br/>
+      <div className="categories">
+          <span className="category">client work<img className="icon" src={client}></img> </span>
+          <span className="category">personal<img className="icon" src={personal}></img></span>
+      </div>
+    
+
+      </div>
         
       {projects.map(project => (
                   <Project
@@ -31,6 +41,7 @@ function App() {
                     type={project.type}
                     year={project.year}
                     description={project.description}
+                    context={project.context}
                   />
                 ))}
       </div>
