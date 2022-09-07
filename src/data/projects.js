@@ -33,6 +33,17 @@ export const projects = [
 
 
   {  
+    title: "Soft Surplus",
+    description: "Member of a shared studio space and art collective",
+    year: '2019 - 2022',
+    type: 'Art, Events',
+    context: 'personal',
+    link: 'https://www.instagram.com/softsurplus/',
+    cover: './img/covers/soft.png',
+  },
+
+
+  {  
     title: "Blue Flower Arts",
     description: "Brand identity for a boutique literary agency",
     year: '2021',
@@ -63,7 +74,7 @@ export const projects = [
   },
 
   {  
-    title: "MakerDao Comm-Dev",
+    title: "MakerDAO",
     description: "A visual identity and documentation site for a global crypto community",
     year: '2020',
     type: 'Visual Design',
@@ -73,10 +84,20 @@ export const projects = [
   },
 
   {  
+    title: "Code Societies",
+    description: "Three weeks studying the social and political implications of technology",
+    year: '2020',
+    type: 'Intensive',
+    context: 'personal',
+    link: '',
+    cover: './img/covers/sfpc.png',
+  },
+
+  {  
     title: "Two People in a Room Over Time",
     description: "An series of Risograph prints exploring abstract narrative storytelling",
     year: '2019',
-    type: 'Illustration',
+    type: 'Illustration, Residency',
     context: 'personal',
     link: '',
     cover: './img/covers/people.png',
@@ -117,7 +138,7 @@ export const projects = [
     description: "The evolution of my personal website",
     year: '2018 - 2022',
     type: 'Web Development, Design',
-    context: 'Personal',
+    context: 'personal',
     link: '',
     cover: './img/covers/bfa.png',
   },
@@ -129,7 +150,7 @@ export const projects = [
     type: 'Music',
     context: 'personal',
     link: '',
-    cover: './img/covers/sketch.png',
+    cover: './img/covers/girl.png',
   },
 
  
