@@ -1,12 +1,12 @@
 export const projects = [
   {  
-    title: "Altana Atlas",
+    title: "Atlas",
     description: "A source of truth for global supply chain",
     year: '2022',
     type: 'Design – Product',
     context: 'Client – Agency',
     link: '',
-    cover: '',
+    cover: './img/covers/altana.png',
   },
 
   {  
@@ -16,7 +16,7 @@ export const projects = [
     type: 'Web Development' + 'Design',
     context: 'Personal',
     link: 'http://playlistprompts.com/',
-    cover: '',
+    cover: './img/covers/flowers.png',
   },
 
 
@@ -27,7 +27,7 @@ export const projects = [
     type: 'Music',
     context: 'Personal',
     link: 'https://soundcloud.com/more-swans/sets/flowers-in-motion',
-    cover: '',
+    cover: './img/covers/flowers.png',
   },
 
 
@@ -35,10 +35,10 @@ export const projects = [
     title: "Blue Flower Arts",
     description: "Brand identity for a boutique literary agency",
     year: '2021',
-    type: 'Design – Brand',
+    type: 'Design – Brand' + 'Project Management',
     context: 'Client – Freelance',
     link: '',
-    cover: '',
+    cover: './img/covers/bfa.png',
   },
 
   {  
@@ -48,17 +48,17 @@ export const projects = [
     type: 'Animation',
     context: 'Client – Freelance',
     link: '',
-    cover: '',
+    cover: './img/covers/sunny.png',
   },
 
   {  
     title: "Student Visa Review",
     description: "An online exhibition of interviews with architecture students",
     year: '2021',
-    type: 'Animation',
+    type: 'UI Design',
     context: 'Client – Freelance',
     link: '',
-    cover: '',
+    cover: './img/covers/risd.png',
   },
 
   {  
@@ -68,7 +68,7 @@ export const projects = [
     type: 'Design – Visual',
     context: 'Client – Freelance',
     link: '',
-    cover: '',
+    cover: './img/covers/maker.png',
   },
 
   {  
@@ -78,7 +78,7 @@ export const projects = [
     type: 'Illustration',
     context: 'Exhibition',
     link: '',
-    cover: '',
+    cover: './img/covers/people.png',
   },
 
   {  
@@ -88,7 +88,7 @@ export const projects = [
     type: 'Illustration',
     context: 'Client – Freelance',
     link: '',
-    cover: '',
+    cover: './img/covers/nature.png',
   },
 
   {  
@@ -98,7 +98,7 @@ export const projects = [
     type: 'Illustration',
     context: 'Personal',
     link: '',
-    cover: '',
+    cover: './img/covers/habit.png',
   },
 
   {  
@@ -108,17 +108,17 @@ export const projects = [
     type: 'Animation' + 'Illustration',
     context: 'Personal',
     link: '',
-    cover: '',
+    cover: './img/covers/sketch.png',
   },
 
   {  
     title: "Website Archive",
     description: "The evolution of my personal website",
-    year: '2018 - ?',
+    year: '2018 - 2022',
     type: 'Web Development' + 'Design',
     context: 'Personal',
     link: '',
-    cover: '',
+    cover: './img/covers/bfa.png',
   },
 
 ];
