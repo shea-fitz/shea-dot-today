@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Project = ({cover, title, year, type, description}) => {
+
 return (
         <div className="proj-container">
             <div className="proj-img-container">

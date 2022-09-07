@@ -1,9 +1,9 @@
 export const projects = [
   {  
-    title: "Atlas",
+    title: "Altana Atlas",
     description: "A source of truth for global supply chain",
     year: '2022',
-    type: 'Design – Product',
+    type: 'Product Design',
     context: 'Client – Agency',
     link: '',
     cover: './img/covers/altana.png',
@@ -13,10 +13,10 @@ export const projects = [
     title: 'Playlist Prompts',
     description: "An ongoing collection of publicly sourced playlist ideas",
     year: '2022',
-    type: 'Web Development' + 'Design',
+    type: 'Web Development, Design',
     context: 'Personal',
     link: 'http://playlistprompts.com/',
-    cover: './img/covers/flowers.png',
+    cover: './img/covers/playlist.png',
   },
 
 
@@ -35,7 +35,7 @@ export const projects = [
     title: "Blue Flower Arts",
     description: "Brand identity for a boutique literary agency",
     year: '2021',
-    type: 'Design – Brand' + 'Project Management',
+    type: 'Brand, Project Management',
     context: 'Client – Freelance',
     link: '',
     cover: './img/covers/bfa.png',
@@ -43,9 +43,9 @@ export const projects = [
 
   {  
     title: "Sunny Place for Shady People",
-    description: "A music visualizer",
+    description: "A Western-inspired music visualizer",
     year: '2021',
-    type: 'Animation',
+    type: 'Animation, 3D',
     context: 'Client – Freelance',
     link: '',
     cover: './img/covers/sunny.png',
@@ -55,7 +55,7 @@ export const projects = [
     title: "Student Visa Review",
     description: "An online exhibition of interviews with architecture students",
     year: '2021',
-    type: 'UI Design',
+    type: 'Visual Design, Exhibition Design',
     context: 'Client – Freelance',
     link: '',
     cover: './img/covers/risd.png',
@@ -65,7 +65,7 @@ export const projects = [
     title: "MakerDao Comm-Dev",
     description: "A visual identity and documentation site for a global crypto community",
     year: '2020',
-    type: 'Design – Visual',
+    type: 'Visual Design',
     context: 'Client – Freelance',
     link: '',
     cover: './img/covers/maker.png',
@@ -75,7 +75,7 @@ export const projects = [
     title: "Two People in a Room Over Time",
     description: "An series of Risograph prints exploring abstract narrative storytelling",
     year: '2019',
-    type: 'Illustration',
+    type: 'Illustration, 3D',
     context: 'Exhibition',
     link: '',
     cover: './img/covers/people.png',
@@ -85,7 +85,7 @@ export const projects = [
     title: "Nature Magazine",
     description: "Commissioned illustrations for a leading scientific journal",
     year: '2019',
-    type: 'Illustration',
+    type: 'Illustration, 3D',
     context: 'Client – Freelance',
     link: '',
     cover: './img/covers/nature.png',
@@ -93,9 +93,9 @@ export const projects = [
 
   {  
     title: "I Didn't Ask for the Habit",
-    description: "An abstract comic made with generative 3D modeling software",
+    description: "An abstract comic made with generative 3D models",
     year: '2018',
-    type: 'Illustration',
+    type: 'Illustration, 3D',
     context: 'Personal',
     link: '',
     cover: './img/covers/habit.png',
@@ -103,22 +103,22 @@ export const projects = [
 
   {  
     title: "Digital Drawings",
-    description: "Illustration and animation experiments with generative 3D software",
+    description: "Illustration and animation experiments with 3D software",
     year: '2018 - 2020',
-    type: 'Animation' + 'Illustration',
+    type: 'Animation, Illustration, 3D',
     context: 'Personal',
     link: '',
     cover: './img/covers/sketch.png',
   },
 
-  {  
-    title: "Website Archive",
-    description: "The evolution of my personal website",
-    year: '2018 - 2022',
-    type: 'Web Development' + 'Design',
-    context: 'Personal',
-    link: '',
-    cover: './img/covers/bfa.png',
-  },
+  // {  
+  //   title: "Website Archive",
+  //   description: "The evolution of my personal website",
+  //   year: '2018 - 2022',
+  //   type: 'Web Development, Design',
+  //   context: 'Personal',
+  //   link: '',
+  //   cover: './img/covers/bfa.png',
+  // },
 
 ];
