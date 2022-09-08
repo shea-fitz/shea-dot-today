@@ -9,7 +9,7 @@ import arena from './icons/arena.svg';
 import mail from './icons/mail.svg';
 import client from './icons/client.svg';
 import personal from './icons/personal.svg';
-
+import shea from './media/shea.jpg'
 
 // COMPONENTS
 import Project from './components/Project';
@@ -66,6 +66,8 @@ function App() {
          <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
          <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
       </div>
+
+      {/* <img src={shea} className="shea"></img> */}
       
       </div>        
     </div>

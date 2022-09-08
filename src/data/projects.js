@@ -31,6 +31,15 @@ export const projects = [
     cover: './img/covers/flowers.png',
   },
 
+  // {  
+  //   title: "Jewerly",
+  //   description: "A wearable practice",
+  //   year: '2021 - 2022',
+  //   type: 'Art',
+  //   context: 'personal',
+  //   link: 'https://www.are.na/shea/jewelry-documentation',
+  //   cover: './img/covers/metal.png',
+  // },
 
   {  
     title: "Soft Surplus",
@@ -85,7 +94,7 @@ export const projects = [
 
   {  
     title: "Code Societies",
-    description: "Three weeks studying the social and political implications of technology",
+    description: "Three weeks at the School for Poetic Computation",
     year: '2020',
     type: 'Intensive',
     context: 'personal',
@@ -140,7 +149,7 @@ export const projects = [
     type: 'Web Development, Design',
     context: 'personal',
     link: '',
-    cover: './img/covers/bfa.png',
+    cover: './img/covers/website.png',
   },
 
   {  

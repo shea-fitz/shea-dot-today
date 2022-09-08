@@ -186,6 +186,12 @@ a.writing-link:hover {
     color: rgb(234, 81, 157);
 }
 
+.writing-year {
+    margin-left: 16px;
+    font-size: .75rem;
+    color: #ea519d;
+}
+
 /* ICONOGRAPY */
 
 .icon {
@@ -222,4 +228,16 @@ span.contact {
 
 .categories {
     justify-content: right;
+}
+
+.shea {
+    width: 100%;
+    /* border-radius: 200px; */
+    opacity: 50%;
+}
+
+.shea:hover{
+    filter: blur(0);
+    border-radius: 0;
+    opacity: 100%;
 }
