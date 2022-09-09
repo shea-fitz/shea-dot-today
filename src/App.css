@@ -257,3 +257,11 @@ span.contact {
 .project-link:hover {
     background: rgba(255, 192, 203, 0.2);
 }
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.out:hover {
+    cursor: alias;
+}
