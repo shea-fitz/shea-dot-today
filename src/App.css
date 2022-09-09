@@ -241,3 +241,19 @@ span.contact {
     border-radius: 0;
     opacity: 100%;
 }
+
+.project-link, .no-link {
+    color: inherit;
+    text-decoration: none;
+    display: inherit;
+    width: inherit;
+    gap: inherit;
+}
+
+.no-link:hover {
+    cursor: default;
+}
+
+.project-link:hover {
+    background: rgba(255, 192, 203, 0.2);
+}

@@ -42,6 +42,8 @@ function App() {
                     year={project.year}
                     description={project.description}
                     context={project.context}
+                    link={project.link}
+                    target={project.target}
                   />
                 ))}
       </div>

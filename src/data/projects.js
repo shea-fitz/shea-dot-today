@@ -6,8 +6,9 @@ export const projects = [
     year: '2022',
     type: 'Web Development, Design',
     context: 'personal',
-    link: 'http://playlistprompts.com/',
+    link: 'https://www.playlistprompts.com/',
     cover: './img/covers/playlist.png',
+    target: '_blank',
   },
 
   {  
@@ -18,6 +19,7 @@ export const projects = [
     context: 'client',
     link: '',
     cover: './img/covers/altana.png',
+    target: '_self',
   },
 
 
@@ -29,6 +31,7 @@ export const projects = [
     context: 'personal',
     link: 'https://soundcloud.com/more-swans/sets/flowers-in-motion',
     cover: './img/covers/flowers.png',
+    target: '_blank',
   },
 
   // {  
@@ -49,6 +52,7 @@ export const projects = [
     context: 'personal',
     link: 'https://www.instagram.com/softsurplus/',
     cover: './img/covers/soft.png',
+    target: '_blank',
   },
 
 
@@ -60,6 +64,7 @@ export const projects = [
     context: 'client',
     link: '',
     cover: './img/covers/bfa.png',
+    target: '_self',
   },
 
   {  
@@ -68,8 +73,9 @@ export const projects = [
     year: '2021',
     type: 'Animation',
     context: 'client',
-    link: '',
+    link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
     cover: './img/covers/sunny.png',
+    target: '_blank',
   },
 
   {  
@@ -80,16 +86,18 @@ export const projects = [
     context: 'client',
     link: '',
     cover: './img/covers/risd.png',
+    target: '_blank',
   },
 
   {  
-    title: "MakerDAO",
+    title: "MakerDAO –  Community Development",
     description: "A visual identity and documentation site for a global crypto community",
     year: '2020',
     type: 'Visual Design',
     context: 'client',
     link: '',
     cover: './img/covers/maker.png',
+    target: '_self',
   },
 
   {  
@@ -100,6 +108,7 @@ export const projects = [
     context: 'personal',
     link: '',
     cover: './img/covers/sfpc.png',
+    target: '_blank',
   },
 
   {  
@@ -110,6 +119,7 @@ export const projects = [
     context: 'personal',
     link: '',
     cover: './img/covers/people.png',
+    target: '_self',
   },
 
   {  
@@ -120,6 +130,7 @@ export const projects = [
     context: 'client',
     link: '',
     cover: './img/covers/nature.png',
+    target: '_self',
   },
 
   {  
@@ -130,6 +141,7 @@ export const projects = [
     context: 'personal',
     link: '',
     cover: './img/covers/habit.png',
+    target: '_self',
   },
 
   {  
@@ -140,6 +152,7 @@ export const projects = [
     context: 'personal',
     link: '',
     cover: './img/covers/sketch.png',
+    target: '_self',
   },
 
   {  
@@ -150,6 +163,7 @@ export const projects = [
     context: 'personal',
     link: '',
     cover: './img/covers/website.png',
+    target: '_self',
   },
 
   {  
@@ -160,6 +174,7 @@ export const projects = [
     context: 'personal',
     link: '',
     cover: './img/covers/girl.png',
+    target: '_self',
   },
 
  
