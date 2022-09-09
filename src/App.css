@@ -184,6 +184,7 @@ a.writing-link {
 
 a.writing-link:hover {
     color: rgb(234, 81, 157);
+    cursor: alias;
 }
 
 .writing-year {
