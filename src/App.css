@@ -9,12 +9,22 @@
 }
 
 
+:root {
+    --dark: hotpink;
+    --mid: pink;
+    --light: rgba(255, 192, 203, 0.11);
+    --text: #1c202d;
+    --grad-left: rgba(255, 192, 203, 0.2);
+    --grad-right: rgba(255, 105, 180, 0.2);
+  }
+
+
 html, body {
     font-family: sans-serif;
     font-size: .9rem;
     line-height: 115%;
     font-family: 'Basier', Arial, Helvetica, sans-serif;
-    color: #1c202d;
+    color: var(--text);
 }
 
 /* WRAPPERS */
@@ -35,13 +45,13 @@ h2 {
 
 .left {
     flex: 2;
-    border: .5px solid pink;
+    border: .5px solid var(--mid);
 }
 
 .right {
     flex: 1;
     display: flex;
-    border: .5px solid pink;
+    border: .5px solid var(--mid);
     flex-direction: column;
 }
 
@@ -50,14 +60,14 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    border-bottom: .5px solid pink;
+    border-bottom: .5px solid var(--mid);
 }
 
 .header {
     padding: 4px 16px;
     text-transform: uppercase;
     font-size: .8rem;
-    border-bottom: .5px solid pink;
+    border-bottom: .5px solid var(--mid);
     /* animation: hue 120s infinite linear; */
     /* background: linear-gradient(to right, white, rgba(255, 192, 203, 0.712)); */
     font-family: 'Heldane', Georgia, 'Times New Roman', Times, serif;
@@ -75,7 +85,7 @@ h2 {
     font-family: 'Heldane', Georgia, 'Times New Roman', Times, serif;
     mix-blend-mode: hard-light;
     z-index: 1000;
-    color:hotpink; */
+    color:hot#0A7; */
 
 }
 
@@ -98,11 +108,11 @@ h2 {
     display: flex;
     gap: 24px;
     width: 100%;
-    border-bottom: .5px solid pink;
+    border-bottom: .5px solid var(--mid);
 }
 
 /* .proj-container:hover {
-    background-color: pink;
+    background-color: #0A7;
 } */
 
 .proj-img-container {
@@ -131,14 +141,14 @@ h2 {
 .proj-year {
     margin-right: 16px;
     font-size: .75rem;
-    color: #ea519d;
+    color: var(--dark);
 }
 
 .proj-type {
     font-size: .75rem;
     align-self: baseline;
     /* font-style: italic; */
-    background: linear-gradient(to right, rgba(255, 192, 203, 0.35), rgba(255, 105, 180, 0.10)) ;
+    background: linear-gradient(to right, var(--grad-right), var(--grad-left)) ;
     border-radius: 100px;
     padding: 0px 6px;
     width: max-content;
@@ -174,23 +184,23 @@ h2 {
 
 a.writing-link {
     /* font-family: 'Heldane', Georgia, 'Times New Roman', Times, serif; */
+    color: var(--text);
     text-decoration: underline;
-    text-decoration-color: pink;
-    color: black;
+    text-decoration-color: var(--mid);
     /* font-size: 1rem; */
     /* transition: color 500ms; */
     font-style: italic;
 }
 
 a.writing-link:hover {
-    color: rgb(234, 81, 157);
+    color: var(--dark);
     cursor: alias;
 }
 
 .writing-year {
     margin-left: 16px;
     font-size: .75rem;
-    color: #ea519d;
+    color: var(--dark);
 }
 
 /* ICONOGRAPY */
@@ -256,7 +266,7 @@ span.contact {
 }
 
 .project-link:hover {
-    background: rgba(255, 192, 203, 0.2);
+    background: var(--light);
 }
 
 .pointer:hover {
@@ -265,4 +275,27 @@ span.contact {
 
 .out:hover {
     cursor: alias;
+}
+
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        flex-direction: column;
+        width: auto;
+        margin: 25px;
+        gap: 0;
+        border: .5px solid var(--mid);
+    }
+
+    .right, .left {
+        border: none;
+    }
+
+    .proj-title { 
+        font-size: 1.2rem;
+    }
+
+    .proj-img-container {
+        width: 80px;
+    }
+    
 }
