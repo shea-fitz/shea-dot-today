@@ -5,8 +5,6 @@ import './App.css';
 // DATA
 import {projects} from './data/projects';
 import {writing} from './data/writing';
-import arena from './icons/arena.svg';
-import mail from './icons/mail.svg';
 import client from './icons/client.svg';
 import personal from './icons/personal.svg';
 import shea from './media/shea.jpg'
@@ -14,6 +12,7 @@ import shea from './media/shea.jpg'
 // COMPONENTS
 import Project from './components/Project';
 import Writing from './components/Writing';
+import Info from './components/Info';
 
 
 function App() {
@@ -23,6 +22,10 @@ function App() {
     {/* <span className="name">Shea Fitzpatrick</span> */}
 
     <div className="wrapper">
+  
+      <div className="mobile-info">
+        <Info/>
+      </div>
 
       <div className="left">
       <div className="header proj-header space-between">Projects <br/><br/>
@@ -59,16 +62,12 @@ function App() {
                   />
                 ))}
       </div>
-      <div className="header">info</div>
+      <div className="header desktop-info">info</div>
           
 
-      <div className="info">
-         Shea currently works as a digital product designer at a small software agency in NYC. <br/><br/>
-
-         <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
-         <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
+      <div className="desktop-info">
+        <Info/>
       </div>
-
       {/* <img src={shea} className="shea"></img> */}
       
       </div>        

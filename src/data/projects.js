@@ -2,7 +2,7 @@ export const projects = [
 
   {  
     title: 'Playlist Prompts',
-    description: "An ongoing collection of publicly sourced playlist ideas",
+    description: "A crowd-sourced collection of playlist ideas",
     year: '2022',
     type: 'Web Development, Design',
     context: 'personal',
@@ -13,7 +13,7 @@ export const projects = [
 
   {  
     title: "Altana Atlas",
-    description: "A source of truth for global supply chain",
+    description: "A source of truth on global supply chain",
     year: '2022',
     type: 'Product Design',
     context: 'client',
@@ -25,7 +25,7 @@ export const projects = [
 
   {  
     title: "Flowers in Motion",
-    description: "A sporadic series of mixes",
+    description: "A series of mixes",
     year: '2022',
     type: 'Music',
     context: 'personal',
@@ -46,7 +46,7 @@ export const projects = [
 
   {  
     title: "Soft Surplus",
-    description: "Member of a shared studio space and art collective",
+    description: "Membership of an art collective and shared studio space",
     year: '2019 - 2022',
     type: 'Art, Events',
     context: 'personal',
@@ -58,7 +58,7 @@ export const projects = [
 
   {  
     title: "Blue Flower Arts",
-    description: "Brand identity for a boutique literary agency",
+    description: "Brand identity for a literary agency",
     year: '2021',
     type: 'Brand, Project Management',
     context: 'client',
@@ -69,7 +69,7 @@ export const projects = [
 
   {  
     title: "Sunny Place for Shady People",
-    description: "A Western-inspired music visualizer",
+    description: "A Western-inspired music video",
     year: '2021',
     type: 'Animation',
     context: 'client',
@@ -113,7 +113,7 @@ export const projects = [
 
   {  
     title: "Two People in a Room Over Time",
-    description: "An series of Risograph prints exploring abstract narrative storytelling",
+    description: "An abstract series of Risograph prints",
     year: '2019',
     type: 'Illustration, Residency',
     context: 'personal',
@@ -124,7 +124,7 @@ export const projects = [
 
   {  
     title: "Nature Magazine",
-    description: "Commissioned illustrations for a leading scientific journal",
+    description: "Commissioned illustrations for a scientific journal",
     year: '2019',
     type: 'Illustration',
     context: 'client',
@@ -135,7 +135,7 @@ export const projects = [
 
   {  
     title: "I Didn't Ask for the Habit",
-    description: "An abstract comic made with generative 3D models",
+    description: "An abstract comic",
     year: '2018',
     type: 'Illustration',
     context: 'personal',
