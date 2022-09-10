@@ -80,6 +80,18 @@ export const projects = [
   },
 
   {  
+    title: "Mini",
+    description: "Album art for a friend",
+    year: '2021',
+    type: 'Art',
+    context: 'personal',
+    link: '',
+    cover: './img/covers/mini.png',
+    target: '_blank',
+  },
+
+
+  {  
     title: "MakerDAO –  Community Development",
     description: "A platform for a global crypto community",
     year: '2020',
@@ -89,6 +101,17 @@ export const projects = [
     cover: './img/covers/maker.png',
     target: '_self',
   },
+
+  // {  
+  //   title: "Token Lists",
+  //   description: "Logo for a community-led crypto initiative",
+  //   year: '2020',
+  //   type: 'Brand',
+  //   context: 'client',
+  //   link: '',
+  //   cover: './img/covers/token.png',
+  //   target: '_self',
+  // },
 
   {  
     title: "Code Societies",
