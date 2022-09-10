@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-
 // DATA
 import {projects} from './data/projects';
 import {writing} from './data/writing';
@@ -21,17 +20,16 @@ function App() {
 
     {/* <span className="name">Shea Fitzpatrick</span> */}
 
-    <div className="wrapper">
-  
+    <div className="wrapper">  
       <div className="mobile-info">
         <Info/>
       </div>
 
       <div className="left">
-      <div className="header proj-header space-between">Projects <br/><br/>
+      <div className="header proj-header space-between">Projects
       <div className="categories">
-          <span className="category">client work<img className="icon" src={client}></img> </span>
-          <span className="category">personal<img className="icon" src={personal}></img></span>
+          <span className="category"><img className="icon" src={client}></img>client work </span>
+          <span className="category"><img className="icon" src={personal}></img>personal</span>
       </div>
     
 

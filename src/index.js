@@ -4,11 +4,37 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
+import Atlas from './pages/atlas';
+import BlueFlower from './pages/bfa';
+import Habit from './pages/habit';
+import Maker from './pages/maker';
+import People from './pages/people';
+import Sketch from './pages/sketch';
+import StudentVisa from './pages/student-visa';
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+   <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="atlas" element={<Atlas />} />
+      <Route path="bfa" element={<BlueFlower />} />
+      <Route path="habit" element={<Habit />} />
+      <Route path="maker" element={<Maker />} />
+      <Route path="people" element={<People />} />
+      <Route path="sketch" element={<Sketch />} />
+      <Route path="student-visa" element={<StudentVisa />} />
+    </Routes>
+  </BrowserRouter>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
