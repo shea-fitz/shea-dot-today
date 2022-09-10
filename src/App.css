@@ -9,6 +9,8 @@
 }
 
 
+
+
 :root {
     --dark: #006434;
     --mid: #01964E;
@@ -67,12 +69,13 @@ h2 {
 .header {
     padding: 4px 16px;
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: 1rem;
     border-bottom: .75px solid var(--mid);
-    /* animation: hue 120s infinite linear; */
-    /* background: linear-gradient(to right, white, rgba(255, 192, 203, 0.712)); */
-    font-family: 'Heldane', Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: .02px;
+    /* font-family: 'Heldane', Georgia, 'Times New Roman', Times, serif; */
+    font-family: meno-display-extra-condensed,serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .05;
     /* color: rgb(234, 81, 157); */
 }
 
@@ -128,10 +131,14 @@ h2 {
 }
 
 .proj-title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     /* margin-bottom: 2px; */
     /* font-weight: bold; */
-    font-family: 'Heldane', Georgia, 'Times New Roman', Times, serif;
+    /* font-family: 'Heldane', Georgia, 'Times New Roman', Times, serif; */
+    font-family: meno-display-extra-condensed,serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .05;
 }
 
 .proj-year {
@@ -229,6 +236,7 @@ span.contact {
     text-transform: lowercase;
     font-size: .75rem;
     font-family: 'Basier', Arial, Helvetica, sans-serif;
+    font-style: normal;
     justify-content: flex-end;
     gap: 4px;
 }

@@ -46,7 +46,7 @@ export const projects = [
 
   {  
     title: "Soft Surplus",
-    description: "Membership of an art collective and shared studio space",
+    description: "Membership at an art collective and shared studio space",
     year: '2019 - 2022',
     type: 'Art, Events',
     context: 'personal',
@@ -82,7 +82,7 @@ export const projects = [
     title: "Student Visa Review",
     description: "An online exhibition of interviews with architecture students",
     year: '2021',
-    type: 'Visual Design, Exhibition Design',
+    type: 'Visual Design',
     context: 'client',
     link: '',
     cover: './img/covers/risd.png',
@@ -168,7 +168,7 @@ export const projects = [
 
   {  
     title: "Girltype Behaviors",
-    description: "A punk project",
+    description: "A queer punk project",
     year: '2016 - 2018',
     type: 'Music',
     context: 'personal',
