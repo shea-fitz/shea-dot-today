@@ -145,27 +145,27 @@ export const projects = [
     target: '_self',
   },
 
-  // {  
-  //   title: "Website Archive",
-  //   description: "The evolution of my personal website",
-  //   year: '2018 - 2022',
-  //   type: 'Web Development, Design',
-  //   context: 'personal',
-  //   link: '',
-  //   cover: './img/covers/website.png',
-  //   target: '_self',
-  // },
+  {  
+    title: "Website Archive",
+    description: "The evolution of my personal website",
+    year: '2018 - 2022',
+    type: 'Web Development, Design',
+    context: 'personal',
+    link: '',
+    cover: './img/covers/website.png',
+    target: '_self',
+  },
 
-  // {  
-  //   title: "Girltype Behaviors",
-  //   description: "A queer punk project",
-  //   year: '2016 - 2018',
-  //   type: 'Music',
-  //   context: 'personal',
-  //   link: '',
-  //   cover: './img/covers/girl.png',
-  //   target: '_self',
-  // },
+  {  
+    title: "Girltype Behaviors",
+    description: "A queer punk project",
+    year: '2016 - 2018',
+    type: 'Music',
+    context: 'personal',
+    link: '',
+    cover: './img/covers/girl.png',
+    target: '_self',
+  },
 
  
 

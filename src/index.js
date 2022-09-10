@@ -17,8 +17,7 @@ import Maker from './pages/maker';
 import People from './pages/people';
 import Sketch from './pages/sketch';
 import StudentVisa from './pages/student-visa';
-
-
+import CaseStudies from './pages/case-studies';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +31,7 @@ root.render(
       <Route path="people" element={<People />} />
       <Route path="sketch" element={<Sketch />} />
       <Route path="student-visa" element={<StudentVisa />} />
+      <Route path="case-studies" element={<CaseStudies />} />
     </Routes>
   </BrowserRouter>
   

@@ -8,7 +8,6 @@ const Project = ({cover, title, year, type, description, context, link, target})
 
 return (
     <div className="proj-container">
-
         <a href={link} target={target} className={link && target==='_blank' ? 'project-link out' : link && target==='_self' ? 'none' : 'no-link'}>
 
             <div className="proj-img-container">
@@ -51,9 +50,6 @@ return (
                     </div> 
                 </div> 
         </Link>
-
-
-
     </div>         
  );
 }
