@@ -18,6 +18,7 @@ import People from './pages/people';
 import Sketch from './pages/sketch';
 import StudentVisa from './pages/student-visa';
 import CaseStudies from './pages/case-studies';
+import Archive from './pages/website-archive';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +33,7 @@ root.render(
       <Route path="sketch" element={<Sketch />} />
       <Route path="student-visa" element={<StudentVisa />} />
       <Route path="case-studies" element={<CaseStudies />} />
+      <Route path="website-archive" element={<Archive />} />
     </Routes>
   </BrowserRouter>
   

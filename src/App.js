@@ -26,7 +26,7 @@ function App() {
       </div>
 
       <div className="left">
-      <div className="header proj-header space-between">Projects
+      <div className="header proj-header space-between">Projects + Involvements
       <div className="categories">
           <span className="category"><img className="icon" src={client}></img>client work </span>
           <span className="category"><img className="icon" src={personal}></img>personal</span>

@@ -38,7 +38,7 @@ export const projects = [
     title: "Soft Surplus",
     description: "Membership at an art collective and shared studio space",
     year: '2019 - 2022',
-    type: 'Art',
+    type: 'Art, Space',
     context: 'personal',
     link: 'https://www.instagram.com/softsurplus/',
     cover: './img/covers/soft.png',
@@ -119,9 +119,9 @@ export const projects = [
     year: '2020',
     type: 'Intensive',
     context: 'personal',
-    link: '',
+    link: 'https://www.are.na/code-societies',
     cover: './img/covers/sfpc.png',
-    target: '_self',
+    target: '_blank',
   },
 
   {  
@@ -159,7 +159,7 @@ export const projects = [
 
   {  
     title: "Digital Drawings",
-    description: "Illustration and animation experiments",
+    description: "Experiments with 3D software, screenshots, and Photoshop",
     year: '2018 - 2020',
     type: 'Animation, Illustration',
     context: 'personal',
@@ -174,14 +174,14 @@ export const projects = [
     year: '2018 - 2022',
     type: 'Web Development, Design',
     context: 'personal',
-    link: '',
+    link: '/website-archive',
     cover: './img/covers/website.png',
     target: '_self',
   },
 
   {  
     title: "Girltype Behaviors",
-    description: "A queer punk project",
+    description: "A punk project",
     year: '2016 - 2018',
     type: 'Music',
     context: 'personal',
