@@ -12,11 +12,13 @@ const Habit = () => {
           <PageHeader
               title="I Didn't Ask for the Habit"
               type='Illustration'
-              year='2018'
+              year='Spring 2018'
             />
 
 
-            {/* CONTENT GOES HERE */}
+        <p className="paragraph">
+        <i>I Didn't Ask for the Habit</i> is an abstract comic created with an experimental workflow incorporating image data from Processing sketches, 3D models in Rhino and Grasshopper, screenshots, and Photoshop. I gave a workshop on this process at <a href="https://itp.nyu.edu/camp2022/" target="_blank">ITP Camp</a> in 2018.
+        </p>
 
         </div>
       </div>

@@ -12,7 +12,7 @@ const Atlas = () => {
           <PageHeader
               title='Altana Atlas'
               type='Product Design'
-              year='2022'
+              year='Winter 2022'
             />
 
 

@@ -363,13 +363,13 @@ h3 {
     font-family: meno-display-extra-condensed,serif;
     font-style: italic;
     /* font-size: 1.5rem; */
-    margin-block-end: 12px;
+    margin-block-end: 4px;
     text-transform: uppercase;
     font-size: 1rem;
 }
 
 .paragraph {
-    margin-block-end: 24px;
+    margin-block-end: 16px;
 }
 
 .details {
