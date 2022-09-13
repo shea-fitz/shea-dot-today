@@ -72,23 +72,23 @@ export const projects = [
     title: "Student Visa Review",
     description: "An online exhibition of interviews with architecture students",
     year: '2021',
-    type: 'Visual Design',
+    type: 'Experience Design, Visual Design',
     context: 'client',
     link: '/student-visa',
     cover: './img/covers/risd.png',
-    target: '_blank',
+    target: '_self',
   },
 
-  {  
-    title: "Mini",
-    description: "Album art for a friend",
-    year: '2021',
-    type: 'Art',
-    context: 'personal',
-    link: '',
-    cover: './img/covers/mini.png',
-    target: '_blank',
-  },
+  // {  
+  //   title: "Mini",
+  //   description: "Album art for a friend",
+  //   year: '2021',
+  //   type: 'Art',
+  //   context: 'personal',
+  //   link: '',
+  //   cover: './img/covers/mini.png',
+  //   target: '_blank',
+  // },
 
 
   {  

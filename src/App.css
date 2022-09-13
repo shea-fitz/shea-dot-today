@@ -280,10 +280,12 @@ span.contact {
 
 .no-link:hover {
     cursor: default;
+    color: var(--text)
 }
 
 .project-link:hover {
     background: var(--light);
+    color: var(--mid);
 }
 
 .pointer:hover {

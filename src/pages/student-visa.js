@@ -11,7 +11,7 @@ const StudentVisa = () => {
         <div className="page-content">
           <PageHeader
               title='Student Visa Review'
-              type='Visual Design, Frontend Styling, Exhibition Design'
+              type='Visual Design, Experience Design'
               year='Winter 2020'
             />
 
