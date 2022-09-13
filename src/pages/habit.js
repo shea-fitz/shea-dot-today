@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
+import Image from '../components/Image';
 import { Link } from 'react-router-dom';
   
 const Habit = () => {
@@ -18,6 +19,7 @@ const Habit = () => {
             {/* CONTENT GOES HERE */}
 
         </div>
+      </div>
       
   );
 };

@@ -29,6 +29,16 @@ html, body {
     background-color: #f4f5f2;
 }
 
+a {
+    color: var(--text);
+    text-decoration: underline;
+    text-decoration-color: var(--mid);
+}
+
+a:hover {
+    color: var(--mid);
+}
+
 /* WRAPPERS */
 
 .wrapper {
@@ -315,13 +325,16 @@ span.contact {
 }
 
 .page-content {
-    padding: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
     border: .5px solid var(--mid);
 }
 
 .page-details {
     display: flex;
     gap: 16px;
+    padding-bottom: 24px;
 }
 
 .back {
@@ -335,6 +348,30 @@ span.contact {
 .back:hover{
     background-color: var(--light);
 }
+
+.highlight {
+    background-color: var(--light);
+}
+
+.paragraph, h3 {
+    line-height: 150%;
+    width: 75%;
+    margin: auto;
+}
+
+h3 {
+    font-family: meno-display-extra-condensed,serif;
+    font-style: italic;
+    /* font-size: 1.5rem; */
+    margin-block-end: 12px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.paragraph {
+    margin-block-end: 24px;
+}
+
 
 @media only screen and (max-width: 500px) {
     .wrapper {

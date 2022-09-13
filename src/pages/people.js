@@ -1,5 +1,6 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
+import Image from '../components/Image';
 import { Link } from 'react-router-dom';
   
 const People = () => {
@@ -17,7 +18,7 @@ const People = () => {
             {/* CONTENT GOES HERE */}
 
         </div>
-      
+    </div>
   );
 };
   

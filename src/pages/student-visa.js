@@ -1,6 +1,7 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
 import { Link } from 'react-router-dom';
+import Image from '../components/Image';
   
 const StudentVisa = () => {
   return (
@@ -18,7 +19,7 @@ const StudentVisa = () => {
             {/* CONTENT GOES HERE */}
 
         </div>
-      
+      </div>
   );
 };
   
