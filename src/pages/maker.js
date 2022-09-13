@@ -2,6 +2,7 @@ import React from 'react';
 import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import { Link } from 'react-router-dom';
+
   
 const Maker = () => {
   return (
@@ -15,6 +16,7 @@ const Maker = () => {
               year='Winter 2020'
             />
 
+         
           <h3>Client</h3>
 
           <p className="paragraph">

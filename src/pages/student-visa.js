@@ -2,6 +2,14 @@ import React from 'react';
 import PageHeader from '../components/PageHeader';
 import { Link } from 'react-router-dom';
 import Image from '../components/Image';
+
+import home from '../media/student-visa/home.png';
+import mocks from '../media/student-visa/mocks.png';
+import moodboard from '../media/student-visa/moodboard.png';
+import station from '../media/student-visa/station.png';
+import worldMap from '../media/student-visa/world-map.png';
+import day from '../media/student-visa/day-mode.png';
+import index from '../media/student-visa/index.png';
   
 const StudentVisa = () => {
   return (
@@ -14,6 +22,11 @@ const StudentVisa = () => {
               type='Visual Design, Experience Design'
               year='Winter 2020'
             />
+
+
+          <Image
+            source={home}
+          />
 
 
             <h3>Client</h3>
@@ -62,11 +75,41 @@ const StudentVisa = () => {
           </ul> 
         </p>
 
+        <Image
+            source={mocks}
+            caption='Early mock ups of navigation schema'
+          />
+
+        <Image
+            source={moodboard}
+            caption='Moodboard and inspiration'
+          />
+
         <h3>Result</h3>
 
         <p className="paragraph">Using metaphors of transit - leaving and returning - we designed a meditative and exploratory landscape that listeners can traverse. 
 
         Conversations between students and their friends, families, and peers are accompanied by ambient sounds of an airport as they move across time zones and color-changing skies.</p>
+
+        <Image
+            source={station}
+            caption='Students at their "home station," night mode'
+          />
+
+        <Image
+            source={day}
+            caption='Individual stations, dusk and dawn mode'
+          />
+
+        <Image
+            source={index}
+            caption='Audio index, day mode'
+          />
+
+        <Image
+            source={worldMap}
+            caption='Map of the "world"'
+          />
 
       </div>
     </div>
