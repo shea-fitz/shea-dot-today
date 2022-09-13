@@ -2,7 +2,7 @@ export const projects = [
 
   {  
     title: 'Playlist Prompts',
-    description: "A crowd-sourced collection of playlist ideas",
+    description: "A crowd-sourced collection of over 200 playlist ideas",
     year: '2022',
     type: 'Web Development, Design',
     context: 'personal',
@@ -121,7 +121,7 @@ export const projects = [
     context: 'personal',
     link: '',
     cover: './img/covers/sfpc.png',
-    target: '_blank',
+    target: '_self',
   },
 
   {  

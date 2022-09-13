@@ -61,7 +61,6 @@ function App() {
                 ))}
       </div>
       <div className="header desktop-info">info</div>
-          
 
       <div className="desktop-info">
         <Info/>

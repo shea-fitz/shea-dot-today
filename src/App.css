@@ -72,7 +72,6 @@ h2 {
     font-size: 1rem;
     align-content: center;
     border-bottom: .75px solid var(--mid);
-    /* font-family: 'Heldane', Georgia, 'Times New Roman', Times, serif; */
     font-family: meno-display-extra-condensed,serif;
     font-weight: 400;
     font-style: italic;
@@ -250,7 +249,7 @@ span.contact {
 .shea {
     width: 100%;
     /* border-radius: 200px; */
-    opacity: 50%;
+    /* opacity: 50%; */
 }
 
 .shea:hover{
@@ -258,6 +257,8 @@ span.contact {
     border-radius: 0;
     opacity: 100%;
 }
+
+/* LINKS AND DISPLAY */
 
 .project-link, .no-link {
     color: inherit;
@@ -293,6 +294,46 @@ span.contact {
 
 .none {
     display: none;
+}
+
+
+/* PAGES */
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 24px auto;
+    gap: 16px;
+    color: var(--text);
+}
+
+.page-title {
+   font-family: meno-display-extra-condensed,serif;
+   font-style: italic;
+   font-size: 2.5rem;
+}
+
+.page-content {
+    padding: 16px;
+    border: .5px solid var(--mid);
+}
+
+.page-details {
+    display: flex;
+    gap: 16px;
+}
+
+.back {
+    text-decoration: none;
+    border: .5px solid var(--mid);
+    width: min-content;
+    padding: 8px 12px;
+    color: var(--text);
+}
+
+.back:hover{
+    background-color: var(--light);
 }
 
 @media only screen and (max-width: 500px) {
