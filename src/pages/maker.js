@@ -3,6 +3,8 @@ import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import { Link } from 'react-router-dom';
 
+import cover from '../media/maker/cover.png';
+
   
 const Maker = () => {
   return (
@@ -15,6 +17,10 @@ const Maker = () => {
               type='Visual Design, Design System, Brand Assets'
               year='Winter 2020'
             />
+
+          <Image
+            source={cover}
+          />
 
          
           <h3>Client</h3>
