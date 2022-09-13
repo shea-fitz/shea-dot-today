@@ -353,7 +353,7 @@ span.contact {
     background-color: var(--light);
 }
 
-.paragraph, h3 {
+.paragraph, h3, .details {
     line-height: 150%;
     width: 75%;
     margin: auto;
@@ -370,6 +370,21 @@ h3 {
 
 .paragraph {
     margin-block-end: 24px;
+}
+
+.details {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.detail-column {
+    display: block;
+    width: 30%;
+}
+
+.reset-margin {
+    margin-left: 0;
 }
 
 

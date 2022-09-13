@@ -31,6 +31,27 @@ const BlueFlower = () => {
         BFA wanted their brand to mark a new beginning: one that mirrored a change in leadership, the diversity of their roster, and the vibrant spirit of their team. Their goal was to relaunch their website with a complete rebrand in Summer 2021.
         </p>
 
+        <div className="details">
+          <div className="detail-column">
+            <h3 className="reset-margin">Timeline</h3>
+            <p>2 months</p>
+          </div>
+
+          <div className="detail-column">
+            <h3 className="reset-margin">Team</h3>
+            <a href="https://lsyl.live/" target="_blank">Lucy Siyao Liu</a>, <a href="https://spectrastudio.xxx/" target="_blank">Renée Christiane</a>, and myself as Surplus+
+
+          </div>
+
+          <div className="detail-column">
+            <h3 className="reset-margin">Tools</h3>
+            Figma, Illustrator, Photoshop
+        </div>
+
+
+
+        </div>
+
 
         <h3>Research</h3>
 
