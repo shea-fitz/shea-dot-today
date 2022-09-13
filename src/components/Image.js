@@ -5,8 +5,8 @@ import React from "react";
 const Image = ({source, caption}) => {
 
     return (
-    <div>
-        <img src={source}></img>
+    <div className="image-wrapper">
+        <img className="page-image" src={source}></img>
         <figcaption>{caption}</figcaption>
     </div>          
      );

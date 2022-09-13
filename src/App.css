@@ -389,6 +389,24 @@ h3 {
     margin-left: 0;
 }
 
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-image {
+    width: 100%;
+    margin: 24px 0 0 0;
+}
+
+figcaption {
+    text-justify: center;
+    margin: 8px auto 48px auto;
+    font-size: .8rem;
+}
+
+
+
 
 @media only screen and (max-width: 500px) {
     .wrapper {

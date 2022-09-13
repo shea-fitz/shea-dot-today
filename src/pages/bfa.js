@@ -2,6 +2,19 @@ import React from 'react';
 import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import { Link } from 'react-router-dom';
+
+import cover from '../media/bfa/cover.png'
+import before from '../media/bfa/before.png';
+import moodboard from '../media/bfa/moodboards.png';
+import logoInspo from '../media/bfa/logo-inspiration.png';
+import sketches from  '../media/bfa/sketches.svg';
+import logoAnatomy from  '../media/bfa/logo-anatomy.svg';
+import figma from  '../media/bfa/figma.png';
+import home from  '../media/bfa/home.svg';
+
+
+
+
   
 const BlueFlower = () => {
   return (
@@ -15,7 +28,9 @@ const BlueFlower = () => {
               year='Summer 2021'
             />
 
-        <Image/>
+        <Image
+          source={cover}
+        />
 
 
         <h3>Client</h3>
@@ -59,6 +74,16 @@ const BlueFlower = () => {
         BFA's Project Manager provided us with initial brand research conducted with the in-house team - evocative questions like, <span className="highlight">"If BFA was a physical space, what would it be?"</span> (A vintage brownstone, they said, or a cozy old victorian house). From there, we provided four visual themes to choose from, mix, and match.
         </p>
 
+        <Image
+          source={before}
+          caption='Before: Blue Flower Arts homepage'
+        />
+
+        <Image
+          source={moodboard}
+          caption='Moodboards and visual research'
+        />
+
         <h3>Logo</h3>
 
         <p className="paragraph">
@@ -79,6 +104,21 @@ const BlueFlower = () => {
             <li>Should the logo reference a real blue flower?</li>
           </ul>
 
+        </p>
+
+          <Image
+          source={logoInspo}
+          caption='Logo inspiration'
+        />
+
+        
+
+        <p className="paragraph">
+            <Image
+              source={sketches}
+              caption='Mid-fidelity logo sketches'
+            />
+
           By associating sketches with certain phrases, we were able to <span className="highlight">guide design reviews conceptually rather than formally.</span> Instead of asking, "Which logo do you like best?" we asked, "Which logo best represents [BFA as a support network of unique artists]?" This allowed the client to come to a logo decision holistically and happily.
         </p>
 
@@ -89,6 +129,22 @@ const BlueFlower = () => {
         </p>
 
         <p className="paragraph">BFA's website was designed by <a href="https://woolymammothdesign.com/" target="_blank">Wooly Mammoth Design</a>, based locally to BFA in Minneapolis.</p>
+
+
+        <Image
+          source={home}
+          caption='After: Blue Flower Arts homepage, designed by Wooly Mammoth Design'
+        />  
+
+        <Image
+          source={logoAnatomy}
+          caption='Logo anatomy'
+        />
+
+        <Image
+          source={figma}
+          caption='Social media assets in Figma'
+        />
 
 
         
