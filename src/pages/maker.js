@@ -4,6 +4,15 @@ import Image from '../components/Image';
 import { Link } from 'react-router-dom';
 
 import cover from '../media/maker/cover.png';
+import code from '../media/maker/code.png';
+import notes from '../media/maker/notes.png';
+import art from '../media/maker/art.svg';
+import blog from '../media/maker/blog.svg';
+import components from '../media/maker/components.png';
+
+
+
+
 
   
 const Maker = () => {
@@ -79,12 +88,34 @@ const Maker = () => {
           After conducting brand research among Comm-Dev contributors, I established a visual theme and applied it to an in-progress design system. I also introduced <span className="highlight">semantic design tokens, mobile components, interaction states, and dark mode</span>, and created custom graphics to bring the Comm-Dev world to life.
           </p>
 
+          <Image
+            source={notes}
+            caption='Example of documentation page'
+          />
+
+          <Image
+            source={components}
+            caption='Nav and button components for light and dark mode, desktop and mobile'
+          />
+
+
           <p className="paragraph">
 
-          After V1 of the portal launched, I applied the rebrand across social media and marketing assets, <a href="https://github.com/makerdao/community/issues/1243" target="_blank">documenting and templatizing</a >styles so they can be modularly reworked by anyone.
+          After V1 of the portal launched, I applied the rebrand across social media and marketing assets, <a href="https://github.com/makerdao/community/issues/1243" target="_blank">documenting and templatizing</a> styles so they can be modularly reworked by anyone.
 
           After the launch of V1, the site's <span className="highlight">bounce rate dropped by 25% and its weekly unique visitors doubled.</span>
           </p>
+
+          <Image
+            source={art}
+            caption='Marketing material'
+          />
+
+          <Image
+            source={blog}
+            caption='Blog article headers'
+          />
+
 
           <h3>Room for Improvement</h3>
 
@@ -96,6 +127,11 @@ const Maker = () => {
             <li>Pages are infinitely customizable.</li>
             <li>You can add additional style properties to any component.</li> 
           </ul> 
+
+          <Image
+            source={code}
+            caption='Design system documentation written in JSX'
+          />
 
           However, it also means page layouts are highly atomized, and consistency is difficult to enforce. Frankenstein pages became rampant.
           </p>
@@ -115,6 +151,7 @@ const Maker = () => {
 
           </p>
 
+         
 
         </div>
     </div>

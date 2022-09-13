@@ -98,7 +98,7 @@ const StudentVisa = () => {
 
         <Image
             source={day}
-            caption='Individual stations, dusk and dawn mode'
+            caption='Individual station, dawn mode'
           />
 
         <Image
