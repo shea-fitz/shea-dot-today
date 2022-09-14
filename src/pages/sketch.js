@@ -2,6 +2,9 @@ import React from 'react';
 import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import { Link } from 'react-router-dom';
+
+import {drawings} from '../data/drawings';
+
   
 const Sketch = () => {
   return (
@@ -16,7 +19,15 @@ const Sketch = () => {
             />
 
 
-            {/* CONTENT GOES HERE */}
+            <div className="image-gallery">
+            {drawings.map(drawing => (
+              <div className="column">
+                <Image
+                    source={drawing.source}
+                  />
+              </div>
+                ))}     
+            </div>
 
         </div>
     </div>

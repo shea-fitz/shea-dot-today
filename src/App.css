@@ -406,6 +406,18 @@ figcaption {
     font-size: .8rem;
 }
 
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.column {
+    max-width: 30%;
+}
+
 
 
 
