@@ -415,7 +415,7 @@ figcaption {
 }
 
 .column {
-    max-width: 30%;
+    flex-basis: 30%;
 }
 
 
