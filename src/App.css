@@ -418,6 +418,10 @@ figcaption {
     flex-basis: 30%;
 }
 
+img {
+    width: 100%;
+}
+
 
 
 
