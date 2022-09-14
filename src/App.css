@@ -111,6 +111,23 @@ h2 {
     justify-content: space-between;
     align-content: center;
 }
+
+audio {
+    /* mix-blend-mode: hard-light; */
+    height: 32px;
+    border: .5px solid var(--mid);
+    opacity: 50%;
+    border-radius: 100px;
+}
+
+.audio-label {
+    font-family: meno-display-extra-condensed,serif;
+    font-style: italic;
+    padding-top: 32px;
+    padding-bottom: 4px;
+}
+
+
 /* PROJECTS */
 
 .proj-container {
