@@ -14,7 +14,7 @@ return (
     <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
 
 
-    <div className="audio-label">Flowers in Motion, episode 1</div>
+    <div className="audio-label">Listen while you browse?</div>
     <audio className="audio" controls src={song}>
     </audio>     
 

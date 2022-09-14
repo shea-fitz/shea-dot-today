@@ -1,7 +1,7 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
-import { Link } from 'react-router-dom';
+import Back from '../components/Back';
 
 import cover from '../media/maker/cover.png';
 import code from '../media/maker/code.png';
@@ -15,7 +15,7 @@ import problems from '../media/maker/problems.png';
 const Maker = () => {
   return (
     <div className="page-wrapper">
-      <Link to='/' className="back">home</Link>
+        <Back/>
 
         <div className="page-content">
           <PageHeader

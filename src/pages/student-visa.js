@@ -1,6 +1,6 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
-import { Link } from 'react-router-dom';
+import Back from '../components/Back';
 import Image from '../components/Image';
 
 import home from '../media/student-visa/home.png';
@@ -14,7 +14,7 @@ import index from '../media/student-visa/index.png';
 const StudentVisa = () => {
   return (
     <div className="page-wrapper">
-      <Link to='/' className="back">home</Link>
+        <Back/>
 
         <div className="page-content">
           <PageHeader

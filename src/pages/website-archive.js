@@ -1,12 +1,12 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
-import { Link } from 'react-router-dom';
+import Back from '../components/Back';
 import Image from '../components/Image';
 
 const Archive = () => {
     return (
       <div className="page-wrapper">
-        <Link to='/' className="back">home</Link>
+        <Back/>
   
           <div className="page-content">
             <PageHeader

@@ -9,18 +9,20 @@ export const projects = [
     link: 'https://www.playlistprompts.com/',
     cover: './img/covers/playlist.png',
     target: '_blank',
+    caseStudy: ''
   },
 
-  // {  
-  //   title: "Altana Atlas",
-  //   description: "A source of truth on global supply chain",
-  //   year: '2022',
-  //   type: 'Product Design',
-  //   context: 'client',
-  //   link: '/atlas',
-  //   cover: './img/covers/altana.png',
-  //   target: '_self',
-  // },
+  {  
+    title: "Altana Atlas",
+    description: "A source of truth on global supply chain",
+    year: '2022',
+    type: 'Product Design',
+    context: 'client',
+    link: '/atlas',
+    cover: './img/covers/altana.png',
+    target: '_self',
+    caseStudy: 'yes'
+  },
 
 
   {  
@@ -32,19 +34,8 @@ export const projects = [
     link: 'https://soundcloud.com/more-swans/sets/flowers-in-motion',
     cover: './img/covers/flowers.png',
     target: '_blank',
+    caseStudy: ''
   },
-
-  {  
-    title: "Soft Surplus",
-    description: "Membership at an art collective and shared studio space",
-    year: '2019 - 2022',
-    type: 'Art, Space',
-    context: 'personal',
-    link: 'https://www.instagram.com/softsurplus/',
-    cover: './img/covers/soft.png',
-    target: '_blank',
-  },
-
 
   {  
     title: "Blue Flower Arts",
@@ -55,6 +46,19 @@ export const projects = [
     link: '/bfa',
     cover: './img/covers/bfa.png',
     target: '_self',
+    caseStudy: 'yes'
+  },
+
+  {  
+    title: "Soft Surplus",
+    description: "Membership at an art collective and shared studio space",
+    year: '2019 - 2021',
+    type: 'Art, Space',
+    context: 'personal',
+    link: 'https://www.instagram.com/softsurplus/',
+    cover: './img/covers/soft.png',
+    target: '_blank',
+    caseStudy: ''
   },
 
   {  
@@ -65,18 +69,20 @@ export const projects = [
     context: 'client',
     link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
     cover: './img/covers/sunny.png',
-    target: '_blank',
+    target: '_blank',    
+    caseStudy: ''
   },
 
   {  
     title: "Student Visa Review",
     description: "An online exhibition of interviews with architecture students",
     year: '2021',
-    type: 'Experience Design, Visual Design',
+    type: 'Experience Design',
     context: 'client',
     link: '/student-visa',
     cover: './img/covers/risd.png',
     target: '_self',
+    caseStudy: 'yes'
   },
 
   // {  
@@ -100,6 +106,7 @@ export const projects = [
     link: '/maker',
     cover: './img/covers/maker.png',
     target: '_self',
+    caseStudy: 'yes'
   },
 
   // {  
@@ -122,6 +129,7 @@ export const projects = [
     link: 'https://www.are.na/code-societies',
     cover: './img/covers/sfpc.png',
     target: '_blank',
+    caseStudy: ''
   },
 
   {  
@@ -133,6 +141,7 @@ export const projects = [
     link: '/people',
     cover: './img/covers/people.png',
     target: '_self',
+    caseStudy: ''
   },
 
   // {  
@@ -155,6 +164,7 @@ export const projects = [
     link: '/habit',
     cover: './img/covers/habit.png',
     target: '_self',
+    caseStudy: ''
   },
 
   {  
@@ -166,6 +176,7 @@ export const projects = [
     link: '/sketch',
     cover: './img/covers/sketch.png',
     target: '_self',
+    caseStudy: ''
   },
 
   {  
@@ -177,6 +188,7 @@ export const projects = [
     link: '/website-archive',
     cover: './img/covers/website.png',
     target: '_self',
+    caseStudy: ''
   },
 
   {  
@@ -188,6 +200,7 @@ export const projects = [
     link: '',
     cover: './img/covers/girl.png',
     target: '_self',
+    caseStudy: ''
   },
 
  

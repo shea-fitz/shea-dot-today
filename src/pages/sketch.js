@@ -1,7 +1,7 @@
 import React from 'react';
 import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
-import { Link } from 'react-router-dom';
+import Back from '../components/Back';
 
 import { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -17,7 +17,7 @@ const Sketch = () => {
 
   return (
     <div className="page-wrapper">
-      <Link to='/' className="back">home</Link>
+        <Back/>
 
         <div className="page-content">
           <PageHeader

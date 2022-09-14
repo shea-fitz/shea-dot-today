@@ -44,7 +44,7 @@ a:hover {
 .wrapper {
     display: flex;
     width: 60vw;
-    margin: 24px auto;
+    margin: 48px auto;
     gap: 16px;
 }
 
@@ -118,6 +118,7 @@ audio {
     border: .5px solid var(--mid);
     opacity: 50%;
     border-radius: 100px;
+    width: 100%;
 }
 
 .audio-label {
@@ -325,6 +326,9 @@ span.contact {
     display: none;
 }
 
+.case-study {
+    display: inline;
+}
 
 /* PAGES */
 
@@ -332,7 +336,7 @@ span.contact {
     display: flex;
     flex-direction: column;
     width: 60vw;
-    margin: 24px auto;
+    margin: 48px auto;
     gap: 16px;
     color: var(--text);
 }
@@ -362,6 +366,8 @@ span.contact {
     width: min-content;
     padding: 8px 12px;
     color: var(--text);
+    display: flex;
+    gap: 4px;
 }
 
 .back:hover{
