@@ -9,10 +9,7 @@ import notes from '../media/maker/notes.png';
 import art from '../media/maker/art.svg';
 import blog from '../media/maker/blog.svg';
 import components from '../media/maker/components.png';
-
-
-
-
+import problems from '../media/maker/problems.png';
 
   
 const Maker = () => {
@@ -135,6 +132,11 @@ const Maker = () => {
 
           However, it also means page layouts are highly atomized, and consistency is difficult to enforce. Frankenstein pages became rampant.
           </p>
+
+          <Image
+            source={problems}
+            caption='Eek! Frankenstein pages'
+          />
 
           <h3>Recommendations</h3>
 
