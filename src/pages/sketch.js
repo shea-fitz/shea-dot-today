@@ -5,9 +5,6 @@ import { Link } from 'react-router-dom';
 
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-
-import {drawings} from '../data/drawings';
-
   
 const Sketch = () => {
   const [images, setImg] = useState(null);
@@ -29,9 +26,14 @@ const Sketch = () => {
               year='2018 - 2020'
             />
 
+        <p className="paragraph">
+
+          
+        </p>
+
          <div className="image-gallery">
           {images && images.map(el => {
-                return (<div className="column"><img key={el.key} src={el.image.original.url}/></div>)
+                return (<div className="column"><Image key={el.key} source={el.image.original.url}/></div>)
               })}  
         </div>
 

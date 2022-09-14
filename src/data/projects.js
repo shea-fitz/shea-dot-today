@@ -11,16 +11,16 @@ export const projects = [
     target: '_blank',
   },
 
-  {  
-    title: "Altana Atlas",
-    description: "A source of truth on global supply chain",
-    year: '2022',
-    type: 'Product Design',
-    context: 'client',
-    link: '/atlas',
-    cover: './img/covers/altana.png',
-    target: '_self',
-  },
+  // {  
+  //   title: "Altana Atlas",
+  //   description: "A source of truth on global supply chain",
+  //   year: '2022',
+  //   type: 'Product Design',
+  //   context: 'client',
+  //   link: '/atlas',
+  //   cover: './img/covers/altana.png',
+  //   target: '_self',
+  // },
 
 
   {  
