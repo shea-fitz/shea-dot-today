@@ -27,7 +27,7 @@ export const projects = [
 
   {  
     title: "Flowers in Motion",
-    description: "A series of mixes",
+    description: "An imaginary radio show",
     year: '2022',
     type: 'Music',
     context: 'personal',
@@ -39,7 +39,7 @@ export const projects = [
 
   {  
     title: "Blue Flower Arts",
-    description: "Brand identity for a literary agency",
+    description: "Brand identity for a boutique literary agency",
     year: '2021',
     type: 'Brand',
     context: 'client',
@@ -63,7 +63,7 @@ export const projects = [
 
   {  
     title: "Sunny Place for Shady People",
-    description: "A Western-inspired music video",
+    description: "A Western-inspired music video made in 48 hours",
     year: '2021',
     type: 'Animation',
     context: 'client',
@@ -134,7 +134,7 @@ export const projects = [
 
   {  
     title: "Two People in a Room Over Time",
-    description: "An abstract series of Risograph prints",
+    description: "A series of Risograph prints",
     year: '2019',
     type: 'Illustration',
     context: 'personal',
@@ -193,7 +193,7 @@ export const projects = [
 
   {  
     title: "Girltype Behaviors",
-    description: "A punk project",
+    description: "A queer punk project",
     year: '2016 - 2018',
     type: 'Music',
     context: 'personal',

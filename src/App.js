@@ -6,6 +6,7 @@ import {projects} from './data/projects';
 import {writing} from './data/writing';
 import client from './icons/client.svg';
 import personal from './icons/personal.svg';
+import shea from './media/shea-3.jpg';
 
 // COMPONENTS
 import Project from './components/Project';
@@ -64,7 +65,8 @@ function App() {
       <div className="desktop-info">
         <Info/>
       </div>
-      {/* <img src={shea} className="shea"></img> */}
+
+      <img src={shea} className="shea"/>
       
       </div>        
     </div>
