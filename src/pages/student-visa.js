@@ -45,7 +45,7 @@ const StudentVisa = () => {
             <div className="details">
               <div className="detail-column">
                 <h3 className="reset-margin">Timeline</h3>
-                <p>4 months</p>
+                4 months
               </div>
 
               <div className="detail-column">

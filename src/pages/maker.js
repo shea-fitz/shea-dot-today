@@ -53,18 +53,18 @@ const Maker = () => {
           <div className="details">
             <div className="detail-column">
               <h3 className="reset-margin">Timeline</h3>
-              <p>6 Weeks</p>
+              6 Weeks
             </div>
 
             <div className="detail-column">
               <h3 className="reset-margin">Team</h3>
-              <p>
+              
               Myself (Visual Designer) <br/>
               UX Strategist <br/>
               Lead Engineer <br/>
               Project Manager <br/>
               5-6 content writers <br/>
-              </p>
+              
 
             </div>
 

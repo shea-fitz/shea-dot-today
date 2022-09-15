@@ -365,6 +365,7 @@ span.contact {
    font-family: meno-display-extra-condensed,serif;
    font-style: italic;
    font-size: 2.5rem;
+   line-height: 115%;
 }
 
 .page-content {
@@ -476,7 +477,7 @@ img {
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .wrapper {
         flex-direction: column;
         width: auto;
@@ -484,6 +485,8 @@ img {
         gap: 0;
         border: .75px solid var(--mid);
     }
+
+   
 
     .right, .left {
         border: none;
@@ -522,6 +525,74 @@ img {
     .mobile-info {
         display: block;
         border-bottom: .75px solid var(--mid);
+    }
+
+    /* PROJECT PAGES */
+
+    .page-wrapper {
+        flex-direction: column;
+        width: auto;
+        margin: 8px;
+        gap: 16px;
+        color: var(--text);
+    }
+
+    .page-content {
+        padding: 12px;
+        border: none;
+    }
+
+    .page-header {
+        line-height: 100%;
+    }
+
+    .paragraph, h3 {
+        width: auto;
+    }
+
+    h3 {
+        margin-left: 0;
+        margin-block-start: 16px;
+        margin-block-end: 8px;
+    }
+
+    .image-wrapper {
+        margin: 12px 0px;
+    }
+
+    .details {
+        flex-direction: column;
+        width: auto;
+        gap: 12px;
+        background-color: var(--light);
+        border-radius: 12px;
+        padding: 12px;
+        margin: 8px 0;
+    }
+
+    .detail-column {
+        width: auto;
+    }
+
+    .reset-margin {
+        margin-top: 4px;
+    }
+
+    .page-image {
+        margin: 0px -20px 0px -20px;
+        width: 100vw;
+    }
+
+    figcaption {
+        margin-bottom: 12px;
+    }
+
+    .page-title {
+        line-height: 100%;
+    }
+
+    .page-details {
+        gap: 8px;
     }
 
 

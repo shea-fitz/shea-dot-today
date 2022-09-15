@@ -51,7 +51,7 @@ const BlueFlower = () => {
         <div className="details">
           <div className="detail-column">
             <h3 className="reset-margin">Timeline</h3>
-            <p>2 months</p>
+            2 months
           </div>
 
           <div className="detail-column">

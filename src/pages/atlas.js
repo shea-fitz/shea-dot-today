@@ -27,7 +27,7 @@ const Atlas = () => {
         <div className="details">
           <div className="detail-column">
             <h3 className="reset-margin">Timeline</h3>
-            <p>3 months</p>
+            3 months
           </div>
 
           <div className="detail-column">

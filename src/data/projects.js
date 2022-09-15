@@ -12,18 +12,18 @@ export const projects = [
     case: false,
   },
 
-  {  
-    title: "Altana Atlas",
-    description: "A source of truth on global supply chain",
-    year: '2022',
-    type: 'Product Design',
-    context: 'client',
-    link: '/atlas',
-    cover: './img/covers/altana.png',
-    target: '_self',
-    case: true,
+  // {  
+  //   title: "Altana Atlas",
+  //   description: "A source of truth on global supply chain",
+  //   year: '2022',
+  //   type: 'Product Design',
+  //   context: 'client',
+  //   link: '/atlas',
+  //   cover: './img/covers/altana.png',
+  //   target: '_self',
+  //   case: true,
 
-  },
+  // },
 
 
   {  
@@ -188,18 +188,18 @@ export const projects = [
 
   },
 
-  {  
-    title: "Website Archive",
-    description: "The evolution of my personal website",
-    year: '2018 - 2022',
-    type: 'Web Development, Design',
-    context: 'personal',
-    link: '/website-archive',
-    cover: './img/covers/website.png',
-    target: '_self',
-    case: false,
+  // {  
+  //   title: "Website Archive",
+  //   description: "The evolution of my personal website",
+  //   year: '2018 - 2022',
+  //   type: 'Web Development, Design',
+  //   context: 'personal',
+  //   link: '/website-archive',
+  //   cover: './img/covers/website.png',
+  //   target: '_self',
+  //   case: false,
 
-  },
+  // },
 
   {  
     title: "Girltype Behaviors",
