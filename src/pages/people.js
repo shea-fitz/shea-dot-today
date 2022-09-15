@@ -29,7 +29,7 @@ const People = () => {
             />
 
         <p className="paragraph">
-        <i>Two People in a Room Over Time</i> is a sequential series of prints inspired by "a big room with not enough furniture." <i>Two People in a Room Over Time</i> was developed as a member of <a href="http://crit.nyc/" target="_blank">Crit</a> and exhibited as a series of 4-color Risograph prints at <a href="https://www.oncanal.nyc/" target="_blank">Wallplay's ON CANAL Experience</a> .
+        <i>Two People in a Room Over Time</i> is a sequential series of prints inspired by "a big room with not enough furniture." <i>Two People in a Room Over Time</i> was developed as a member of <a href="http://crit.nyc/" target="_blank">Crit</a> and exhibited as a series of 4-color Risograph prints at <a href="https://www.oncanal.nyc/" target="_blank">Wallplay's ON CANAL Experience in NYC.</a> .
         </p>
 
         <div className="image-gallery">

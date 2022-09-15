@@ -45,6 +45,7 @@ function App() {
                     context={project.context}
                     link={project.link}
                     target={project.target}
+                    caseStudy={project.case}
                   />
                 ))}
       </div>

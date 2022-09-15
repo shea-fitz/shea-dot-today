@@ -18,6 +18,8 @@
     --text: #004926;
     --grad-left: #03896333;
     --grad-right: #57836415;
+    --cs-grad-left: #BA55D333;
+    --cs-grad-right: #7E3ADA15;
   }
 
 
@@ -186,6 +188,24 @@ audio {
     margin-top: 6px;
 }
 
+.case-study {
+    display: inline;
+    border-radius: 100px;
+    padding: 0px 6px;
+    width: max-content;
+    margin-top: 6px;
+    font-size: .75rem;
+    align-self: baseline;
+    border: .5px solid var(--mid);
+    /* background: linear-gradient(to right, var(--cs-grad-right), var(--cs-grad-left)) ; */
+}
+
+.pills {
+    display: flex;
+    gap: 4px;
+}
+
+
 .proj-desc {
     margin-right: 24px;
 }
@@ -314,7 +334,7 @@ span.contact {
 }
 
 .out:hover {
-    cursor: alias;
+    cursor: pointer;
 }
 
 .mobile-info {
@@ -329,9 +349,6 @@ span.contact {
     display: none;
 }
 
-.case-study {
-    display: inline;
-}
 
 /* PAGES */
 

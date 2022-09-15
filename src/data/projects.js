@@ -9,7 +9,7 @@ export const projects = [
     link: 'https://www.playlistprompts.com/',
     cover: './img/covers/playlist.png',
     target: '_blank',
-    caseStudy: ''
+    case: false,
   },
 
   {  
@@ -21,7 +21,8 @@ export const projects = [
     link: '/atlas',
     cover: './img/covers/altana.png',
     target: '_self',
-    caseStudy: 'yes'
+    case: true,
+
   },
 
 
@@ -34,7 +35,7 @@ export const projects = [
     link: 'https://soundcloud.com/more-swans/sets/flowers-in-motion',
     cover: './img/covers/flowers.png',
     target: '_blank',
-    caseStudy: ''
+    case: false,
   },
 
   {  
@@ -46,7 +47,8 @@ export const projects = [
     link: '/bfa',
     cover: './img/covers/bfa.png',
     target: '_self',
-    caseStudy: 'yes'
+    case: true,
+
   },
 
   {  
@@ -58,7 +60,8 @@ export const projects = [
     link: 'https://www.instagram.com/softsurplus/',
     cover: './img/covers/soft.png',
     target: '_blank',
-    caseStudy: ''
+    case: false,
+
   },
 
   {  
@@ -70,7 +73,8 @@ export const projects = [
     link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
     cover: './img/covers/sunny.png',
     target: '_blank',    
-    caseStudy: ''
+    case: false,
+
   },
 
   {  
@@ -82,7 +86,8 @@ export const projects = [
     link: '/student-visa',
     cover: './img/covers/risd.png',
     target: '_self',
-    caseStudy: 'yes'
+    case: true,
+
   },
 
   // {  
@@ -106,7 +111,7 @@ export const projects = [
     link: '/maker',
     cover: './img/covers/maker.png',
     target: '_self',
-    caseStudy: 'yes'
+    case: true,
   },
 
   // {  
@@ -129,7 +134,8 @@ export const projects = [
     link: 'https://www.are.na/code-societies',
     cover: './img/covers/sfpc.png',
     target: '_blank',
-    caseStudy: ''
+    case: false,
+
   },
 
   {  
@@ -141,7 +147,8 @@ export const projects = [
     link: '/people',
     cover: './img/covers/people.png',
     target: '_self',
-    caseStudy: ''
+    case: false,
+
   },
 
   // {  
@@ -164,7 +171,8 @@ export const projects = [
     link: '/habit',
     cover: './img/covers/habit.png',
     target: '_self',
-    caseStudy: ''
+    case: false,
+
   },
 
   {  
@@ -176,7 +184,8 @@ export const projects = [
     link: '/sketch',
     cover: './img/covers/sketch.png',
     target: '_self',
-    caseStudy: ''
+    case: false,
+
   },
 
   {  
@@ -188,7 +197,8 @@ export const projects = [
     link: '/website-archive',
     cover: './img/covers/website.png',
     target: '_self',
-    caseStudy: ''
+    case: false,
+
   },
 
   {  
@@ -200,7 +210,8 @@ export const projects = [
     link: '',
     cover: './img/covers/girl.png',
     target: '_self',
-    caseStudy: ''
+    case: false,
+
   },
 
  

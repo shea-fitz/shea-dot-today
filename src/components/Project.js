@@ -4,7 +4,7 @@ import personal from '../icons/personal.svg';
 import { Link } from "react-router-dom";
 
 
-const Project = ({cover, title, year, type, description, context, link, target}) => {
+const Project = ({cover, caseStudy, title, year, type, description, context, link, target}) => {
 
 return (
     <div className="proj-container">
@@ -23,7 +23,7 @@ return (
                 <div>
                     <div className="proj-desc">{description}</div>
                     <div className="space-between">
-                        <div className="proj-type">{type}</div>
+                        <div className="proj-type">{type}</div>                        
                         <img className="icon proj-context" src={context==='personal' ? personal : client}></img>
                     </div>
                 </div> 
@@ -44,7 +44,11 @@ return (
                     <div>
                         <div className="proj-desc">{description}</div>
                         <div className="space-between">
+                        <div className="pills">
                             <div className="proj-type">{type}</div>
+                            <div className={caseStudy ? 'case-study' : 'none'}>Case Study</div>
+                        </div>
+                            
                             <img className="icon proj-context" src={context==='personal' ? personal : client}></img>
                         </div>
                     </div> 
