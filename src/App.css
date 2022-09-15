@@ -440,8 +440,12 @@ figcaption {
     gap: 20px;
 }
 
-.column {
+.column-third {
     flex-basis: 30%;
+}
+
+.column-half {
+    flex-basis: 45%;
 }
 
 img {

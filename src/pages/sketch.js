@@ -33,7 +33,7 @@ const Sketch = () => {
 
          <div className="image-gallery">
           {images && images.map(el => {
-                return (<div className="column"><Image key={el.key} source={el.image.original.url}/></div>)
+                return (<div className="column-third"><Image key={el.key} source={el.image.original.url}/></div>)
               })}  
         </div>
 
