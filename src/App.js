@@ -4,6 +4,7 @@ import './App.css';
 // DATA
 import {projects} from './data/projects';
 import {writing} from './data/writing';
+import { involvements } from './data/involvements';
 import client from './icons/client.svg';
 import personal from './icons/personal.svg';
 import shea from './media/shea-3.jpg';
@@ -48,6 +49,22 @@ function App() {
                     caseStudy={project.case}
                   />
                 ))}
+      <div className="header">Involvements</div>
+      
+      {involvements.map(i => (
+                  <Project
+                    cover={i.cover}
+                    title={i.title}
+                    type={i.type}
+                    year={i.year}
+                    description={i.description}
+                    context={i.context}
+                    link={i.link}
+                    target={i.target}
+                    caseStudy={i.case}
+                  />
+                ))}
+
       </div>
       <div className="right">
       <div className="header">Writing</div>

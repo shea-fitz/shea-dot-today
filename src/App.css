@@ -505,7 +505,7 @@ img {
     }
 
     .proj-year {
-        display: none;
+        margin-right: 8px;
     }
 
     .desktop-info {
@@ -517,7 +517,7 @@ img {
     }
 
     .out-icon{ 
-        margin-right: 12px;
+        margin-left: 4px;
         display: inline;
         width: 10px;
     }

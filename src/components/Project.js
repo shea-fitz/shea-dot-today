@@ -17,9 +17,8 @@ return (
 
             <div className='proj-content'>
                 <div className="space-between">
-                    <div className="proj-title">{title}</div>
+                    <div className="proj-title">{title}<img className={link && target==='_blank' ? "icon out-icon" : 'none'} src={out}/></div>
                 <div>
-                    <img className={link && target==='_blank' ? "icon out-icon" : 'none'} src={out}/>
                     <div className="proj-year">[{year}]</div>
                 </div>
                     
