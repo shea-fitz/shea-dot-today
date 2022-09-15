@@ -599,6 +599,10 @@ img {
         width: 60%;
     }
 
+    .image-gallery {
+        gap: 0;
+    }
+
 
 
     
