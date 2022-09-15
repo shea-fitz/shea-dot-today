@@ -334,7 +334,7 @@ span.contact {
 }
 
 .out:hover {
-    cursor: pointer;
+    cursor: alias;
 }
 
 .mobile-info {
@@ -469,6 +469,10 @@ img {
     width: 100%;
 }
 
+.out-icon {
+    display: none;
+}
+
 
 
 
@@ -493,8 +497,26 @@ img {
         width: 80px;
     }
 
+    .proj-context {
+        display: none;
+    }
+
+    .proj-year {
+        display: none;
+    }
+
     .desktop-info {
         display: none;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .out-icon{ 
+        margin-right: 12px;
+        display: inline;
+        width: 10px;
     }
 
     .mobile-info {

@@ -2,6 +2,7 @@ import React from 'react';
 import client from '../icons/client.svg';
 import personal from '../icons/personal.svg';
 import { Link } from "react-router-dom";
+import out from '../icons/out.svg'
 
 
 const Project = ({cover, caseStudy, title, year, type, description, context, link, target}) => {
@@ -17,7 +18,11 @@ return (
             <div className='proj-content'>
                 <div className="space-between">
                     <div className="proj-title">{title}</div>
+                <div>
+                    <img className={link && target==='_blank' ? "icon out-icon" : 'none'} src={out}/>
                     <div className="proj-year">[{year}]</div>
+                </div>
+                    
                 </div>
 
                 <div>
