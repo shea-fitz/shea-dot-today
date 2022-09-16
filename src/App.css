@@ -603,6 +603,10 @@ img {
         gap: 0;
     }
 
+    .audio-label, .audio {
+        display: none;
+    }
+
 
 
     

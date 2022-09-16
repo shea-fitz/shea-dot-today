@@ -30,7 +30,7 @@ export const involvements = [
 
   {  
     title: "Girltype Behaviors",
-    description: 'A DIY punk project',
+    description: 'A punk band',
     year: '2016 - 2018',
     type: 'Music',
     context: 'personal',
