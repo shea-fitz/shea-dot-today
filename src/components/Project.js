@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import client from '../icons/client.svg';
 import personal from '../icons/personal.svg';
 import { Link } from "react-router-dom";
@@ -7,12 +7,14 @@ import out from '../icons/out.svg'
 
 const Project = ({cover, caseStudy, title, year, type, description, context, link, target}) => {
 
+    const [blur, setBlur] = useState(true);
+
 return (
-    <div className="proj-container">
+    <div className="proj-container" onMouseEnter={() => setBlur(!blur)} onMouseLeave={() => setBlur(!blur)}>
         <a href={link} target={target} className={link && target==='_blank' ? 'project-link out' : link && target==='_self' ? 'none' : 'no-link'}>
 
             <div className="proj-img-container">
-                <img className="cover" src={cover}/>
+                <img className={blur ? 'cover' : 'cover-hover'}  src={cover}/>
             </div>
 
             <div className='proj-content'>
@@ -36,7 +38,7 @@ return (
 
         <Link to={link} target={target} className={link && target==='_self' ? 'project-link pointer' : 'none'}>
             <div className="proj-img-container">
-                    <img className="cover" src={cover}/>
+                    <img className={blur ? 'cover' : 'cover-hover'} src={cover}/>
                 </div>
 
                 <div className='proj-content'>
