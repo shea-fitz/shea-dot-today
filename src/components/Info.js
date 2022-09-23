@@ -8,7 +8,7 @@ const Info = () => {
 
 return (
 <div className="info">
-    <p>Shea Fitzpatrick is a designer with an affinity for visual systems and understated narratives. Shea works as a Product Designer at Giant Machines, a software agency that prioritizes education and social impact. </p>
+    <p>Shea Fitzpatrick is a designer with an affinity for visual systems and understated narratives.</p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
     <span className="contact"><img className="icon" src={cv}></img> <a href="https://read.cv/shea" target="_blank" className="contact-link">read.cv/shea</a></span>
