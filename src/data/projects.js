@@ -53,7 +53,7 @@ export const projects = [
 
   {  
     title: "Sunny Place for Shady People",
-    description: "A Western-inspired music video made in 48 hours",
+    description: "A Western-inspired music video",
     year: '2021',
     type: 'Animation',
     context: 'client',

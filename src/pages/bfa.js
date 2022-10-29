@@ -38,7 +38,7 @@ const BlueFlower = () => {
         <h3>Client</h3>
 
         <p className="paragraph">
-        <a href="https://blueflowerarts.com/" target="_blank">Blue Flower Arts</a> (BFA) is a boutique, woman-owned literary agency known for their highly-regarded roster of artists, historical legacy, and small-business charm.
+        <a href="https://blueflowerarts.com/" target="_blank">Blue Flower Arts</a> (BFA) is a boutique, woman-owned literary agency known for their highly regarded roster of artists, historical legacy, and small business charm.
         </p>
 
 
