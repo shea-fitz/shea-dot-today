@@ -352,6 +352,7 @@ span.contact {
 }
 
 
+
 /* PAGES */
 
 .page-wrapper {
@@ -476,6 +477,10 @@ img {
     display: none;
 }
 
+.drawing {
+    height: auto;
+    width: 100px;
+}
 
 
 

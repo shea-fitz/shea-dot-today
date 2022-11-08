@@ -85,6 +85,7 @@ function App() {
       </div>
 
       <img src={shea} className="shea"/>
+
       
       </div>        
     </div>

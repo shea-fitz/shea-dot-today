@@ -3,7 +3,7 @@ export const involvements = [
 
   {  
     title: "Soft Surplus",
-    description: "Membership at an art collective and shared studio space",
+    description: "Member of an art & technology collective and warehouse community space",
     year: '2019 - 2021',
     type: 'Art, Space',
     context: 'personal',
@@ -30,7 +30,7 @@ export const involvements = [
 
   {  
     title: "Girltype Behaviors",
-    description: 'A punk band',
+    description: 'Drummer in a queer punk project',
     year: '2016 - 2018',
     type: 'Music',
     context: 'personal',

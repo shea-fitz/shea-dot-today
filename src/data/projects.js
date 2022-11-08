@@ -2,7 +2,7 @@ export const projects = [
 
   {  
     title: 'Playlist Prompts',
-    description: "A crowd-sourced collection of over 200 playlist ideas",
+    description: "A collection of over 200 playlist ideas",
     year: '2022',
     type: 'Web Development, Design',
     context: 'personal',
@@ -28,7 +28,7 @@ export const projects = [
 
   {  
     title: "Flowers in Motion",
-    description: "An imaginary radio show",
+    description: "A radio show",
     year: '2022',
     type: 'Music',
     context: 'personal',
@@ -101,16 +101,6 @@ export const projects = [
     case: true,
   },
 
-  // {  
-  //   title: "Token Lists",
-  //   description: "Logo for a community-led crypto initiative",
-  //   year: '2020',
-  //   type: 'Brand',
-  //   context: 'client',
-  //   link: '',
-  //   cover: './img/covers/token.png',
-  //   target: '_self',
-  // },
 
 
   {  
