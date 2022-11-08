@@ -1,19 +1,6 @@
 export const projects = [
 
   {  
-    title: "Altana Atlas",
-    description: "A source of truth on global supply chain",
-    year: '2022',
-    type: 'Product Design',
-    context: 'client',
-    link: '/atlas',
-    cover: './img/covers/altana.png',
-    target: '_self',
-    case: true,
-
-  },
-
-  {  
     title: "Blue Flower Arts",
     description: "Brand identity for a boutique literary agency",
     year: '2021',
@@ -49,6 +36,19 @@ export const projects = [
     cover: './img/covers/maker.png',
     target: '_self',
     case: true,
+  },
+
+  {  
+    title: "Altana Atlas",
+    description: "A source of truth on global supply chain",
+    year: '2022',
+    type: 'Product Design',
+    context: 'client',
+    link: '/atlas',
+    cover: './img/covers/altana.png',
+    target: '_self',
+    case: true,
+
   },
 
   {  
