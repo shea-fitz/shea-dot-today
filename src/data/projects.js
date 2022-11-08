@@ -1,18 +1,6 @@
 export const projects = [
 
   {  
-    title: 'Playlist Prompts',
-    description: "A collection of over 200 playlist ideas",
-    year: '2022',
-    type: 'Web Development, Design',
-    context: 'personal',
-    link: 'https://www.playlistprompts.com/',
-    cover: './img/covers/playlist.png',
-    target: '_blank',
-    case: false,
-  },
-
-  {  
     title: "Altana Atlas",
     description: "A source of truth on global supply chain",
     year: '2022',
@@ -23,19 +11,6 @@ export const projects = [
     target: '_self',
     case: true,
 
-  },
-
-
-  {  
-    title: "Flowers in Motion",
-    description: "A radio show",
-    year: '2022',
-    type: 'Music',
-    context: 'personal',
-    link: 'https://soundcloud.com/more-swans/sets/flowers-in-motion',
-    cover: './img/covers/flowers.png',
-    target: '_blank',
-    case: false,
   },
 
   {  
@@ -52,19 +27,6 @@ export const projects = [
   },
 
   {  
-    title: "Sunny Place for Shady People",
-    description: "A Western-inspired music video",
-    year: '2021',
-    type: 'Animation',
-    context: 'client',
-    link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
-    cover: './img/covers/sunny.png',
-    target: '_blank',    
-    case: false,
-
-  },
-
-  {  
     title: "Student Visa Review",
     description: "An online exhibition of interviews with architecture students",
     year: '2021',
@@ -74,6 +36,55 @@ export const projects = [
     cover: './img/covers/risd.png',
     target: '_self',
     case: true,
+
+  },
+
+  {  
+    title: "MakerDAO –  Community Development",
+    description: "A platform for a global crypto community",
+    year: '2020',
+    type: 'Visual Design',
+    context: 'client',
+    link: '/maker',
+    cover: './img/covers/maker.png',
+    target: '_self',
+    case: true,
+  },
+
+  {  
+    title: "Flowers in Motion",
+    description: "A radio show",
+    year: '2022',
+    type: 'Music',
+    context: 'personal',
+    link: 'https://soundcloud.com/more-swans/sets/flowers-in-motion',
+    cover: './img/covers/flowers.png',
+    target: '_blank',
+    case: false,
+  },
+
+  {  
+    title: 'Playlist Prompts',
+    description: "A collection of over 200 playlist ideas",
+    year: '2022',
+    type: 'Web Development, Design',
+    context: 'personal',
+    link: 'https://www.playlistprompts.com/',
+    cover: './img/covers/playlist.png',
+    target: '_blank',
+    case: false,
+  },
+
+  {  
+    title: "Sunny Place for Shady People",
+    description: "A Western-inspired music video",
+    year: '2021',
+    type: 'Animation',
+    context: 'client',
+    link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
+    cover: './img/covers/sunny.png',
+    target: '_blank',    
+    case: false,
 
   },
 
@@ -87,19 +98,6 @@ export const projects = [
   //   cover: './img/covers/mini.png',
   //   target: '_blank',
   // },
-
-
-  {  
-    title: "MakerDAO –  Community Development",
-    description: "A platform for a global crypto community",
-    year: '2020',
-    type: 'Visual Design',
-    context: 'client',
-    link: '/maker',
-    cover: './img/covers/maker.png',
-    target: '_self',
-    case: true,
-  },
 
 
 
