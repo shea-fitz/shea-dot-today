@@ -1,41 +1,16 @@
 export const projects = [
 
-  {  
-    title: "Blue Flower Arts",
-    description: "Brand identity for a boutique literary agency",
-    year: '2021',
-    type: 'Brand',
-    context: 'client',
-    link: '/bfa',
-    cover: './img/covers/bfa.png',
-    target: '_self',
-    case: true,
-
-  },
 
   {  
-    title: "Student Visa Review",
-    description: "An online exhibition of interviews with architecture students",
-    year: '2021',
-    type: 'Experience Design',
-    context: 'client',
-    link: '/student-visa',
-    cover: './img/covers/risd.png',
-    target: '_self',
-    case: true,
-
-  },
-
-  {  
-    title: "MakerDAO –  Community Development",
-    description: "A platform for a global crypto community",
-    year: '2020',
-    type: 'Visual Design',
-    context: 'client',
-    link: '/maker',
-    cover: './img/covers/maker.png',
-    target: '_self',
-    case: true,
+    title: 'Playlist Prompts',
+    description: "A collection of over 200 playlist ideas",
+    year: '2022',
+    type: 'Web Development, Design',
+    context: 'personal',
+    link: 'https://www.playlistprompts.com/',
+    cover: './img/covers/playlist.png',
+    target: '_blank',
+    case: false,
   },
 
   {  
@@ -63,16 +38,18 @@ export const projects = [
     case: false,
   },
 
+
   {  
-    title: 'Playlist Prompts',
-    description: "A collection of over 200 playlist ideas",
-    year: '2022',
-    type: 'Web Development, Design',
-    context: 'personal',
-    link: 'https://www.playlistprompts.com/',
-    cover: './img/covers/playlist.png',
-    target: '_blank',
-    case: false,
+    title: "Blue Flower Arts",
+    description: "Brand identity for a boutique literary agency",
+    year: '2021',
+    type: 'Brand',
+    context: 'client',
+    link: '/bfa',
+    cover: './img/covers/bfa.png',
+    target: '_self',
+    case: true,
+
   },
 
   {  
@@ -86,6 +63,31 @@ export const projects = [
     target: '_blank',    
     case: false,
 
+  },
+
+  {  
+    title: "Student Visa Review",
+    description: "An online exhibition of interviews with architecture students",
+    year: '2021',
+    type: 'Experience Design',
+    context: 'client',
+    link: '/student-visa',
+    cover: './img/covers/risd.png',
+    target: '_self',
+    case: true,
+
+  },
+
+  {  
+    title: "MakerDAO –  Community Development",
+    description: "A platform for a global crypto community",
+    year: '2020',
+    type: 'Visual Design',
+    context: 'client',
+    link: '/maker',
+    cover: './img/covers/maker.png',
+    target: '_self',
+    case: true,
   },
 
   // {  
