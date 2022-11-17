@@ -10,15 +10,15 @@ const Atlas = () => {
 
         <div className="page-content">
           <PageHeader
-              title='Altana Atlas'
+              title='Atlas'
               type='Product Design'
               year='Winter 2022'
             />
 
 
 
-         <h3>Coming Soon</h3>
-        <p className="paragraph"><a href="https://altana.ai/" target="_blank">Altana</a> is seeking to create a shared source of truth on global supply chain. I was embedded in an Altana team while a Product Designer at <a href="https://www.giantmachines.com/" target="_blank">Giant Machines</a>. I worked on a number of search features and graphing tools for the <a href="https://www.altana.ai/atlas" target="_blank">Altana Atlas</a>.</p>
+         {/* <h3>Coming Soon</h3>
+        <p className="paragraph">I was embedded in an client team at a startup while a Product Designer at <a href="https://www.giantmachines.com/" target="_blank">Giant Machines</a>. I worked on a number of search features and graphing tools for the <a href="https://www.altana.ai/atlas" target="_blank">Altana Atlas</a>.</p> */}
 
 
         {/* <h3>Ask</h3> */}
