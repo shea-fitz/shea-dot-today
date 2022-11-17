@@ -15,7 +15,7 @@ export const projects = [
 
   {  
     title: "Atlas",
-    description: "A source of truth on global supply chain",
+    description: "Supply chain network visualization",
     year: '2022',
     type: 'Product Design',
     context: 'client',

@@ -17,8 +17,8 @@ const Atlas = () => {
 
 
 
-         {/* <h3>Coming Soon</h3>
-        <p className="paragraph">I was embedded in an client team at a startup while a Product Designer at <a href="https://www.giantmachines.com/" target="_blank">Giant Machines</a>. I worked on a number of search features and graphing tools for the <a href="https://www.altana.ai/atlas" target="_blank">Altana Atlas</a>.</p> */}
+         <h3>Coming Soon</h3>
+        <p className="paragraph">While a Product Designer at <a href="https://www.giantmachines.com/" target="_blank">Giant Machines</a>, I was embedded in a client team and worked on a number of search features and network visualization tools for an AI-driven supply chain database.</p>
 
 
         {/* <h3>Ask</h3> */}
