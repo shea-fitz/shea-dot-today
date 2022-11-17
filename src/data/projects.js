@@ -20,7 +20,7 @@ export const projects = [
     type: 'Product Design',
     context: 'client',
     link: '/atlas',
-    cover: './img/covers/altana.png',
+    cover: './img/covers/atlas.png',
     target: '_self',
     case: true,
 
