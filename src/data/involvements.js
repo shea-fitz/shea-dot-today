@@ -28,18 +28,18 @@ export const involvements = [
   },
 
 
-  {  
-    title: "Girltype Behaviors",
-    description: 'Drumming in a queer punk band',
-    year: '2016 - 2018',
-    type: 'Music',
-    context: 'personal',
-    link: '',
-    cover: './img/covers/girl.png',
-    target: '_self',
-    case: false,
+  // {  
+  //   title: "Girltype Behaviors",
+  //   description: 'A punk project',
+  //   year: '2016 - 2018',
+  //   type: 'Music',
+  //   context: 'personal',
+  //   link: '',
+  //   cover: './img/covers/girl.png',
+  //   target: '_self',
+  //   case: false,
 
-  },
+  // },
 
  
 
