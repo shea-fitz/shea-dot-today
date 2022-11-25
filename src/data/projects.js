@@ -1,5 +1,17 @@
 export const projects = [
 
+  // {  
+  //   title: "Flowers in Motion",
+  //   description: "A radio show",
+  //   year: '2022',
+  //   type: 'Design, Music',
+  //   context: 'personal',
+  //   link: '/flowers',
+  //   cover: './img/covers/flowers.png',
+  //   target: '_self',
+  //   case: false,
+  // },
+
 
   {  
     title: 'Playlist Prompts',
@@ -10,18 +22,6 @@ export const projects = [
     link: 'https://www.playlistprompts.com/',
     cover: './img/covers/playlist.png',
     target: '_blank',
-    case: false,
-  },
-
-  {  
-    title: "Flowers in Motion",
-    description: "A radio show",
-    year: '2022',
-    type: 'Design, Music',
-    context: 'personal',
-    link: '/flowers',
-    cover: './img/covers/flowers.png',
-    target: '_self',
     case: false,
   },
 
