@@ -14,6 +14,18 @@ export const projects = [
   },
 
   {  
+    title: "Flowers in Motion",
+    description: "A radio show",
+    year: '2022',
+    type: 'Design, Music',
+    context: 'personal',
+    link: '/flowers',
+    cover: './img/covers/flowers.png',
+    target: '_self',
+    case: false,
+  },
+
+  {  
     title: "Atlas",
     description: "Supply chain network visualization",
     year: '2022',
@@ -25,19 +37,6 @@ export const projects = [
     case: true,
 
   },
-
-  {  
-    title: "Flowers in Motion",
-    description: "A radio show",
-    year: '2022',
-    type: 'Music',
-    context: 'personal',
-    link: 'https://soundcloud.com/more-swans/sets/flowers-in-motion',
-    cover: './img/covers/flowers.png',
-    target: '_blank',
-    case: false,
-  },
-
 
   {  
     title: "Blue Flower Arts",

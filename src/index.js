@@ -17,7 +17,8 @@ import Maker from './pages/maker';
 import People from './pages/people';
 import Sketch from './pages/sketch';
 import StudentVisa from './pages/student-visa';
-import Archive from './pages/website-archive';
+import Flowers from './pages/flowers';
+// import Archive from './pages/website-archive';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,7 +32,8 @@ root.render(
       <Route path="people" element={<People />} />
       <Route path="sketch" element={<Sketch />} />
       <Route path="student-visa" element={<StudentVisa />} />
-      <Route path="website-archive" element={<Archive />} />
+      <Route path="flowers" element={<Flowers />} />
+      {/* <Route path="website-archive" element={<Archive />} /> */}
     </Routes>
   </BrowserRouter>
   
