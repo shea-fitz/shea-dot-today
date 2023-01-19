@@ -25,29 +25,29 @@ export const projects = [
     case: false,
   },
 
-  {  
-    title: "Atlas",
-    description: "Supply chain network visualization",
-    year: '2022',
-    type: 'Product Design',
-    context: 'client',
-    link: '/atlas',
-    cover: './img/covers/atlas.png',
-    target: '_self',
-    case: true,
+  // {  
+  //   title: "Atlas",
+  //   description: "Supply chain network visualization",
+  //   year: '2022',
+  //   type: 'Product Design',
+  //   context: 'client',
+  //   link: '/atlas',
+  //   cover: './img/covers/atlas.png',
+  //   target: '_self',
+  //   case: true,
 
-  },
+  // },
 
   {  
     title: "Blue Flower Arts",
     description: "Brand identity for a boutique literary agency",
     year: '2021',
-    type: 'Brand',
+    type: 'Design',
     context: 'client',
     link: '/bfa',
     cover: './img/covers/bfa.png',
     target: '_self',
-    case: true,
+    case: false,
 
   },
 
@@ -68,38 +68,26 @@ export const projects = [
     title: "Student Visa Review",
     description: "An online exhibition of interviews with architecture students",
     year: '2021',
-    type: 'Experience Design',
+    type: 'Design',
     context: 'client',
     link: '/student-visa',
     cover: './img/covers/risd.png',
     target: '_self',
-    case: true,
+    case: false,
 
   },
 
   {  
-    title: "MakerDAO –  Community Development",
+    title: "MakerDAO",
     description: "A platform for a global crypto community",
     year: '2020',
-    type: 'Visual Design',
+    type: 'Design',
     context: 'client',
     link: '/maker',
     cover: './img/covers/maker.png',
     target: '_self',
-    case: true,
+    case: false,
   },
-
-  // {  
-  //   title: "Mini",
-  //   description: "Album art for a friend",
-  //   year: '2021',
-  //   type: 'Art',
-  //   context: 'personal',
-  //   link: '',
-  //   cover: './img/covers/mini.png',
-  //   target: '_blank',
-  // },
-
 
 
   {  
@@ -114,17 +102,6 @@ export const projects = [
     case: false,
 
   },
-
-  // {  
-  //   title: "Nature Magazine",
-  //   description: "Commissioned illustrations for a scientific journal",
-  //   year: '2019',
-  //   type: 'Illustration',
-  //   context: 'client',
-  //   link: '',
-  //   cover: './img/covers/nature.png',
-  //   target: '_self',
-  // },
 
   {  
     title: "I Didn't Ask for the Habit",

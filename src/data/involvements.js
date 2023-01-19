@@ -1,11 +1,23 @@
 export const involvements = [
 
+  // {  
+  //   title: "T Brand Studio at the New York Times",
+  //   description: "Reimagining digital advertising at NYT",
+  //   year: '2023 - ?',
+  //   type: 'Design',
+  //   context: 'client',
+  //   link: 'https://advertising.nytimes.com/custom-content/',
+  //   cover: './img/covers/nyt.png',
+  //   target: '_blank',
+  //   case: false,
+
+  // },
 
   {  
     title: "Soft Surplus",
-    description: "Member of an art & technology collective and warehouse community space",
+    description: "Member of art & technology collective and warehouse studio",
     year: '2019 - 2021',
-    type: 'Art, Space',
+    type: 'Art, Community',
     context: 'personal',
     link: 'https://www.instagram.com/softsurplus/',
     cover: './img/covers/soft.png',
@@ -18,28 +30,14 @@ export const involvements = [
     title: "Code Societies",
     description: "Three weeks at the School for Poetic Computation",
     year: '2020',
-    type: 'Intensive',
+    type: 'Learning',
     context: 'personal',
     link: 'https://www.are.na/code-societies',
     cover: './img/covers/sfpc.png',
     target: '_blank',
     case: false,
 
-  },
-
-
-  // {  
-  //   title: "Girltype Behaviors",
-  //   description: 'A punk project',
-  //   year: '2016 - 2018',
-  //   type: 'Music',
-  //   context: 'personal',
-  //   link: '',
-  //   cover: './img/covers/girl.png',
-  //   target: '_self',
-  //   case: false,
-
-  // },
+  }
 
  
 
