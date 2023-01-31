@@ -1,16 +1,16 @@
 export const projects = [
 
-  // {  
-  //   title: "Flowers in Motion",
-  //   description: "A radio show",
-  //   year: '2022',
-  //   type: 'Design, Music',
-  //   context: 'personal',
-  //   link: '/flowers',
-  //   cover: './img/covers/flowers.png',
-  //   target: '_self',
-  //   case: false,
-  // },
+  {  
+    title: "Flowers in Motion",
+    description: "A radio show",
+    year: '2023',
+    type: 'Music, Design',
+    context: 'personal',
+    link: '/flowers',
+    cover: './img/covers/flowers.png',
+    target: '_self',
+    case: false,
+  },
 
 
   {  
@@ -77,17 +77,17 @@ export const projects = [
 
   },
 
-  {  
-    title: "MakerDAO",
-    description: "A platform for a global crypto community",
-    year: '2020',
-    type: 'Design',
-    context: 'client',
-    link: '/maker',
-    cover: './img/covers/maker.png',
-    target: '_self',
-    case: false,
-  },
+  // {  
+  //   title: "MakerDAO",
+  //   description: "A platform for a global crypto community",
+  //   year: '2020',
+  //   type: 'Design',
+  //   context: 'client',
+  //   link: '/maker',
+  //   cover: './img/covers/maker.png',
+  //   target: '_self',
+  //   case: false,
+  // },
 
 
   {  

@@ -86,6 +86,7 @@ h2 {
     display: flex;
     border: .75px solid var(--mid);
     flex-direction: column;
+    max-width: 50%;
 }
 
 .writing {
