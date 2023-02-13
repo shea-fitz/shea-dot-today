@@ -125,6 +125,8 @@ h2 {
     height: auto;
     flex-grow: 1;
     line-height: 150%;
+    border-bottom: .75px solid var(--mid);
+
 }
 
 .space-between {
@@ -624,9 +626,10 @@ img {
         gap: 8px;
     }
 
-    /* .shea {
+    .shea {
         width: 60%;
-    } */
+        margin: 24px auto;
+    }
 
     .image-gallery {
         gap: 0;
@@ -640,6 +643,9 @@ img {
         margin: 24px auto;
     } */
 
+    .info {
+        border-bottom: none;
+    }
    
 
 
