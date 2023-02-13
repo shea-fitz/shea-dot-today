@@ -32,7 +32,7 @@
 
     --dark: #203FB5;
     --mid: rgb(24, 24, 196);
-    --light: #e9ecf7;
+    --light: rgb(233, 236, 247);
     --text: #292456;
     --grad-left: #202ab510;
     --grad-right: #7b7ff62c;
@@ -86,7 +86,7 @@ h2 {
     display: flex;
     border: .75px solid var(--mid);
     flex-direction: column;
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 
 .writing {
@@ -317,14 +317,21 @@ span.contact {
 }
 
 .shea {
-    width: 65%;
-    margin: 48px auto;
     border-radius: 1000%;
     border: .5px solid var(--mid);
     opacity: 95%;
-    filter: drop-shadow(0 0 30px var(--light))
-    /* filter: blur(10px); */
+    filter: drop-shadow(0 0 30px var(--light));
+    width: 80%;
+    margin: auto;
 }
+
+/* .broider {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAjBJREFUeF7tncFxwzAMBKXqUkFSZFKBq0u+Ef24ucERMun1VyDIWx5gmpnY57HZ6+vz8ftf0vfPx9kpsXWyDmEADVMGKEDDBES6ux3nqn35HgpQd0txaJjYuwNdrQTd7a/qs3todUJXYHd8VR9Ahx0DaNjC04GOE6j1u5+dqwLS46v6ZMkD9IpYGQagw+0UDi1e16UrUDp03LFqz1IOuPt5VR9AOTbN9TAODfNtBxpev0xXFSgnCAfYPTQ8v0wHUInICwCox0tGA3SzC2O540NAew9dzXEAdQmE43FoGujuJdit7+yeMGwIma5bH0DllngBAPV4yWj7Tam7hKSCcEBVH0C5Dw1bEqCbAZ0rZ/3sdg9dX/JcBQAN8wXobKDVc1h1fFjfU7rq+tT4J4eqAUpwdbzKX31eXZ8aD1DzP+0AGj6420CrJfXu43mXDzsAoAANEwinsx2qmnJ4fe3pqvoAGj4FABSgc7tAe8m7cqoLdOfrjh/12SXvLhigLjERD1CAWgTaS95aXSD47oqY3kMDjKwUALVw6WCAakZWBEA3OyW8fA+923FWeRzHAVCXmIgH6N1AVytBl1dVn+3Q6oSuwO74qj6Ach8617PTHTpOoOSor+EZx1cFpMdX9cmSB+gVsTIMQPnepqtjliv5dM9TPeru59UNkiUPUO+HBQDKOXRuU2gv+blynrNXBXav1y757gUCNEwcoAANE9jsb0QunfYeuloJA9QlEI7HoWGgf7MjOf+/ZaMqAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
+    border-width:  24px;
+    border-style:  solid;
+    width: 60%;
+    margin: auto;
+} */
 
 /* .shea:hover{
     filter: blur(0);
@@ -617,18 +624,23 @@ img {
         gap: 8px;
     }
 
-    .shea {
+    /* .shea {
         width: 60%;
-    }
+    } */
 
     .image-gallery {
         gap: 0;
     }
 
     .audio-label, .audio {
-        display: none;
+        /* display: none; */
     }
 
+    /* .broider {
+        margin: 24px auto;
+    } */
+
+   
 
 
     

@@ -1,17 +1,17 @@
 export const involvements = [
 
-  // {  
-  //   title: "T Brand Studio at the New York Times",
-  //   description: "Reimagining digital advertising at NYT",
-  //   year: '2023 - ?',
-  //   type: 'Design',
-  //   context: 'client',
-  //   link: 'https://advertising.nytimes.com/custom-content/',
-  //   cover: './img/covers/nyt.png',
-  //   target: '_blank',
-  //   case: false,
+  {  
+    title: "T Brand Studio",
+    description: "Digital advertising at The New York Times",
+    year: '2023 - ?',
+    type: 'Design',
+    context: 'client',
+    link: 'https://advertising.nytimes.com/custom-content/',
+    cover: './img/covers/nyt.png',
+    target: '_blank',
+    case: false,
 
-  // },
+  },
 
   {  
     title: "Soft Surplus",
