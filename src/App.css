@@ -505,6 +505,10 @@ img {
     display: none;
 }
 
+p.bio {
+    margin-block-start: 0;
+}
+
 
 
 
