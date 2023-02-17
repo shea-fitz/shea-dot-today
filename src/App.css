@@ -323,7 +323,7 @@ span.contact {
     border: .5px solid var(--mid);
     opacity: 95%;
     filter: drop-shadow(0 0 30px var(--light));
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 

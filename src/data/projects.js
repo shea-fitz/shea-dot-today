@@ -64,18 +64,18 @@ export const projects = [
 
   },
 
-  {  
-    title: "Student Visa Review",
-    description: "An online exhibition of interviews with architecture students",
-    year: '2021',
-    type: 'Design',
-    context: 'client',
-    link: '/student-visa',
-    cover: './img/covers/risd.png',
-    target: '_self',
-    case: false,
+  // {  
+  //   title: "Student Visa Review",
+  //   description: "An online exhibition of interviews with architecture students",
+  //   year: '2021',
+  //   type: 'Design',
+  //   context: 'client',
+  //   link: '/student-visa',
+  //   cover: './img/covers/risd.png',
+  //   target: '_self',
+  //   case: false,
 
-  },
+  // },
 
   // {  
   //   title: "MakerDAO",
