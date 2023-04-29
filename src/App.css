@@ -63,9 +63,10 @@ a:hover {
 
 .wrapper {
     display: flex;
-    width: 60vw;
+    width: 25vw;
     margin: 48px auto;
     gap: 16px;
+    justify-content: center;
 }
 
 h2 {
@@ -324,7 +325,7 @@ span.contact {
     opacity: 95%;
     filter: drop-shadow(0 0 30px var(--light));
     width: 75%;
-    margin: auto;
+    margin: 40px auto;
 }
 
 /* .broider {

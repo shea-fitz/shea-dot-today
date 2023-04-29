@@ -26,15 +26,15 @@ function App() {
         <Info/>
       </div>
 
-      <div className="left">
+      {/* <div className="left">
       <div className="header proj-header space-between">Projects
       <div className="categories">
           <span className="category"><img className="icon" src={client}></img>client</span>
           <span className="category"><img className="icon" src={personal}></img>personal</span>
       </div>
-    
+     */}
 
-      </div>
+      {/* </div>
         
       {projects.map(project => (
                   <Project
@@ -65,14 +65,14 @@ function App() {
                   />
                 ))}
 
-      </div>
+      </div> */}
       <div className="right">
       <div className="header desktop-info">info</div>
 
       <div className="desktop-info">
         <Info/>
       </div>
-      <div className="header">Writing</div>
+      {/* <div className="header">Writing</div>
       <div className="writing">
         {writing.map(piece => (
                   <Writing
@@ -82,7 +82,7 @@ function App() {
                     source={piece.source}
                   />
                 ))}
-      </div>
+      </div> */}
      
 
         <img src={shea} className="shea"/>
