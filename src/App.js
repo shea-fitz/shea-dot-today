@@ -67,7 +67,7 @@ function App() {
 
       </div> */}
       <div className="right">
-      <div className="header desktop-info">info</div>
+      <div className="header desktop-info">♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫</div>
 
       <div className="desktop-info">
         <Info/>
