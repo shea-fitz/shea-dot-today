@@ -17,7 +17,7 @@ export const projects = [
     title: 'Playlist Prompts',
     description: "A collection of over 200 playlist ideas",
     year: '2022',
-    type: 'Web Development, Design',
+    type: 'Web Development, Design, Music',
     context: 'personal',
     link: 'https://www.playlistprompts.com/',
     cover: './img/covers/playlist.png',
@@ -64,18 +64,18 @@ export const projects = [
 
   },
 
-  // {  
-  //   title: "Student Visa Review",
-  //   description: "An online exhibition of interviews with architecture students",
-  //   year: '2021',
-  //   type: 'Design',
-  //   context: 'client',
-  //   link: '/student-visa',
-  //   cover: './img/covers/risd.png',
-  //   target: '_self',
-  //   case: false,
+  {  
+    title: "Student Visa Review",
+    description: "An online exhibition of interviews with architecture students",
+    year: '2021',
+    type: 'Design',
+    context: 'client',
+    link: '/student-visa',
+    cover: './img/covers/risd.png',
+    target: '_self',
+    case: false,
 
-  // },
+  },
 
   // {  
   //   title: "MakerDAO",
