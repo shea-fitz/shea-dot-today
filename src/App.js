@@ -67,11 +67,6 @@ function App() {
 
       </div>
       <div className="right">
-      <div className="header desktop-info">info</div>
-
-      <div className="desktop-info">
-        <Info/>
-      </div>
       <div className="header">Writing</div>
       <div className="writing">
         {writing.map(piece => (
@@ -83,9 +78,18 @@ function App() {
                   />
                 ))}
       </div>
+
+      <div className="header desktop-info">info</div>
+
+      <div className="desktop-info">
+        <Info/>
+      </div>
+      <img src={shea} className="shea"/>
+
+      
      
 
-        <img src={shea} className="shea"/>
+        {/* <img src={shea} className="shea"/> */}
       
 
       

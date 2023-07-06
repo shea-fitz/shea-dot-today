@@ -318,6 +318,13 @@ span.contact {
     gap: 12px;
 }
 
+@keyframes blur {
+    0% {filter: blur(200px);}
+    20% {filter: blur(80px);}
+    50% {filter: blur(0);}
+    100% {filter: blur(200px);}
+ }
+
 .shea {
     border-radius: 1000%;
     border: .5px solid var(--mid);
@@ -325,6 +332,8 @@ span.contact {
     filter: drop-shadow(0 0 30px var(--light));
     width: 75%;
     margin: auto;
+    /* animation-name: blur;
+    animation-duration: 60s; */
 }
 
 /* .broider {
