@@ -13,17 +13,17 @@ export const involvements = [
 
   },
 
-  {
-    title: "Angel Hair No. 12",
-    description: "Drummer in a psychedelic rock band",
-    year: '2023 - ?',
-    type: 'Music',
-    context: 'personal',
-    link: 'https://www.instagram.com/angelhairno.12/',
-    cover: './img/covers/angel-hair.png',
-    target: '_blank',
-    case: false,
-  },
+  // {
+  //   title: "Angel Hair No. 12",
+  //   description: "Drummer in a psychedelic rock band",
+  //   year: '2023 - ?',
+  //   type: 'Music',
+  //   context: 'personal',
+  //   link: 'https://www.instagram.com/angelhairno.12/',
+  //   cover: './img/covers/angel-hair.png',
+  //   target: '_blank',
+  //   case: false,
+  // },
 
   {  
     title: "Soft Surplus",

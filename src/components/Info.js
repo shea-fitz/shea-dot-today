@@ -11,7 +11,7 @@ return (
     <p className="bio">Shea Fitzpatrick is a designer with an affinity for visual systems and understated narratives. <br/> <br/> Shea is a Senior Web Designer at the New York Times.</p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
-    {/* <span className="contact"><img className="icon" src={cv}></img> <a href="https://read.cv/shea" target="_blank" className="contact-link">read.cv/shea</a></span> */}
+    <span className="contact"><img className="icon" src={cv}></img> <a href="https://read.cv/shea" target="_blank" className="contact-link">read.cv/shea</a></span>
     <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
 
 
