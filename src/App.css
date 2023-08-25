@@ -10,7 +10,6 @@
 
 
 
-
 :root {
     /* --dark: #006434;
     --mid: #01964E;
@@ -30,14 +29,14 @@
     --cs-grad-left: #BA55D333;
     --cs-grad-right: #7E3ADA15; */
 
-    /* --dark: #203FB5;
+    --dark: #203FB5;
     --mid: rgb(24, 24, 196);
     --light: rgb(233, 236, 247);
     --text: #292456;
     --grad-left: #202ab510;
     --grad-right: #7b7ff62c;
     --cs-grad-left: #BA55D333;
-    --cs-grad-right: #7E3ADA15; */
+    --cs-grad-right: #7E3ADA15;
   }
 
 
@@ -46,7 +45,7 @@ html, body {
     line-height: 115%;
     font-family: 'Basier Circle', Arial, Helvetica, sans-serif;
     color: var(--text);
-    background-color: #f4f5f2;
+    background-color: snow;
 }
 
 a {
@@ -120,13 +119,16 @@ h2 {
 
 } */
 
+ul {
+    list-style: square;
+}
 
 .info {
     padding: 16px;
     height: auto;
     flex-grow: 1;
     line-height: 150%;
-    border-bottom: .75px solid var(--mid);
+    /* border-bottom: .75px solid var(--mid); */
 
 }
 
@@ -150,6 +152,8 @@ audio {
     font-style: italic;
     padding-top: 32px;
     padding-bottom: 4px;
+    font-size: 1.1rem;
+    letter-spacing: .5;
 }
 
 

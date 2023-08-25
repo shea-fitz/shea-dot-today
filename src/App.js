@@ -85,7 +85,7 @@ function App() {
       </div> */}
      
 
-        <img src={shea} className="shea"/>
+        {/* <img src={shea} className="shea"/> */}
       
 
       
