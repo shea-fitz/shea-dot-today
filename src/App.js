@@ -23,6 +23,7 @@ function App() {
 
     <div className="wrapper">  
       <div className="mobile-info">
+             <div className="header">♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫</div>
         <Info/>
       </div>
 
