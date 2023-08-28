@@ -13,7 +13,7 @@ return (
     <span className="audio-label">Today Shea is...</span>
     <ul>
         <li>a senior web designer at The New York Times</li>
-        <li>drumming in a psychedelic rock back</li>
+        <li>drumming in a psychedelic rock band</li>
         <li>learning the <a href="https://www.youtube.com/watch?v=MN4pvzT8C6k&ab_channel=ClassicalSheetMusic" target="_blank">Chaminade Flute Concertino</a></li>
         <li>reading theories of boredom</li>
 
