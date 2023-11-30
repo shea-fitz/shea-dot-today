@@ -12,13 +12,13 @@ return (
     
     <span className="audio-label">Today Shea is...</span>
     <ul>
-        <li>a senior web designer at The New York Times</li>
-        <li>drumming in a psychedelic rock band</li>
-        <li>learning the <a href="https://www.youtube.com/watch?v=MN4pvzT8C6k&ab_channel=ClassicalSheetMusic" target="_blank">Chaminade Flute Concertino</a></li>
-        <li>reading theories of boredom</li>
-
+        <li>a senior web designer at The N*w Y*rk T*mes</li>
+        <li>drumming on an EP tentatively described as <a href="https://en.wikipedia.org/wiki/Progressive_rock#:~:text=Progressive%20rock%20was%20predicated%20on,the%20Beatles%20and%20the%20Yardbirds." target="_blank">prog rock (?)</a></li>
+        <li>relearning the <a href="https://www.youtube.com/watch?v=MN4pvzT8C6k&ab_channel=ClassicalSheetMusic" target="_blank">Chaminade flute concertino</a></li>
+        <li>writing about the <a href="https://www.are.na/block/19149705" target="_blank">pleasure x effort matrix</a></li>
+        <li>helping mom decorate the kitchen</li>
+        <li>planning a bachelorette party</li>
     </ul>
-    
     </p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
