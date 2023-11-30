@@ -121,6 +121,7 @@ h2 {
 
 ul {
     list-style: square;
+    padding-inline-start: 20px;
 }
 
 .info {
