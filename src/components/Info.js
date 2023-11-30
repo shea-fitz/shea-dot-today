@@ -17,7 +17,7 @@ return (
         <li>relearning the <a href="https://www.youtube.com/watch?v=MN4pvzT8C6k&ab_channel=ClassicalSheetMusic" target="_blank">Chaminade flute concertino</a></li>
         <li>writing about the <a href="https://www.are.na/block/19149705" target="_blank">pleasure x effort matrix</a></li>
         <li>helping mom decorate the kitchen</li>
-        <li>planning a bachelorette party</li>
+        <li>co-planning a bachelorette party</li>
     </ul>
     </p>
 
