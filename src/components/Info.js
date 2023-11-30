@@ -18,16 +18,12 @@ return (
         <li>writing about the <a href="https://www.are.na/block/19149705" target="_blank">pleasure x effort matrix</a></li>
         <li>helping mom decorate the kitchen</li>
         <li>planning a bachelorette party</li>
-
     </ul>
-    
     </p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
     {/* <span className="contact"><img className="icon" src={cv}></img> <a href="https://read.cv/shea" target="_blank" className="contact-link">read.cv/shea</a></span> */}
     <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
-
-
     <div className="audio-label">Emerald Web - Ars Nova (1982)</div>
     <audio className="audio" controls src={song}>
     </audio>   

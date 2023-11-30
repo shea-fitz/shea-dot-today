@@ -156,6 +156,10 @@ audio {
     letter-spacing: .5;
 }
 
+.center {
+    justify-content: center;
+}
+
 
 /* PROJECTS */
 
@@ -583,7 +587,6 @@ p.bio {
 
     .mobile-info {
         display: block;
-        border-bottom: .75px solid var(--mid);
     }
 
     /* PROJECT PAGES */
