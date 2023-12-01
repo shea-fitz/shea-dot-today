@@ -65,7 +65,7 @@ a:hover {
     width: 25vw;
     margin: 48px auto;
     gap: 16px;
-    justify-content: center;
+    justify-items: center;
 }
 
 h2 {
