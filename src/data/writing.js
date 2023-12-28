@@ -1,4 +1,13 @@
 export const writing = [
+
+    {
+      title: 'The Pleasure x Effort Matrix',
+      link:
+        '',
+        source: 'Syllabus Project',
+        year: '2024'
+    },
+
     {
       title: 'Shea Fitz on sheafitz.com',
       link:
@@ -15,13 +24,13 @@ export const writing = [
           year: '2021'
     },
 
-    // {
-    //     title: 'SFPC Alum Interview',
-    //     link:
-    //       'https://medium.com/sfpc/sfpc-alum-interview-shea-fitzpatrick-1f352222896c',
-    //       source: 'School for Poetic Computation blog',
-    //       year: '2020'
-    // },
+    {
+        title: 'SFPC Alumni Interview',
+        link:
+          'https://medium.com/sfpc/sfpc-alum-interview-shea-fitzpatrick-1f352222896c',
+          source: 'School for Poetic Computation blog',
+          year: '2020'
+    },
 
     {
         title: 'The First Computer Mouse Conference',

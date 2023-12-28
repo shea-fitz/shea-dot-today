@@ -1,6 +1,18 @@
 export const projects = [
 
   {  
+    title: "The Memo, New York Times Advertising",
+    description: "Recap of the 2023 DealBook Summit",
+    year: '2023',
+    type: 'Web Design and Development',
+    context: 'client',
+    link: 'https://advertising.nytimes.com/thememo/',
+    cover: './img/covers/nyt.png',
+    target: '_blank',
+    case: false,
+  },
+
+  {  
     title: "Flowers in Motion",
     description: "A radio show",
     year: '2023',
@@ -17,7 +29,7 @@ export const projects = [
     title: 'Playlist Prompts',
     description: "A collection of over 200 playlist ideas",
     year: '2022',
-    type: 'Web Development, Design, Music',
+    type: 'Web Design and Development, Music',
     context: 'personal',
     link: 'https://www.playlistprompts.com/',
     cover: './img/covers/playlist.png',
@@ -25,18 +37,6 @@ export const projects = [
     case: false,
   },
 
-  // {  
-  //   title: "Atlas",
-  //   description: "Supply chain network visualization",
-  //   year: '2022',
-  //   type: 'Product Design',
-  //   context: 'client',
-  //   link: '/atlas',
-  //   cover: './img/covers/atlas.png',
-  //   target: '_self',
-  //   case: true,
-
-  // },
 
   {  
     title: "Blue Flower Arts",
@@ -77,19 +77,6 @@ export const projects = [
 
   },
 
-  // {  
-  //   title: "MakerDAO",
-  //   description: "A platform for a global crypto community",
-  //   year: '2020',
-  //   type: 'Design',
-  //   context: 'client',
-  //   link: '/maker',
-  //   cover: './img/covers/maker.png',
-  //   target: '_self',
-  //   case: false,
-  // },
-
-
   {  
     title: "Two People in a Room Over Time",
     description: "A series of Risograph prints",
@@ -129,18 +116,18 @@ export const projects = [
 
   },
 
-  // {  
-  //   title: "Website Archive",
-  //   description: "The evolution of my personal website",
-  //   year: '2018 - 2022',
-  //   type: 'Web Development, Design',
-  //   context: 'personal',
-  //   link: '/website-archive',
-  //   cover: './img/covers/website.png',
-  //   target: '_self',
-  //   case: false,
+  {  
+    title: "Website Archive",
+    description: "The evolution of my personal website",
+    year: '2018 - 2022',
+    type: 'Web Development, Design',
+    context: 'personal',
+    link: '/website-archive',
+    cover: './img/covers/website.png',
+    target: '_self',
+    case: false,
 
-  // },
+  },
  
 
 ];
