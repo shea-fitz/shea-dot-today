@@ -1,6 +1,18 @@
 export const projects = [
 
   {  
+    title: "The Pleasure x Effort Matrix",
+    description: "A Syllabus",
+    year: '2024',
+    type: 'Writing',
+    context: 'personal',
+    link: 'https://syllabusproject.org/',
+    cover: './img/covers/nyt.png',
+    target: '_blank',
+    case: false,
+  },
+
+  {  
     title: "The Memo, New York Times Advertising",
     description: "Recap of the 2023 DealBook Summit",
     year: '2023',

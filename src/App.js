@@ -23,7 +23,7 @@ function App() {
 
 
       <div className="info">
-          <div className="header">Info</div><Info/></div>
+          <div className="header">Shea Fitzpatrick</div><Info/></div>
     
           
         <div className="projects">
