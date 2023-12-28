@@ -20,10 +20,19 @@ function App() {
     <>
 
       <div className="wrapper">  
+
+
+      <div className="info">
+          <div className="header">Info</div><Info/></div>
     
           
         <div className="projects">
-        <div className="header">W</div>
+          <div className="header proj-header space-between">Projects
+              <div className="categories">
+                  <span className="category"><img className="icon" src={client}></img>client</span>
+                  <span className="category"><img className="icon" src={personal}></img>personal</span>
+              </div>
+          </div>
 
           {projects.map(project => (
                       <Project
@@ -59,7 +68,8 @@ function App() {
 
           <div className="writing">
             <div className="header">Writing</div>
-              {writing.map(piece => (
+            <div className="writing-list">
+            {writing.map(piece => (
                         <Writing
                           title={piece.title}
                           link={piece.link}
@@ -67,10 +77,11 @@ function App() {
                           source={piece.source}
                         />
                       ))}
+
+            </div>
           </div>
               
-          <div className="info">
-          <div className="header">Info</div><Info/></div>
+         
 
           <div className="shea"><img src={shea}/></div>
           

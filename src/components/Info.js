@@ -8,9 +8,12 @@ const Info = () => {
 
 return (
 <div className="info">
-    <p className="bio">Shea Fitzpatrick is a web designer with an affinity for visual systems and understated narratives.</p>
+    <p className="bio">Web designer with an affinity for visual systems and understated narratives.<br/><br/>
+    Currently a Senior Web Designer at T Brand Studios of The New York Times. <br/><br/>
+    </p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
+    <span className="contact"><img className="icon" src={cv}></img> <a href="https://read.cv/shea" target="_blank" className="contact-link">read.cv/shea</a></span>
     <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
 
 

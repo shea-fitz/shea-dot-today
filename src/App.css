@@ -22,10 +22,6 @@
     --font-h: 'Heldane', serif;
   }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-
   * {
     margin: 0;
   }
@@ -57,6 +53,7 @@ html, body {
     font-family: var(--font-body);
     color: var(--text);
     background-color: #f4f5f2;
+    overflow-x: hidden;
 }
 
 a {
@@ -74,12 +71,14 @@ a:hover {
 .wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr 2fr 1fr;
     grid-template-areas:
-        ". proj proj writing ."
-        ". proj proj info ."
-        ". proj proj shea ."
+        ". info proj ."
+        ". writing proj ."
+        ". shea proj ."
     ;
+    margin: 24px;
+    gap: 32px;
 }
 
 .projects {
@@ -103,7 +102,7 @@ div.shea > img {
 }
 
 .header {
-    padding: 4px 16px;
+    padding: 16px 16px 16px 0px;
     font-size: 1rem;
     align-content: center;
     border-bottom: .75px solid var(--mid);
@@ -111,7 +110,10 @@ div.shea > img {
     font-weight: 400;
     font-style: italic;
     letter-spacing: .05;
-    /* color: rgb(234, 81, 157); */
+}
+
+.writing > .header, .info > .header {
+    margin-bottom: 16px;
 }
 
 .space-between {
@@ -121,7 +123,7 @@ div.shea > img {
 }
 
 audio {
-    /* mix-blend-mode: hard-light; */
+    filter: contrast(1.2);
     height: 32px;
     border: .5px solid var(--mid);
     opacity: 50%;
@@ -227,6 +229,12 @@ audio {
 
 /* WRITING */
 
+
+.writing-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 a.writing-link {
     color: var(--text);
     text-decoration: underline;

@@ -25,14 +25,6 @@ export const writing = [
     },
 
     {
-        title: 'SFPC Alumni Interview',
-        link:
-          'https://medium.com/sfpc/sfpc-alum-interview-shea-fitzpatrick-1f352222896c',
-          source: 'School for Poetic Computation blog',
-          year: '2020'
-    },
-
-    {
         title: 'The First Computer Mouse Conference',
         link:
           'https://www.are.na/blog/an-entire-conference-dedicated-to-the-computer-mouse',
