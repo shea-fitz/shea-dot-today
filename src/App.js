@@ -23,6 +23,8 @@ function App() {
     
           
         <div className="projects">
+        <div className="header">W</div>
+
           {projects.map(project => (
                       <Project
                         cover={project.cover}
@@ -67,7 +69,8 @@ function App() {
                       ))}
           </div>
               
-          <div className="info"><Info/></div>
+          <div className="info">
+          <div className="header">Info</div><Info/></div>
 
           <div className="shea"><img src={shea}/></div>
           

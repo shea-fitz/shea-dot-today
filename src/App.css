@@ -102,6 +102,18 @@ div.shea > img {
     max-width: auto;
 }
 
+.header {
+    padding: 4px 16px;
+    font-size: 1rem;
+    align-content: center;
+    border-bottom: .75px solid var(--mid);
+    font-family: var(--font-h);
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .05;
+    /* color: rgb(234, 81, 157); */
+}
+
 .space-between {
     display: flex;
     justify-content: space-between;
