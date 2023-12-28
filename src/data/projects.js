@@ -2,12 +2,12 @@ export const projects = [
 
   {  
     title: "The Pleasure x Effort Matrix",
-    description: "A Syllabus",
+    description: "A syllabus",
     year: '2024',
     type: 'Writing',
     context: 'personal',
     link: 'https://syllabusproject.org/',
-    cover: './img/covers/nyt.png',
+    cover: './img/covers/syllabus.png',
     target: '_blank',
     case: false,
   },
@@ -131,7 +131,7 @@ export const projects = [
   {  
     title: "Website Archive",
     description: "The evolution of my personal website",
-    year: '2018 - 2022',
+    year: '2018 - 2024',
     type: 'Web Design and Development',
     context: 'personal',
     link: '/website-archive',

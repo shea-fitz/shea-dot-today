@@ -85,14 +85,15 @@ body {
 .wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 3fr 1fr;
     grid-template-areas:
         ". info proj ."
-        ". writing proj ."
         ". shea proj ."
+        ". writing proj ."
     ;
     margin: 24px;
-    gap: 32px;
+    margin-bottom: 64px;
+    gap: 48px;
 }
 
 .projects {
@@ -109,11 +110,21 @@ body {
 
 .shea {
     grid-area: shea;
+    width: 80%;
 }
 
 div.shea > img {
     max-width: auto;
+    /* filter: blur(50px); */
+    border-radius: 100%;
+    filter: drop-shadow(0 0 20px rgba(24, 24, 196, .25)) blur(17px);
+    border: .5px solid var(--mid);
 }
+
+/* div.shea > img:hover {
+   filter: blur(0);
+
+} */
 
 .header {
     text-transform: uppercase;
@@ -248,7 +259,7 @@ audio {
 .writing-list {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
 }
 a.writing-link {
     color: var(--text);
@@ -378,7 +389,7 @@ span.contact {
 .back {
     text-decoration: none;
     border: .5px solid var(--mid);
-    width: min-content;
+    width: max-content;
     padding: 8px 12px;
     color: var(--text);
     display: flex;

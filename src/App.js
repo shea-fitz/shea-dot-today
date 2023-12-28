@@ -7,7 +7,7 @@ import {writing} from './data/writing';
 import { involvements } from './data/involvements';
 import client from './icons/client.svg';
 import personal from './icons/personal.svg';
-import shea from './media/shea-3.jpg';
+import shea from './media/leaves.png';
 
 // COMPONENTS
 import Project from './components/Project';
