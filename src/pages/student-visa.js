@@ -14,12 +14,14 @@ import index from '../media/student-visa/index.png';
 const StudentVisa = () => {
   return (
     <div className="page-wrapper">
-        <Back/>
+           <div className="back-button">
+    <Back/>
+    </div>
 
         <div className="page-content">
           <PageHeader
               title='Student Visa Review'
-              type='Visual Design, Experience Design'
+              type='Browser-based Exhibition Design'
               year='Winter 2020'
             />
 
@@ -32,7 +34,7 @@ const StudentVisa = () => {
             <h3>Client</h3>
 
             <p className="paragraph">
-            <a href="http://www.studentvisa.review/" target="_blank">The Student Visa Review</a> was commissioned by the RISD Department of Architecture in Collaboration with The Canadien Centre for Architecture (CCA).
+            The Student Visa Review was commissioned by the RISD Department of Architecture in Collaboration with The Canadien Centre for Architecture (CCA).
             </p>
 
 
@@ -62,7 +64,7 @@ const StudentVisa = () => {
 
         <h3>Concept</h3>
 
-        <p className="paragraph">
+        <p className="paragraph last-p">
 
         We considered three core characteristics when designing the web experience: <span className="highlight">sense of time, sense of narrative, and sense of environment.</span>
         <br/><br/>
@@ -87,7 +89,7 @@ const StudentVisa = () => {
 
         <h3>Result</h3>
 
-        <p className="paragraph">Using metaphors of transit - leaving and returning - we designed a meditative and exploratory landscape that listeners can traverse. 
+        <p className="paragraph last-p">Using metaphors of transit - leaving and returning - we designed a meditative and exploratory landscape that listeners can traverse. 
 
         Conversations between students and their friends, families, and peers are accompanied by ambient sounds of an airport as they move across time zones and color-changing skies.</p>
 

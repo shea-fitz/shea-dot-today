@@ -9,17 +9,19 @@ import song from '../media/music.m4a';
 const Flowers = () => {
     return (
       <div className="page-wrapper">
-          <Back/>
+            <div className="back-button">
+    <Back/>
+    </div>
   
           <div className="page-content">
             <PageHeader
                 title="Flowers in Motion"
                 type='Music, Design'
-                year='2022 - ongoing'
+                year='2022 - 2023'
               />
   
   
-          <p className="paragraph">
+          <p className="paragraph intro-p">
           <i>Flowers in Motion</i> is a series of mixes and visuals streaming on <a href="https://www.index-space.org/" target="_blank">Index Radio</a>. It was inspired by Chris Helzer's <a href="https://prairieecologist.com/2020/01/13/finally-a-practical-guide-for-roadside-wildflower-viewing/" target="_blank"><i>A Field Guide to Roadside Wildflowers at Full Speed</i></a>. The entire episode archive is on <a href="https://soundcloud.com/more-swans" target="_blank">Soundcloud</a> under the musical project More Swans.
 
           <div className="audio-label">Flowers in Motion – no. 1</div>

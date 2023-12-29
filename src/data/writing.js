@@ -33,7 +33,7 @@ export const writing = [
     },
 
     {
-        title: "The Queer Zine Library that's Finding a Global Community",
+        title: "The Queer Zine Library That's Finding a Global Community",
         link:
           'https://eyeondesign.aiga.org/the-queer-zine-library-in-hong-kong-thats-finding-a-global-community/',
         source: 'AIGA Eye on Design',
@@ -41,7 +41,7 @@ export const writing = [
     },
 
     {
-        title: "RAPAPAWN's Mind-Blending Loops",
+        title: "RAPAPAWN's Mind-Bending Loops",
         link:
           'https://eyeondesign.aiga.org/rapapawns-mind-bending-loops-blend-early-avant-garde-animation-with-abstract-comics/',
         source: 'AIGA Eye on Design',

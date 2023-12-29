@@ -17,7 +17,9 @@ const Sketch = () => {
 
   return (
     <div className="page-wrapper">
-        <Back/>
+           <div className="back-button">
+    <Back/>
+    </div>
 
         <div className="page-content">
           <PageHeader

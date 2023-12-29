@@ -20,7 +20,9 @@ const BlueFlower = () => {
   return (
     <div className="page-wrapper">
 
-      <Back/>
+    <div className="back-button">
+    <Back/>
+    </div>
 
 
         <div className="page-content">
@@ -72,7 +74,7 @@ const BlueFlower = () => {
 
         <h3>Research</h3>
 
-        <p className="paragraph">
+        <p className="paragraph last-p">
         BFA's Project Manager provided us with initial brand research conducted with the in-house team - evocative questions like, <span className="highlight">"If BFA was a physical space, what would it be?"</span> (A vintage brownstone, they said, or a cozy old victorian house). From there, we provided four visual themes to choose from, mix, and match.
         </p>
 
@@ -88,7 +90,7 @@ const BlueFlower = () => {
 
         <h3>Logo</h3>
 
-        <p className="paragraph">
+        <p className="paragraph last-p">
         When brainstorming for BFA's new logo, we gathered visual inspiration and established ways of describing BFA that could serve as prompts for our sketching and a <span className="highlight">source of truth for what the logo should communicate.</span> 
 
           <ul>
@@ -130,7 +132,7 @@ const BlueFlower = () => {
         Drawing from Art Nouveau, stamps and seals, and blue poppies, we arrived at a logo that strikes the balance of <span className="highlight">strength, levity, tradition, and personal touch</span> that BFA wanted their brand to embody. With the logo, we arrived at Blue Flower Blue - fresh and bright, but not corporate - and built out the full brand ecosystem.
         </p>
 
-        <p className="paragraph">BFA's website was designed by <a href="https://woolymammothdesign.com/" target="_blank">Wooly Mammoth Design</a>, based locally to BFA in Minneapolis.</p>
+        <p className="paragraph last-p">BFA's website was designed by <a href="https://woolymammothdesign.com/" target="_blank">Wooly Mammoth Design</a>, based locally to BFA in Minneapolis.</p>
 
 
         <Image

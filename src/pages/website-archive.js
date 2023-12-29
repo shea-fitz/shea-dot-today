@@ -6,12 +6,14 @@ import Image from '../components/Image';
 const Archive = () => {
     return (
       <div className="page-wrapper">
-        <Back/>
+          <div className="back-button">
+    <Back/>
+    </div>
   
           <div className="page-content">
             <PageHeader
                 title='Website Archive'
-                type='Design, Development, and fumbling around the internet'
+                type='How I taught myself about the web'
                 year='2018 - ?'
               />
   

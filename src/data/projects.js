@@ -130,8 +130,8 @@ export const projects = [
 
   {  
     title: "Website Archive",
-    description: "The evolution of my personal website",
-    year: '2018 - 2024',
+    description: "A history of my personal website",
+    year: '2018 - forever',
     type: 'Web Design and Development',
     context: 'personal',
     link: '/website-archive',

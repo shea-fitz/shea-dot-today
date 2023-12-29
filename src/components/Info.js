@@ -17,7 +17,7 @@ return (
     <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
 
 
-    <div className="audio-label">Emerald Web - Ars Nova (1982)</div>
+    <div className="audio-label">Emerald Web - Ars Nova (1982)  ♫♪</div>
     <audio className="audio" controls src={song}>
     </audio>   
 

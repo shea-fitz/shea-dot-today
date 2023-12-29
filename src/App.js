@@ -83,7 +83,7 @@ function App() {
               
          
 
-          <div className="shea"><img src={shea}/></div>
+          <div className="shea"><img src={shea}/><div class="banner">"This reminded me of you"</div></div>
           
          
 

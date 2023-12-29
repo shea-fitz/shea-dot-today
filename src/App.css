@@ -91,8 +91,7 @@ body {
         ". shea proj ."
         ". writing proj ."
     ;
-    margin: 24px;
-    margin-bottom: 64px;
+    margin: 64px 24px;
     gap: 48px;
 }
 
@@ -111,20 +110,37 @@ body {
 .shea {
     grid-area: shea;
     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 div.shea > img {
     max-width: auto;
-    /* filter: blur(50px); */
     border-radius: 100%;
     filter: drop-shadow(0 0 20px rgba(24, 24, 196, .25)) blur(17px);
     border: .5px solid var(--mid);
+    z-index: 0;
 }
 
-/* div.shea > img:hover {
-   filter: blur(0);
+div.shea > img:hover {
+   filter: drop-shadow(0 0 20px rgba(24, 24, 196, .25)) blur(0);
+   cursor: pointer;
+}
 
-} */
+div.banner {
+    font-family: var(--font-h);
+    font-size: 1rem;
+    color: var(--text);
+    font-style: italic;
+    z-index: 1000;
+    position: absolute;
+    mix-blend-mode: difference;
+}
+
+
 
 .header {
     text-transform: uppercase;
@@ -358,9 +374,12 @@ span.contact {
 /* PAGES */
 
 .page-wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 60vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+        ". back ."
+        ". content ."
+    ;
     margin: 48px auto;
     gap: 16px;
     color: var(--text);
@@ -374,10 +393,11 @@ span.contact {
 }
 
 .page-content {
-    padding: 32px;
+    padding: 32px 0;
     display: flex;
     flex-direction: column;
-    border: .5px solid var(--mid);
+    grid-area: content;
+    /* border: .5px solid var(--mid); */
 }
 
 .page-details {
@@ -394,6 +414,10 @@ span.contact {
     color: var(--text);
     display: flex;
     gap: 4px;
+}
+
+.back-button {
+    grid-area: back;
 }
 
 .back:hover{
@@ -413,14 +437,22 @@ span.contact {
 h3 {
     font-family: var(--font-h);
     font-style: italic;
-    margin-block-end:16px;
+    margin-block-end:8px;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-block-start: 32px;
+    margin-block-start: 28px;
 }
 
 .paragraph {
     margin-block-end: 12px;
+}
+
+.last-p {
+    margin-block-end: 48px;
+}
+
+.intro-p {
+    margin-block: 48px;
 }
 
 .details {
@@ -490,9 +522,8 @@ p.bio {
         display: flex;
         flex-direction: column;
         width: auto;
-        margin: 24px;
-        gap: 0;
-        border: .75px solid var(--mid);
+        margin: 20px;
+        gap: 48px;
     }
 
    
@@ -539,15 +570,16 @@ p.bio {
     /* PROJECT PAGES */
 
     .page-wrapper {
+        display: flex;
         flex-direction: column;
         width: auto;
-        margin: 8px;
+        /* margin: 8px; */
         gap: 16px;
         color: var(--text);
     }
 
+
     .page-content {
-        padding: 12px;
         border: none;
     }
 
@@ -588,8 +620,7 @@ p.bio {
     }
 
     .page-image {
-        margin: 0px -20px 0px -20px;
-        width: 100vw;
+        width: 120%;
     }
 
     figcaption {
@@ -601,7 +632,8 @@ p.bio {
     }
 
     .page-details {
-        gap: 8px;
+        gap: 4px;
+        padding-bottom: 0;
     }
 
     .shea {
@@ -613,10 +645,13 @@ p.bio {
         gap: 0;
     }
 
-
-
     .info {
         border-bottom: none;
+    }
+
+    .page-header, h3, figcaption, .page-details, .paragraph, .details, .back-button {
+        margin-left: 16px;
+        margin-right: 16px;
     }
     
 }
