@@ -1,6 +1,19 @@
 export const projects = [
 
   {  
+    title: "Website Archive",
+    description: "A history of my personal website",
+    year: '2018 - forever',
+    type: 'Web Design and Development',
+    context: 'personal',
+    link: '/website-archive',
+    cover: './img/covers/website.png',
+    target: '_self',
+    case: false,
+
+  },
+ 
+  {  
     title: "The Pleasure x Effort Matrix",
     description: "A syllabus",
     year: '2024',
@@ -23,6 +36,7 @@ export const projects = [
     target: '_blank',
     case: false,
   },
+
 
   {  
     title: "Flowers in Motion",
@@ -126,20 +140,7 @@ export const projects = [
     target: '_self',
     case: false,
 
-  },
-
-  {  
-    title: "Website Archive",
-    description: "A history of my personal website",
-    year: '2018 - forever',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website-archive',
-    cover: './img/covers/website.png',
-    target: '_self',
-    case: false,
-
-  },
+  }
  
 
 ];

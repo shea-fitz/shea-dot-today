@@ -86,10 +86,12 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr 3fr 1fr;
+    grid-template-rows: 1fr auto 1fr;
     grid-template-areas:
         ". info proj ."
         ". shea proj ."
         ". writing proj ."
+        /* ". . today ." */
     ;
     margin: 64px 24px;
     gap: 48px;
@@ -107,22 +109,31 @@ body {
     grid-area: writing;
 }
 
+
 .shea {
     grid-area: shea;
-    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.today {
+    grid-area: today
+}
+
+p.today {
+    margin-top: 12px;
+}
+
 
 
 div.shea > img {
-    max-width: auto;
+    max-width: 80%;
+    height: auto;
     border-radius: 100%;
     filter: drop-shadow(0 0 20px rgba(24, 24, 196, .25)) blur(17px);
     border: .5px solid var(--mid);
-    z-index: 0;
+    object-fit: scale-down;
 }
 
 div.shea > img:hover {
@@ -548,10 +559,6 @@ p.bio {
         margin-right: 8px;
     }
 
-    .desktop-info {
-        display: none;
-    }
-
     .categories {
         display: none;
     }
@@ -562,10 +569,6 @@ p.bio {
         width: 10px;
     }
 
-    .mobile-info {
-        display: block;
-        border-bottom: .75px solid var(--mid);
-    }
 
     /* PROJECT PAGES */
 
@@ -654,4 +657,8 @@ p.bio {
         margin-right: 16px;
     }
     
+}
+
+.iframe-container {
+    height: 100%;
 }

@@ -4,7 +4,7 @@ import './App.css';
 // DATA
 import {projects} from './data/projects';
 import {writing} from './data/writing';
-import { involvements } from './data/involvements';
+// import { involvements } from './data/involvements';
 import client from './icons/client.svg';
 import personal from './icons/personal.svg';
 import shea from './media/leaves.png';
@@ -80,13 +80,19 @@ function App() {
 
             </div>
           </div>
-              
          
 
-          <div className="shea"><img src={shea}/><div class="banner">"This reminded me of you"</div></div>
+          <div className="shea"><img src={shea}/></div>
+
+          
           
          
-
+          {/* <div className="today">
+            <div className="header">TODAY.</div>
+            <p class="today">
+              Drumming in a rock band, re-learning the <a href="https://www.youtube.com/watch?v=MN4pvzT8C6k&ab_channel=ClassicalSheetMusic" target="_blank">Chaminade Flute Concertino</a>, trying to do a pull-up
+            </p>
+          </div> */}
 
       
     
