@@ -15,9 +15,13 @@ const Archive = () => {
           <div className="page-content">
             <PageHeader
                 title='Website Archive'
-                type='How I taught myself about the web'
+                type='Construction of self'
                 year='2018 - forever'
               />
+
+           {/* INTRODUCTION   */}
+
+           <p></p>
         
           </div>
       </div>

@@ -29,7 +29,7 @@ function App() {
         <div className="projects">
           <div className="header proj-header space-between">Projects
               <div className="categories">
-                  <span className="category"><img className="icon" src={client}></img>client</span>
+                  <span className="category"><img className="icon" src={client}></img>professional</span>
                   <span className="category"><img className="icon" src={personal}></img>personal</span>
               </div>
           </div>
@@ -82,7 +82,7 @@ function App() {
           </div>
          
 
-          <div className="shea"><img src={shea}/></div>
+          <div className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></div>
 
           
           

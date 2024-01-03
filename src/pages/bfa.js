@@ -99,6 +99,8 @@ const BlueFlower = () => {
             <li>BFA is an epicenter, artists are like petals</li>
             <li>BFA supports unique careers that can grow in different ways</li>
           </ul>
+
+          <br/>
         
         Formal considerations that stemmed from these descriptions were:
           <ul>

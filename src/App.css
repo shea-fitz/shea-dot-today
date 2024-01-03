@@ -45,6 +45,13 @@
     overflow-wrap: break-word;
   }
 
+  ul {
+    list-style: circle;
+    padding-inline-start: 24px;
+    margin-block-start: 12px;
+  }
+
+
 
 
 html, body {
@@ -67,7 +74,7 @@ a:hover {
 }
 
 body {
-    scrollbar-color: var(--light) var(--dark);
+    scrollbar-color: var(--light) #7d93ed);
     scrollbar-width: thin;
   }
 
@@ -77,7 +84,7 @@ body {
 }
   
 ::-webkit-scrollbar-thumb {
-    background-color: var(--dark);
+    background-color: #7d93ed;
 }
 
 /* WRAPPERS */
@@ -133,7 +140,6 @@ div.shea > img {
     border-radius: 100%;
     filter: drop-shadow(0 0 20px rgba(24, 24, 196, .25)) blur(17px);
     border: .5px solid var(--mid);
-    object-fit: scale-down;
 }
 
 div.shea > img:hover {

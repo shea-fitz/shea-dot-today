@@ -22,12 +22,18 @@ const Flowers = () => {
   
   
           <p className="paragraph intro-p">
-          <i>Flowers in Motion</i> is a series of mixes and visuals streaming on <a href="https://www.index-space.org/" target="_blank">Index Radio</a>. It was inspired by Chris Helzer's <a href="https://prairieecologist.com/2020/01/13/finally-a-practical-guide-for-roadside-wildflower-viewing/" target="_blank"><i>A Field Guide to Roadside Wildflowers at Full Speed</i></a>. The entire episode archive is on <a href="https://soundcloud.com/more-swans" target="_blank">Soundcloud</a> under the musical project More Swans.
+          <i>Flowers in Motion</i> is a series of mixes and visuals streaming on <a href="https://www.index-space.org/" target="_blank">Index Radio</a>. It was inspired by Chris Helzer's <a href="https://prairieecologist.com/2020/01/13/finally-a-practical-guide-for-roadside-wildflower-viewing/" target="_blank"><i>A Field Guide to Roadside Wildflowers at Full Speed</i></a>.
 
-          <div className="audio-label">Flowers in Motion – no. 1</div>
-            <audio className="audio" controls src={song}>
-            </audio>   
+          
+
+          <div className="audio-label">Full episode archive on Soundcloud</div>
+
+          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1436248000&color=%23888eeb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            {/* <audio className="audio" controls src={song}>
+            </audio>    */}
           </p>
+
+          
 
 
   
