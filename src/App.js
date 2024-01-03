@@ -23,7 +23,7 @@ function App() {
 
     <div className="wrapper">  
       <div className="mobile-info">
-             <div className="header center">♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪</div>
+             <div className="header center">this website is under construction ♫♪♫</div>
         <Info/>
       </div>
 
@@ -68,7 +68,7 @@ function App() {
 
       </div> */}
       <div className="right">
-      <div className="header desktop-info">♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫♪♫</div>
+      <div className="header desktop-info">this website is under construction ♫♪♫♪♫♪♫</div>
 
       <div className="desktop-info">
         <Info/>

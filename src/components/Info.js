@@ -16,8 +16,9 @@ return (
         <li>drumming in a <a href="https://en.wikipedia.org/wiki/Progressive_rock#:~:text=Progressive%20rock%20was%20predicated%20on,the%20Beatles%20and%20the%20Yardbirds." target="_blank">prog rock (?)</a> band</li>
         <li>relearning the <a href="https://www.youtube.com/watch?v=MN4pvzT8C6k&ab_channel=ClassicalSheetMusic" target="_blank">Chaminade flute concertino</a></li>
         <li>writing about the <a href="https://www.are.na/block/19149705" target="_blank">pleasure x effort matrix</a></li>
-        <li>learning chess from my seven-year-old cousin</li>
+        <li>creating a history of my personal website</li>
     </ul>
+
     </p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
