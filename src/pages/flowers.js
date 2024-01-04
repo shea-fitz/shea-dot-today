@@ -3,7 +3,6 @@ import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import Back from '../components/Back';
 import {flowers} from '../data/flowers';
-import song from '../media/music.m4a';
 
 
 const Flowers = () => {
@@ -29,8 +28,7 @@ const Flowers = () => {
           <div className="audio-label">Full episode archive on Soundcloud</div>
 
           <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1436248000&color=%23888eeb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            {/* <audio className="audio" controls src={song}>
-            </audio>    */}
+
           </p>
 
           

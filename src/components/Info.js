@@ -2,7 +2,7 @@ import React from 'react';
 import arena from '../icons/arena.svg';
 import mail from '../icons/mail.svg';
 import cv from '../icons/file.svg';
-import song from '../media/ars-nova.wav';
+import song from '../media/ars-nova.mp3';
 
 const Info = () => {
 

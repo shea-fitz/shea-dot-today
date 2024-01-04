@@ -39,8 +39,6 @@ export const habit = [
     {
         source: './habit/010.jpg'
     },
-    
-
 ];
 
 

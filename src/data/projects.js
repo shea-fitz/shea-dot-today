@@ -1,8 +1,8 @@
 export const projects = [
 
   {  
-    title: "Website Archive",
-    description: "A history of my personal website",
+    title: "A History of My Personal Website",
+    description: "Construction of self",
     year: '2018 - forever',
     type: 'Web Design and Development',
     context: 'personal',
