@@ -136,7 +136,7 @@ export const projects = [
     type: 'Animation, Illustration',
     context: 'personal',
     link: '/sketch',
-    cover: './img/covers/sketch.png',
+    cover: './img/covers/sketch.webp',
     target: '_self',
     case: false,
 

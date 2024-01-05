@@ -305,7 +305,7 @@ a.writing-link {
 
 a.writing-link:hover {
     color: var(--mid);
-    cursor: alias;
+    cursor: pointer;
 }
 
 .writing-year {
