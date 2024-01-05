@@ -5,7 +5,7 @@ import Back from '../components/Back';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import display from '../media/people/010.jpg';
+import display from '../media/people/010.webp';
 
   
 const People = () => {

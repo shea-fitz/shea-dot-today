@@ -3,13 +3,13 @@ import PageHeader from '../components/PageHeader';
 import Back from '../components/Back';
 import Image from '../components/Image';
 
-import home from '../media/student-visa/home.png';
-import mocks from '../media/student-visa/mocks.png';
-import moodboard from '../media/student-visa/moodboard.png';
-import station from '../media/student-visa/station.png';
-import worldMap from '../media/student-visa/world-map.png';
-import day from '../media/student-visa/day-mode.png';
-import index from '../media/student-visa/index.png';
+import home from '../media/student-visa/home.webp';
+import mocks from '../media/student-visa/mocks.webp';
+import moodboard from '../media/student-visa/moodboard.webp';
+import station from '../media/student-visa/station.webp';
+import worldMap from '../media/student-visa/world-map.webp';
+import day from '../media/student-visa/day-mode.webp';
+import index from '../media/student-visa/index.webp';
   
 const StudentVisa = () => {
   return (

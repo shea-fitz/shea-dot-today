@@ -3,13 +3,13 @@ import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import Back from '../components/Back';
 
-import cover from '../media/bfa/cover.png'
-import before from '../media/bfa/before.png';
-import moodboard from '../media/bfa/moodboards.png';
-import logoInspo from '../media/bfa/logo-inspiration.png';
+import cover from '../media/bfa/cover.webp'
+import before from '../media/bfa/before.webp';
+import moodboard from '../media/bfa/moodboards.webp';
+import logoInspo from '../media/bfa/logo-inspiration.webp';
 import sketches from  '../media/bfa/sketches.svg';
 import logoAnatomy from  '../media/bfa/logo-anatomy.svg';
-import figma from  '../media/bfa/figma.png';
+import figma from  '../media/bfa/figma.webp';
 import home from  '../media/bfa/home.svg';
 
 

@@ -2,17 +2,36 @@ import React from "react";
 
 const Details = ({intention, milestone, favorite}) => {
 
+    const hasMultipleIntentions = intention.includes(',');
+    const hasMultipleMilestones = milestone.includes(',');
+
     return (
         <div className="details">
         <div className="detail-column">
         <h3 className="reset-margin">Intentions</h3>
-        {intention}
+        {hasMultipleIntentions ? (
+          <ul>
+            {intention.split(',').map((item, index) => (
+              <li key={index}>{item.trim()}</li>
+            ))}
+          </ul>
+        ) : (
+          intention
+        )}
 
         </div>
 
         <div className="detail-column">
         <h3 className="reset-margin">Milestones</h3>
-        {milestone}
+        {hasMultipleMilestones ? (
+          <ul>
+            {milestone.split(',').map((item, index) => (
+              <li key={index}>{item.trim()}</li>
+            ))}
+          </ul>
+        ) : (
+          milestone
+        )}
 
         </div>
 

@@ -1,35 +1,35 @@
 export const flowers = [ 
     
     {
-        source: './flowers/01.png'
+        source: './flowers/01.webp'
     },
 
     {
-        source: './flowers/02.png'
+        source: './flowers/02.webp'
     },
 
     {
-        source: './flowers/03.png'
+        source: './flowers/03.webp'
     },
 
     {
-        source: './flowers/04.png'
+        source: './flowers/04.webp'
     },
 
     {
-        source: './flowers/05.png'
+        source: './flowers/05.webp'
     },
 
     {
-        source: './flowers/06.png'
+        source: './flowers/06.webp'
     },
 
     {
-        source: './flowers/07.png'
+        source: './flowers/07.webp'
     },
 
     {
-        source: './flowers/08.png'
+        source: './flowers/08.webp'
     },
     
 

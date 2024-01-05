@@ -1,17 +1,14 @@
 import React from "react";
+import ReactHtmlParser from 'react-html-parser';
+
 
 import Image from "./Image";
 import Details from "./Details";
 
 
-const Section = ({title, hero, contents, intention, milestone, favorite, alt1, alt2}) => {
+const Section = ({title, hero, contents, intention, milestone, favorite, alt1, alt2, favImg}) => {
 
-    const formattedContent = contents.split('\n').map((paragraph, index) => (
-        <React.Fragment key={index}>
-          {paragraph}
-          <br />
-        </React.Fragment>
-      ));
+      const parsedContent = ReactHtmlParser(contents);
     
     
     return (
@@ -23,7 +20,7 @@ const Section = ({title, hero, contents, intention, milestone, favorite, alt1, a
         border={true}
         />
 
-        <p class="paragraph">{formattedContent}</p>
+        <p class="paragraph">{parsedContent}</p>
 
             {alt1 ? <Image
                 source={alt1}
@@ -42,6 +39,12 @@ const Section = ({title, hero, contents, intention, milestone, favorite, alt1, a
             milestone={milestone}
             favorite={favorite}
         />
+
+        {favImg ? <Image
+                source={favImg}
+                border={true}
+                />
+             : ''}  
       
     </div>
      );
