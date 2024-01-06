@@ -21,8 +21,14 @@ const Archive = () => {
                 type='Construction of self'
                 year='2018 - forever'
               />
+      </div>
+    </div>
 
-           <p className='paragraph intro-p'>I’ve built my website from scratch since 2018 and have taught myself everything it takes to do so along the way. It’s the most telling artifact of my relationship to my art practice and professional life over time.<br/><br/>
+    <div className='timeline'>
+
+            <div className="section archive-intro">
+              <h2>Introduction</h2>
+            <p className='paragraph'>I’ve built my website from scratch since 2018 and have taught myself everything it takes to do so along the way. It’s the most telling artifact of my relationship to my art practice and professional life over time.<br/><br/>
            
            Through every iteration, some themes have stayed consistent:
            
@@ -32,8 +38,16 @@ const Archive = () => {
               <li>I’ve always struggled to create a cohesive narrative about my interests, skills, and craft.</li>
               <li>I‘ve always had a preference for organizing my website in as few pages as possible.</li>
               <li>I’ve always loved list-based layouts.</li>
-           </ol></p>
+           </ol>
 
+           </p>
+
+           <p className='paragraph'>
+           
+           *My true first website was a Squarespace portfolio site that I built in an all-nighter over Christmas break in 2017. This site was never crawled by the <a href="https://web.archive.org/" target="_blank">Wayback Machine</a> so it’s lost to the ether.</p>
+
+
+            </div>
            {webArchive.map(version => (
                       <Section
                         title={version.version}
@@ -46,10 +60,7 @@ const Archive = () => {
                         favorite={version.favorite}
                       />
                     ))}
-
-      </div>
-
-    </div>
+           </div>
 
     </>
         

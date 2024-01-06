@@ -76,11 +76,13 @@ a:hover {
 body {
     scrollbar-color: var(--light) #7d93ed);
     scrollbar-width: thin;
+    scrollbar-height: thin;
   }
 
 ::-webkit-scrollbar {
     background-color: var(--light);
     width: 8px;
+    height: 0;
 }
   
 ::-webkit-scrollbar-thumb {
@@ -579,12 +581,54 @@ p.bio {
 
 /* WEBSITE ARCHIVE */
 
-.section {
+/* .section {
     margin-bottom: 10rem;
-}
+} */
 
 h2 {
     font-size: 1.75rem;
+}
+
+.timeline {
+    display: grid;
+    overflow-x: scroll;
+    gap: 20px;
+    grid-template-columns: auto repeat(10, 750px);
+    margin-top: -48px;
+    padding: 48px;
+    background-color: var(--light);
+    scroll-snap-type: x mandatory;
+    height: calc(100vh - 96px);
+    overflow-y: hidden;
+}
+
+.section {
+    border: 1px solid var(--mid);
+    border-radius: 2px;
+    background-color: #f4f5f2;
+    height: fit-content;
+    padding: 0 1px 48px 0;
+    scroll-snap-align: center;
+    overflow-y: scroll;
+}
+
+.section > .paragraph, .section > .details {
+    width: auto;
+    margin: 0 36px 12px 36px;
+}
+
+ol {
+    margin-bottom: 36px;
+}
+
+.section.archive-intro {
+    width: 450px;
+    background-color: rgb(255, 255, 0);
+}
+
+.section h2 {
+    margin-left: 36px;
+    margin-right: 36px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -596,6 +640,15 @@ h2 {
             "writing proj";
         margin: 64px;
         margin-bottom: 48px;
+    }
+
+    .timeline {
+        grid-template-columns: auto repeat(10, 450px);
+        padding: 24px;
+    }
+
+    .section.archive-intro {
+        width: 300px;
     }
 }
 
@@ -609,7 +662,28 @@ h2 {
         gap: 48px;
     }
 
-   
+    .timeline {
+        grid-template-columns: repeat(11, 95%);
+        gap: 12px;
+    }
+
+    .section.archive-intro {
+        width: auto;
+    }
+
+   .section {
+    padding-right: -1px;
+    padding-left: -1px;
+   }
+
+   .section > .paragraph, .section h2 {
+        margin-left: 16px;
+        margin-right: 16px;
+   }
+
+   .page-wrapper {
+     margin-top: 24px;
+   }
 
     .right, .left {
         border: none;
@@ -700,7 +774,6 @@ h2 {
 
     .page-image {
         width: 120%;
-        border: none;
     }
 
     figcaption {
@@ -738,10 +811,6 @@ h2 {
         display: flex;
         flex-direction: column;
         gap: 16px;
-    }
-
-    .border{
-        border: none;
     }
     
 }

@@ -6,7 +6,7 @@ export const projects = [
     year: '2018 - forever',
     type: 'Web Design and Development',
     context: 'personal',
-    link: '/website-archive',
+    link: '/website',
     cover: './img/covers/website.webp',
     target: '_self',
     case: false,

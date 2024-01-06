@@ -17,7 +17,7 @@ import People from './pages/people';
 import Sketch from './pages/sketch';
 import StudentVisa from './pages/student-visa';
 import Flowers from './pages/flowers';
-import Archive from './pages/website-archive';
+import Archive from './pages/website';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,12 +26,11 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="bfa" element={<BlueFlower />} />
       <Route path="habit" element={<Habit />} />
-      {/* <Route path="maker" element={<Maker />} /> */}
       <Route path="people" element={<People />} />
       <Route path="sketch" element={<Sketch />} />
       <Route path="student-visa" element={<StudentVisa />} />
       <Route path="flowers" element={<Flowers />} />
-      <Route path="website-archive" element={<Archive />} />
+      <Route path="website" element={<Archive />} />
     </Routes>
   </BrowserRouter>
   
