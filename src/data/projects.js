@@ -13,17 +13,17 @@ export const projects = [
 
   },
  
-  {  
-    title: "The Pleasure x Effort Matrix",
-    description: "A syllabus",
-    year: '2024',
-    type: 'Writing',
-    context: 'personal',
-    link: 'https://syllabusproject.org/',
-    cover: './img/covers/syllabus.webp',
-    target: '_blank',
-    case: false,
-  },
+  // {  
+  //   title: "The Pleasure x Effort Matrix",
+  //   description: "A syllabus",
+  //   year: '2024',
+  //   type: 'Writing',
+  //   context: 'personal',
+  //   link: 'https://syllabusproject.org/',
+  //   cover: './img/covers/syllabus.webp',
+  //   target: '_blank',
+  //   case: false,
+  // },
 
   {  
     title: "The Memo, New York Times Advertising",

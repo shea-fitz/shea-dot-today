@@ -125,7 +125,7 @@ export const webArchive = [
         alt2: "",
         content: `I took my website off of placeholder-mode when I was invited to contribute to <a href="https://syllabusproject.org/" target="_blank">Syllabus Project</a> and didn't want my writing credit to lead to a dead end. And for the first time in 6 years...I’m not job hunting. I feel less pressure to categorize myself and have the luxury of a job title that people don't question. I have the space and time to reevaluate myself as an artist, but I'm less worried about the optics from a hiring perspective. I'm just vibing out on the web.`,
         intention: "Refinement and breathability",
-        milestone: "Refactoring to use CSS Grid, Improved image optimization, String parsing",
+        milestone: "Refactored to use CSS Grid, Image optimization",
         favorite: 'Custom scrollbar, finally'
       }
   ];

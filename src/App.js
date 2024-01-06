@@ -33,6 +33,7 @@ function App() {
               </div>
           </div>
 
+          <div className="proj-list">
           {projects.map(project => (
                       <Project
                         cover={project.cover}
@@ -46,6 +47,10 @@ function App() {
                         caseStudy={project.case}
                       />
                     ))}
+
+          </div>
+
+         
         </div>
         
           <div className="writing">
@@ -65,7 +70,9 @@ function App() {
 
           <div className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></div>         
     
-      </div>        
+      </div>    
+
+      <div className="footer">♫ Last updated January 5, 2024 ♫</div>    
     </>
   );
 }
