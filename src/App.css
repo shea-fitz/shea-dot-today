@@ -596,20 +596,35 @@ h2 {
     grid-template-columns: auto repeat(10, 750px);
     margin-top: -48px;
     padding: 48px;
+    padding-bottom: 0;
     background-color: var(--light);
     scroll-snap-type: x mandatory;
-    height: calc(100vh - 96px);
+    height: calc(100vh - 48px);
+    border-top: 1px solid var(--cs-grad-right);
     overflow-y: hidden;
 }
+
+.section {
+    scrollbar-color: var(--light) #7d93ed);
+    scrollbar-width: 0;
+  }
+
+.section::-webkit-scrollbar {
+    background-color: var(--light);
+    width: 0;
+    height: 0;
+}
+
 
 .section {
     border: 1px solid var(--mid);
     border-radius: 2px;
     background-color: #f4f5f2;
-    height: fit-content;
+    height: max-contentt;
     padding: 0 1px 48px 0;
     scroll-snap-align: center;
-    overflow-y: scroll;
+    overflow: auto;
+    border-bottom: none;
 }
 
 .section > .paragraph, .section > .details {
@@ -644,7 +659,8 @@ ol {
 
     .timeline {
         grid-template-columns: auto repeat(10, 450px);
-        padding: 24px;
+        padding: 24px; 
+        padding-bottom: 0;   
     }
 
     .section.archive-intro {
@@ -665,6 +681,7 @@ ol {
     .timeline {
         grid-template-columns: repeat(11, 95%);
         gap: 12px;
+        height: calc(100vh - 24px);
     }
 
     .section.archive-intro {
@@ -679,6 +696,12 @@ ol {
    .section > .paragraph, .section h2 {
         margin-left: 16px;
         margin-right: 16px;
+   }
+
+   .section > .details {
+    margin: 0;
+    border-radius: 0;
+    background: none;
    }
 
    .page-wrapper {

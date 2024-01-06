@@ -60,7 +60,8 @@ const Archive = () => {
                         favorite={version.favorite}
                       />
                     ))}
-           </div>
+          </div>
+           
 
     </>
         
