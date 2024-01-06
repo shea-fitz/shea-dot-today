@@ -1,4 +1,6 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+
 import './App.css';
 
 // DATA
@@ -21,10 +23,13 @@ function App() {
       <div className="wrapper">  
 
 
+    <Fade>
       <div className="info">
           <div className="header">Shea Fitzpatrick</div><Info/></div>
+    </Fade>
     
-          
+
+    <Fade>   
         <div className="projects">
           <div className="header proj-header space-between">Projects
               <div className="categories">
@@ -47,13 +52,14 @@ function App() {
                         caseStudy={project.case}
                       />
                     ))}
-
           </div>
 
-         
-        </div>
+          </div>
+        </Fade>      
         
-          <div className="writing">
+
+        <Fade>
+        <div className="writing">
             <div className="header">Writing</div>
             <div className="writing-list">
             {writing.map(piece => (
@@ -67,8 +73,13 @@ function App() {
 
             </div>
           </div>
+        </Fade>
+          
 
+          <Fade>
           <div className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></div>         
+          </Fade>
+
     
       </div>    
 

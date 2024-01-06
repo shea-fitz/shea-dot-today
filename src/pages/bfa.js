@@ -1,4 +1,6 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+
 import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import Back from '../components/Back';
@@ -18,6 +20,7 @@ import home from  '../media/bfa/home.svg';
   
 const BlueFlower = () => {
   return (
+    <Fade>
     <div className="page-wrapper">
 
     <div className="back-button">
@@ -166,6 +169,7 @@ const BlueFlower = () => {
         </div>
       
     </div>
+    </Fade>
   );
 };
   

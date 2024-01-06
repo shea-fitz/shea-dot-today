@@ -1,4 +1,7 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+
 import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import Back from '../components/Back';
@@ -6,6 +9,7 @@ import {habit} from '../data/habit';
   
 const Habit = () => {
   return (
+    <Fade>
     <div className="page-wrapper">
            <div className="back-button">
     <Back/>
@@ -39,6 +43,7 @@ const Habit = () => {
 
         </div>
       </div>
+     </Fade> 
       
   );
 };

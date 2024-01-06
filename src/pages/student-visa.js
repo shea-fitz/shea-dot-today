@@ -1,4 +1,6 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+
 import PageHeader from '../components/PageHeader';
 import Back from '../components/Back';
 import Image from '../components/Image';
@@ -13,6 +15,8 @@ import index from '../media/student-visa/index.webp';
   
 const StudentVisa = () => {
   return (
+
+    <Fade>
     <div className="page-wrapper">
            <div className="back-button">
     <Back/>
@@ -115,6 +119,7 @@ const StudentVisa = () => {
 
       </div>
     </div>
+    </Fade>
   );
 };
   

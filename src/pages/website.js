@@ -1,4 +1,6 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+
 import PageHeader from '../components/PageHeader';
 import Back from '../components/Back';
 import Section from '../components/Section';
@@ -10,6 +12,10 @@ const Archive = () => {
 
     return (
       <>
+
+      <Fade>
+
+    
       <div className="page-wrapper">
           <div className="back-button">
                   <Back/>
@@ -48,6 +54,7 @@ const Archive = () => {
 
 
             </div>
+
            {webArchive.map(version => (
                       <Section
                         title={version.version}
@@ -62,7 +69,7 @@ const Archive = () => {
                     ))}
           </div>
            
-
+      </Fade>
     </>
         
     );
