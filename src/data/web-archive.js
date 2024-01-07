@@ -31,7 +31,7 @@ export const webArchive = [
         version: "Version 3: Early 2020",
         cover: "./website-archive/v3_cover.webp",
         alt1: "./website-archive/v3_alt-1.webp",
-        alt2: "",
+        alt2: "./website-archive/v4_alt-1.webp",
         content: `I left that first job in March 2020, and entered a 15-month-long freelancing stint and job hunt that required me to start explicitly pivoting my self-presentation away from visual art towards design. I didn’t have much design work to show for myself, so this iteration was my first attempt at treating my personal website as web-design portfolio piece itself. <br/><br/>
 
         I was also beginning to feel self-conscious about a lack of cohesion in my visual work, and frankly didn’t like a lot of it. It was early quarantine, and I was working my way through the <a href="https://www.superhi.com/courses/javascript-for-designers" target="_blank">SuperHi JavaScript for Designers</a> course, and I purposefully nested all images of my work so I wouldn’t have to necessarily design in conversation with them.`,
@@ -43,7 +43,7 @@ export const webArchive = [
       {
         version: "Version 4: Mid 2020",
         cover: "./website-archive/v4_cover.webp",
-        alt1: "./website-archive/v4_alt-1.webp",
+        alt1: "",
         alt2: "",
         content: `At this point, I was feeling increasingly detached from my identity as a visual artist, but felt like I had very little else to show for myself. I now had intense chronic pain in my wrists that made it difficult to hold anything in my hands, let alone keep up a digital art practice while also doing computer-based work to support myself. I was indecisive and lacking confidence. A text-forward site felt like a safe-haven for my identity crisis.`,
         intention: "Deemphasize myself as a visual artist, Communicate a range of interests without being project-forward, Make myself seem as interesting and competent as possible without referencing actual projects or work experience...",
