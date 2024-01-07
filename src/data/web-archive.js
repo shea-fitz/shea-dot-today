@@ -125,7 +125,7 @@ export const webArchive = [
         alt2: "",
         content: `I decided to take my website off of placeholder-mode when I was invited to contribute writing to an online publication and didn't want my writing credit to lead to a dead end. I was also sick and home alone for two weeks straight at the end of 2023 with nothing but the impulse to overhaul my digital and domestic surroundings.<br/><br/> 
         
-        And for the first time in 6 years...I’m not job hunting. I feel less pressure to categorize myself and have the luxury of a job title attached to a household name. I have less explaining to do...and I have the space and time to reevaluate myself as an artist, but I'm less worried about the optics from a hiring perspective. I'm just vibing out on the web.`,
+        And for the first time in 6 years...I’m not job hunting. I feel less pressure to categorize myself and have the luxury of a job title attached to a household name. I have less explaining to do...and I have the space and time to reevaluate myself as an artist, but I'm less worried about the optics from a hiring perspective. I'm just hanging out on the web.`,
         intention: "Refinement and breathability",
         milestone: "Refactored to use CSS Grid, Image optimization, Fade transitions on page load",
         favorite: 'Custom scrollbar, finally...my favorite part of any website'
