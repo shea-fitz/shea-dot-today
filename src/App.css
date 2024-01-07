@@ -623,7 +623,8 @@ h2 {
     height: max-contentt;
     padding: 0 1px 48px 0;
     scroll-snap-align: center;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin-bottom: 48px;
 }
 
@@ -661,9 +662,9 @@ ol {
 
     .timeline {
         grid-template-columns: auto repeat(10, 450px);
-        padding: 24px; 
+        padding: 36px; 
         padding-bottom: 0;  
-        height: calc(100vh - 24px) 
+        height: calc(100vh - 36px) 
     }
 
     .section.archive-intro {
