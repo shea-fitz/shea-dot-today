@@ -624,7 +624,7 @@ h2 {
     padding: 0 1px 48px 0;
     scroll-snap-align: center;
     overflow: auto;
-    border-bottom: none;
+    margin-bottom: 48px;
 }
 
 .section > .paragraph, .section > .details {
@@ -639,6 +639,8 @@ ol {
 .section.archive-intro {
     width: 450px;
     background-color: rgb(255, 255, 0);
+    margin-bottom: 48px;
+    border-bottom: 1px solid var(--mid);
 }
 
 .section h2 {
@@ -660,11 +662,17 @@ ol {
     .timeline {
         grid-template-columns: auto repeat(10, 450px);
         padding: 24px; 
-        padding-bottom: 0;   
+        padding-bottom: 0;  
+        height: calc(100vh - 24px) 
     }
 
     .section.archive-intro {
         width: 300px;
+        margin-bottom: 24px;
+    }
+
+    .section {
+        margin-bottom: 24px;
     }
 }
 

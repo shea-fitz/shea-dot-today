@@ -21,7 +21,7 @@ export const webArchive = [
       cover: "./website-archive/v2_cover.webp",
       alt1: "./website-archive/v2_alt-1.webp",
       alt2: "./website-archive/v2_alt-2.webp",
-      content: "At work, I had swindled my way from a title of Office Manager to a title of UI/UX Designer, which is the kind of rogue maneuver you can get away with at a small start-up by volunteering to do design work until you have enough project experience to make a genuine case for this kind of promotion (I later learned that when a company calls a role “UI/UX Designer,” that’s a design industry red flag). At this point I still felt mostly like an artist, and was getting a lot of validation for my artwork, but if felt forced and, as I started developing wrist problems, physically unsustainable. This iteration still feels like an “artist’s website,” but I was losing bandwidth to focus on anything but improving my job situation, which was really weighing on my day-to-day emotional state, so I would soon channel more energy to constructing myself as a web designer.",
+      content: "At work, I had swindled my way from a title of Office Manager to a title of UI/UX Designer, which is the kind of rogue maneuver you can get away with at a small start-up by volunteering to do design work until you have enough project experience to make a genuine case for this kind of promotion (I later learned that a company calling a role “UI/UX Designer” is a design industry red flag, because it implies no one at the company understands either). At this point I still felt mostly like an artist, and was getting a lot of validation for my artwork, but if felt forced, and as I started having wrist problems, physically impossible. This iteration still feels like an “artist’s website,” but I was losing bandwidth to focus on anything but improving my job situation, which was disproportionately weighing on my day-to-day emotional state, so I would soon channel more energy to constructing myself as a web designer.",
       intention: "Create a denser display of information on the homepage, Give individual projects more room to breathe on their own pages, Iterate on a visual “brand” I had started developing using this color palette",
       milestone: "First multi-page website, More dynamic use of Tachyons page layouts",
       favorite: "My doodle-y “headshot,” aka self-timer iPhone photo in a Berlin Airbnb"
@@ -32,7 +32,7 @@ export const webArchive = [
         cover: "./website-archive/v3_cover.webp",
         alt1: "./website-archive/v3_alt-1.webp",
         alt2: "",
-        content: `I left that first job in March 2020, and entered a 15-month-long freelancing stint and job hunt that required me to start explicitly pivoting my self-presentation away from visual art towards design. I didn’t have much design work to show for myself, so this iteration was my first attempt at treating my personal website as web-design portfolio piece in and of itself. <br/><br/>
+        content: `I left that first job in March 2020, and entered a 15-month-long freelancing stint and job hunt that required me to start explicitly pivoting my self-presentation away from visual art towards design. I didn’t have much design work to show for myself, so this iteration was my first attempt at treating my personal website as web-design portfolio piece itself. <br/><br/>
 
         I was also beginning to feel self-conscious about a lack of cohesion in my visual work, and frankly didn’t like a lot of it. It was early quarantine, and I was working my way through the <a href="https://www.superhi.com/courses/javascript-for-designers" target="_blank">SuperHi JavaScript for Designers</a> course, and I purposefully nested all images of my work so I wouldn’t have to necessarily design in conversation with them.`,
         intention: "Infuse more personality into the design, Contain all info on one page with minimal scrolling, Create a more personal tone in my bio, Hide my visual work on the site’s first impression",
@@ -45,9 +45,9 @@ export const webArchive = [
         cover: "./website-archive/v4_cover.webp",
         alt1: "./website-archive/v4_alt-1.webp",
         alt2: "",
-        content: `At this point, I was feeling increasingly detached from my identity as a visual artist, but felt like I had very little else to show for myself. I had developed intense chronic pain in my wrists that made my digital art practice untenable while also doing computer-based work to support myself. I was indecisive and lacking confidence. A text-forward site felt like a safe-haven for my identity crisis.`,
-        intention: "Deemphasize myself as a visual artist, Communicate a range of interests without being project-forward, Make myself seem as interesting and competent as possible without referencing actual projects or work experience",
-        milestone: "None, but my older sister who’s a physicist ripped the source code for her own website without telling me, which was validating",
+        content: `At this point, I was feeling increasingly detached from my identity as a visual artist, but felt like I had very little else to show for myself. I now had intense chronic pain in my wrists that made it difficult to hold anything in my hands, let alone keep up a digital art practice while also doing computer-based work to support myself. I was indecisive and lacking confidence. A text-forward site felt like a safe-haven for my identity crisis.`,
+        intention: "Deemphasize myself as a visual artist, Communicate a range of interests without being project-forward, Make myself seem as interesting and competent as possible without referencing actual projects or work experience...",
+        milestone: "None, But my older sister ripped the source code for her own website without telling me which gave my inner child intense satisfaction",
         favorite: "The custom multi-colored bullet points in the bio"
       },
 
@@ -58,7 +58,7 @@ export const webArchive = [
         alt2: "./website-archive/v5_alt-2.webp",
         content: `I had accumulated more freelance work as a web designer, but my design instincts continued to be informed by my interest in sequential art and abstract comics. I wanted to create a panel-based layout that housed a range of content that varied in form and utility, kind of like a website dollhouse. I remember being very inspired by <a href="https://nathan.tokyo/" target="_blank">Nathan Taylor's portfolio</a>, which I found on Are.na, but was unable to match, and slightly uninterested in matching, the fidelity of Nathan’s site.`,
         intention: "Coherently distinguish between my design practice and art practice in a single portfolio, Make my website feel like a funhouse",
-        milestone: "More advanced FlexBox layouts, but still using Tachyons",
+        milestone: "More advanced FlexBox layouts but still using Tachyons",
         favorite: "I hid a dream journal as an easter egg on this site"
       },
 
@@ -72,9 +72,9 @@ export const webArchive = [
         This is my favorite iteration of my website besides my current one – it felt true to me and my work and less like I was trying to recreate things I saw. It definitely didn’t look like a conventional design portfolio, and I took a lot of pride in that. I started to notice people adding my website to design moodboards on Are.na, and even found someone who ripped my style sheet and credited me on their own website. It’s the small victories...<br/><br/>
         
         This was my website when I got my first full-time product design job.`,
-        intention: "Find a job once and for all",
-        milestone: "First time feeling like I actually matched with my website",
-        favorite: "I really love this type treatment and think it wasn’t trying to hard to be trendy"
+        intention: "Find a job once and for all!!",
+        milestone: "First time feeling like my website came from me and not from an assemblage of other people's designs",
+        favorite: "I really love this type treatment and think it was impactful without being overly trendy :)"
       },
 
       {
@@ -82,9 +82,11 @@ export const webArchive = [
         cover: "./website-archive/v7_cover.gif",
         alt1: "",
         alt2: "",
-        content: `II was in limbo here. Amazingly, I had a job now, but it wasn’t right for me and I was antsy about it. I wasn’t producing art, so my old site felt disingenuous. I wanted to show that I was “doing stuff,” but had no way to unify what I was doing. I was honestly embarrassed of my work – this was so harsh on myself, because at the time I had maybe a year of actual design experience, and it was peak-pandemic – so I felt the need to reference projects without actually showing them, all under a sheen of being “multi-disciplinary.” I wanted to hide myself…and I also wanted an excuse to learn React.`,
+        content: `I was in limbo here. Amazingly, I had a job now, but it wasn’t quite right for me and I was antsy about it. I wasn’t producing art, so my old site felt disingenuous. I wanted to show that I was “doing stuff,” but had no way to unify what I was doing. I was honestly embarrassed of my work – this was so harsh on myself, because at the time I had maybe a year of actual design experience, and it was peak-pandemic – so I felt the need to reference projects without actually showing them, all under a sheen of being “multi-disciplinary” (this is a clearly a theme in how my insecurities manifest). I wanted to hide myself…and I also wanted an excuse to learn React.</br></br>
+        
+        My girlfriend helped me deploy this on Netlify instead of my usual GoDaddy, which at first wasn't working, then when it finally did we screamed.`,
         intention: "Learn React, Create a minimal resume-like feel, Take my work “off the grid” for a bit",
-        milestone: "Using React.js, Moved hosting to Netlify",
+        milestone: "Using React.js, Moved hosting to Netlify (WAY cheaper!!)",
         favorite: "The rotating headers on scroll (which I made with a library)"
       },
 
@@ -93,7 +95,7 @@ export const webArchive = [
         cover: "./website-archive/v8_cover.webp",
         alt1: "./website-archive/v8_alt-1.webp",
         alt2: "",
-        content: `I was back on the job hunt, and taking it really seriously. Rather than feeling like I was teetering between feeling like an artist vs. a web designer, my design sensibility had grown more informed by artists whose medium is websites.<br/><br/>
+        content: `After almost 2 years as a product designer at a small tech agency, I was back on the job hunt with a rigor. Rather than feeling like I was teetering between feeling like an artist vs. a web designer, my design sensibility had grown more informed by artists whose medium is websites.<br/><br/>
 
         I had a much better understanding of CSS thanks to <a href="https://css-for-js.dev/" target="_blank">Josh Comeau’s CSS for JavaScript Developers</a> and was actually more comfortable writing all my CSS from scratch than using a library. <br/><br/>
         
@@ -110,10 +112,10 @@ export const webArchive = [
         alt2: "",
         content: `This was a good old fashioned placeholder site. I've had more of these over the years, but haven't kept track of all of them. I felt a new relief of being able to take myself off the internet after getting a big job.<br/><br/>
         
-        I’ve had the domain <span class="highlight">shea.today</span> for a long time, and always consider switching my domain from <span class="highlight">sheafitz.com</span>, but there’s something that pulls me back toward keeping it classic. <span class="highlight">shea.today</span> will probably be something else one day…`,
+        I’ve had the domain <span class="highlight">shea.today</span> for a long time, and always consider switching my domain from <span class="highlight">sheafitz.com</span>, but there’s something that pulls me back toward keeping the domain I've always had. Something about it feels like trying to rename a stuffed animal from your childhood. <span class="highlight">shea.today</span> will probably be something else one day…`,
         intention: "The “Gone Fishing” of websites",
-        milestone: "I didn't need a job and my website didn’t have to be anything at all",
-        favorite: "Music note header that I couldn’t center for the life of me but I didn’t have to care"
+        milestone: "I didn't need a job...and my website didn’t have to be anything at all",
+        favorite: "Music note header that I couldn’t center for the life of me (but I didn’t have to care)"
       },
 
       {
@@ -121,10 +123,12 @@ export const webArchive = [
         cover: "./website-archive/v10_cover.webp",
         alt1: "",
         alt2: "",
-        content: `I took my website off of placeholder-mode when I was invited to contribute to <a href="https://syllabusproject.org/" target="_blank">Syllabus Project</a> and didn't want my writing credit to lead to a dead end. And for the first time in 6 years...I’m not job hunting. I feel less pressure to categorize myself and have the luxury of a job title that people don't question. I have the space and time to reevaluate myself as an artist, but I'm less worried about the optics from a hiring perspective. I'm just vibing out on the web.`,
+        content: `I decided to take my website off of placeholder-mode when I was invited to contribute writing to an online publication and didn't want my writing credit to lead to a dead end. I was also sick and home alone for two weeks straight at the end of 2023 with nothing but the impulse to overhaul my digital and domestic surroundings.<br/><br/> 
+        
+        And for the first time in 6 years...I’m not job hunting. I feel less pressure to categorize myself and have the luxury of a job title attached to a household name. I have less explaining to do...and I have the space and time to reevaluate myself as an artist, but I'm less worried about the optics from a hiring perspective. I'm just vibing out on the web.`,
         intention: "Refinement and breathability",
-        milestone: "Refactored to use CSS Grid, Image optimization",
-        favorite: 'Custom scrollbar, finally'
+        milestone: "Refactored to use CSS Grid, Image optimization, Fade transitions on page load",
+        favorite: 'Custom scrollbar, finally...my favorite part of any website'
       }
   ];
   
