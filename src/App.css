@@ -713,6 +713,10 @@ ol {
     background: none;
    }
 
+   .section ul {
+    padding-inline-start: 16px;
+   }
+
    .page-wrapper {
      margin-top: 24px;
    }
