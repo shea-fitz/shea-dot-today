@@ -84,9 +84,9 @@ export const webArchive = [
         alt2: "",
         content: `I was in limbo here. Amazingly, I had a job now, but it wasn’t quite right for me and I was antsy about it. I wasn’t producing art, so my old site felt disingenuous. I wanted to show that I was “doing stuff,” but had no way to unify what I was doing. I was honestly embarrassed of my work – this was so harsh on myself, because at the time I had maybe a year of actual design experience, and it was peak-pandemic – so I felt the need to reference projects without actually showing them, all under a sheen of being “multi-disciplinary” (this is a clearly a theme in how my insecurities manifest). I wanted to hide myself…and I also wanted an excuse to learn React.</br></br>
         
-        My girlfriend helped me deploy this on Netlify instead of my usual GoDaddy, which at first wasn't working, then when it finally did we screamed.`,
+        My girlfriend helped me deploy this on Netlify instead of GoDaddy, which at first wasn't working, then when it finally did we screamed.`,
         intention: "Learn React, Create a minimal resume-like feel, Take my work “off the grid” for a bit",
-        milestone: "Using React.js, Moved hosting to Netlify (WAY cheaper!!)",
+        milestone: "Using React.js, Moved hosting to Netlify (WAY cheaper!)",
         favorite: "The rotating headers on scroll (which I made with a library)"
       },
 
