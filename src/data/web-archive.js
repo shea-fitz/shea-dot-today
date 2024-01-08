@@ -37,7 +37,7 @@ export const webArchive = [
         I was also beginning to feel self-conscious about a lack of cohesion in my visual work, and frankly didn’t like a lot of it. It was early quarantine, and I was working my way through the <a href="https://www.superhi.com/courses/javascript-for-designers" target="_blank">SuperHi JavaScript for Designers</a> course, and I purposefully nested all images of my work so I wouldn’t have to necessarily design in conversation with them.`,
         intention: "Infuse more personality into the design, Contain all info on one page with minimal scrolling, Create a more personal tone in my bio, Hide my visual work on the site’s first impression",
         milestone: "Writing JS from scratch, Building a split screen page layout with independent scroll behavior, Using default CSS colors",
-        favorite: "I used only default CSS colors in this entire design (tomato, snow, lightcyan, and pringgreen), and cited them all like a footnote"
+        favorite: "I used only default CSS colors in this entire design (tomato, snow, lightcyan, and springgreen), and cited them all like a footnote"
       },
 
       {
