@@ -46,7 +46,7 @@ export const webArchive = [
         alt1: "",
         alt2: "",
         content: `At this point, I was feeling increasingly detached from my identity as a visual artist, but felt like I had very little else to show for myself. I now had intense chronic pain in my wrists that made it difficult to hold anything in my hands, let alone keep up a digital art practice while also doing computer-based work to support myself. I was indecisive and lacking confidence. A text-forward site felt like a safe-haven for my identity crisis.`,
-        intention: "Deemphasize myself as a visual artist, Communicate a range of interests without being project-forward, Make myself seem as interesting and competent as possible without referencing actual projects or work experience...",
+        intention: "Deemphasize myself as a visual artist, Make myself seem as interesting and competent as possible without referencing actual projects or work experience...",
         milestone: "None, But my older sister ripped the source code for her own website without telling me which gave my inner child intense satisfaction",
         favorite: "The custom multi-colored bullet points in the bio"
       },
