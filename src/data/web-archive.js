@@ -74,7 +74,7 @@ export const webArchive = [
         This was my website when I got my first full-time product design job.`,
         intention: "Find a job once and for all!!",
         milestone: "First time feeling like my website came from me and not from an assemblage of other people's designs",
-        favorite: "I really love this type treatment and think it was impactful without being overly trendy :)"
+        favorite: "I really love this type treatment and think it was impactful without being overly trendy"
       },
 
       {
