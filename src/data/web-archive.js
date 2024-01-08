@@ -99,7 +99,7 @@ export const webArchive = [
 
         I had a much better understanding of CSS thanks to <a href="https://css-for-js.dev/" target="_blank">Josh Comeau’s CSS for JavaScript Developers</a> and was actually more comfortable writing all my CSS from scratch than using a library. <br/><br/>
         
-        This was my website when I got a job a senior web design job at the New York Times.`,
+        This was my website when I got a senior web design job at the New York Times.`,
         intention: "Evolve my design style from graphic and playful to thoughtful and atmospheric, Leverage a better understanding of React for more dynamic rendering and data handling",
         milestone: "Calling a third-party API,Using conditional rendering, Writing all CSS from scratch",
         favorite: "Giving the website a theme song (Ars Nova by Emerald Web)"
