@@ -110,7 +110,7 @@ export const webArchive = [
         cover: "./website-archive/v9_cover.webp",
         alt1: "",
         alt2: "",
-        content: `This was a true placeholder site. I've had more of these over the years, but haven't kept track of all of them. I felt a new relief of being able to take myself off the internet after getting a job I was happy with.<br/><br/>
+        content: `This was a true placeholder site. I've had more of these over the years, but haven't kept track of all of them. I felt a new relief in being able to take myself off the internet after getting a new job.<br/><br/>
         
         My bio on this site opens with "Today Shea..." – I’ve had the domain <span class="highlight">shea.today</span> for a long time, and always consider switching my domain from <span class="highlight">sheafitz.com</span>, but there’s something that pulls me back toward keeping the domain I've always had. Something about it feels like trying to rename a stuffed animal from your childhood. <span class="highlight">shea.today</span> will probably be something else one day…`,
         intention: "The “Gone Fishing” of websites",
