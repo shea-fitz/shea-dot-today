@@ -95,7 +95,7 @@ export const webArchive = [
         cover: "./website-archive/v8_cover.webp",
         alt1: "./website-archive/v8_alt-1.webp",
         alt2: "",
-        content: `After almost 2 years as a product designer at a small tech agency, I was back on the job hunt with a rigor. Rather than feeling like I was teetering between feeling like an artist vs. a web designer, my design sensibility had grown more informed by artists whose medium is websites.<br/><br/>
+        content: `After almost 2 years as a product designer at a small tech agency, I was back on the job hunt with a rigor. Rather than teetering between feeling like an artist vs. a web designer, my design sensibility had grown more informed by artists whose medium is websites.<br/><br/>
 
         I had a much better understanding of CSS thanks to <a href="https://css-for-js.dev/" target="_blank">Josh Comeau’s CSS for JavaScript Developers</a> and was actually more comfortable writing all my CSS from scratch than using a library. <br/><br/>
         
