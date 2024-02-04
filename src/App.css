@@ -832,6 +832,8 @@ ol {
 
     .image-gallery {
         gap: 0;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
 
     .info {
