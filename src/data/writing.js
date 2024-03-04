@@ -12,7 +12,7 @@ export const writing = [
       title: 'Shea Fitz on sheafitz.com',
       link:
         'https://blog.gossipsweb.net/behind-the-scenes/shea-fitz-on-shea-fitz.html',
-        source: 'Gossips Web',
+        source: "Gossip's Web",
         year: '2021'
     },
 
