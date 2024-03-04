@@ -253,6 +253,7 @@ audio {
     font-weight: 400;
     font-style: italic;
     letter-spacing: .05;
+    line-height: 115%;
 }
 
 .proj-year {
@@ -300,12 +301,14 @@ audio {
     width: 100%;
     filter: blur(20px);
     border-radius: 100px;
+    object-fit: cover;
 }
 
 .cover-hover {
     filter: blur(0);
     border-radius: 0;
     border-right: .5px solid var(--mid);
+    object-fit: cover;
 }
 
 

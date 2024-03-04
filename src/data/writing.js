@@ -1,12 +1,12 @@
 export const writing = [
 
-    // {
-    //   title: 'The Pleasure x Effort Matrix',
-    //   link:
-    //     '',
-    //     source: 'Syllabus Project',
-    //     year: '2024'
-    // },
+    {
+      title: 'The Pleasure x Effort Matrix',
+      link:
+        'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
+        source: 'Syllabus Project',
+        year: '2024'
+    },
 
     {
       title: 'Shea Fitz on sheafitz.com',

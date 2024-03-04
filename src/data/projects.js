@@ -1,5 +1,20 @@
 export const projects = [
 
+  
+  // {  
+  //   title: "Scent Access Memory",
+  //   description: "An Are.na Editorial collaboration",
+  //   year: '2024',
+  //   type: 'Design',
+  //   context: 'client',
+  //   link: '',
+  //   cover: './img/covers/scent.png',
+  //   target: '_blank',
+  //   case: false,
+  // },
+  
+  
+  
   {  
     title: "A History of My Personal Website",
     description: "Construction of self",
@@ -12,18 +27,6 @@ export const projects = [
     case: false,
 
   },
- 
-  // {  
-  //   title: "The Pleasure x Effort Matrix",
-  //   description: "A syllabus",
-  //   year: '2024',
-  //   type: 'Writing',
-  //   context: 'personal',
-  //   link: 'https://syllabusproject.org/',
-  //   cover: './img/covers/syllabus.webp',
-  //   target: '_blank',
-  //   case: false,
-  // },
 
   {  
     title: "The Memo, New York Times Advertising",
