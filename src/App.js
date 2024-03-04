@@ -77,7 +77,7 @@ function App() {
           
 
           <Fade>
-          <div className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></div>         
+            <a href="https://www.youtube.com/watch?v=a_EvjlM7We0&ab_channel=TheShuffler" target="_blank" className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></a>
           </Fade>
 
     

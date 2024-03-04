@@ -149,7 +149,7 @@ p.today {
     border: .5px solid var(--mid);
 }
 
-div.shea > img:hover {
+a.shea > img:hover {
    filter: drop-shadow(0 0 20px rgba(24, 24, 196, .25)) blur(0);
    cursor: pointer;
 }
@@ -163,6 +163,7 @@ div.banner {
     height: 25px;
     z-index: 1000;
     mix-blend-mode: difference;
+    pointer-events: none;
 }
 
 
