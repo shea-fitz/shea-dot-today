@@ -67,7 +67,33 @@ const Archive = () => {
                         favorite={version.favorite}
                       />
                     ))}
+
+
+          <div className="section archive-intro">
+              <h2>Influences</h2>
+            <p className='paragraph'>These are some of the conscious influences and references I had while building the current version of my website. Some are dear personal friends and some are total internet strangers. If you're seeing this and I don't know you, thank you.<br/><br/>
+          
+           
+           <ul>
+              <li><a href="https://loom.sprig.site/" target="_blank">loom.sprig.site</a></li>
+              <li><a href="http://austinwadesmith.com/" target="_blank">austinwadesmith.com</a></li>
+              <li><a href="https://elliott.computer/" target="_blank">elliott.computer</a></li>
+              <li><a href="https://laurelschwulst.com/" target="_blank">laurelschwulst.com</a></li>
+              <li><a href="https://chia.design/" target="_blank">chia.design</a></li>
+              <li><a href="https://tdingsun.github.io/lp20x20/index" target="_blank">LP 20x20</a></li>
+              <li><a href="https://joefreshgoods.com/" target="_blank">joefreshgoods.com</a></li>
+              <li><a href="https://www.cis.upenn.edu/~badler/quotes.html" target="_blanks">Norman Badler's collection of influential quotes</a></li>
+
+             
+             
+           </ul>
+
+           </p>
+
+         </div>
           </div>
+
+          
            
       </Fade>
     </>
