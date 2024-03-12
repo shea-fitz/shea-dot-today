@@ -665,7 +665,7 @@ ol {
     }
 
     .timeline {
-        grid-template-columns: auto repeat(10, 450px);
+        grid-template-columns: auto repeat(12, 450px);
         padding: 36px; 
         padding-bottom: 0;  
         height: calc(100vh - 36px) 
@@ -692,9 +692,11 @@ ol {
     }
 
     .timeline {
-        grid-template-columns: repeat(11, 95%);
+        grid-template-columns: repeat(12, 98%);
         gap: 12px;
         height: calc(100vh - 24px);
+        padding: 24px;
+        padding-bottom: 0;
     }
 
     .section.archive-intro {
