@@ -1,20 +1,4 @@
-export const projects = [
-
-  
-  // {  
-  //   title: "Scent Access Memory",
-  //   description: "An Are.na Editorial collaboration",
-  //   year: '2024',
-  //   type: 'Design',
-  //   context: 'client',
-  //   link: '',
-  //   cover: './img/covers/scent.png',
-  //   target: '_blank',
-  //   case: false,
-  // },
-  
-  
-  
+export const projects = [  
   {  
     title: "A History of My Personal Website",
     description: "Construction of self",
@@ -26,6 +10,18 @@ export const projects = [
     target: '_self',
     case: false,
 
+  },
+
+  {  
+    title: "Scent Access Memory",
+    description: "An Are.na Editorial collaboration",
+    year: '2024',
+    type: 'Illustration',
+    context: 'client',
+    link: 'https://sam.are.na/',
+    cover: './img/covers/scent.png',
+    target: '_blank',
+    case: false,
   },
 
   {  
