@@ -14,7 +14,7 @@ export const projects = [
 
   {  
     title: "Scent Access Memory",
-    description: "Visual identity for Are.na x Dirt",
+    description: "Imagery for Are.na x Dirt",
     year: '2024',
     type: 'Illustration',
     context: 'client',
