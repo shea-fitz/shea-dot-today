@@ -14,7 +14,7 @@ export const projects = [
 
   {  
     title: "Scent Access Memory",
-    description: "An Are.na Editorial collaboration",
+    description: "Visual identity for Are.na x Dirt",
     year: '2024',
     type: 'Illustration',
     context: 'client',
