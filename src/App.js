@@ -83,7 +83,7 @@ function App() {
     
       </div>    
 
-      <div className="footer">♫ I built this website with React.js and vanilla CSS. Last updated March 20, 2024 ♫</div>    
+      <div className="footer">♫ Last updated March 20, 2024 ♫</div>    
     </>
   );
 }
