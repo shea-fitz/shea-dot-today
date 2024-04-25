@@ -12,17 +12,30 @@ export const projects = [
 
   },
 
-  {  
-    title: "Scent Access Memory",
-    description: "Imagery for Are.na x Dirt",
-    year: '2024',
-    type: 'Illustration',
-    context: 'client',
-    link: 'https://sam.are.na/',
-    cover: './img/covers/scent.png',
-    target: '_blank',
-    case: false,
-  },
+  // {  
+  //   title: "Rise With The Sun",
+  //   description: "A psych rock EP",
+  //   year: '2024',
+  //   type: 'Music, Design',
+  //   context: 'personal',
+  //   link: '/sun',
+  //   cover: './img/covers/rwts.png',
+  //   target: '_self',
+  //   case: false,
+
+  // },
+
+  // {  
+  //   title: "Scent Access Memory",
+  //   description: "Imagery for Are.na x Dirt",
+  //   year: '2024',
+  //   type: 'Illustration',
+  //   context: 'client',
+  //   link: 'https://sam.are.na/',
+  //   cover: './img/covers/scent.png',
+  //   target: '_blank',
+  //   case: false,
+  // },
 
   {  
     title: "The Memo, New York Times Advertising",
