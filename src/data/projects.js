@@ -1,13 +1,26 @@
 export const projects = [  
   {  
     title: "A History of My Personal Website",
-    description: "Construction of self",
+    description: "Change over time",
     year: '2018 - forever',
     type: 'Web Design and Development',
     context: 'personal',
     link: '/website',
     cover: './img/covers/website.webp',
     target: '_self',
+    case: false,
+
+  },
+
+    {  
+    title: "The Pleasure x Effort Matrix",
+    description: "Notes on the hypothetical self",
+    year: '2024',
+    type: 'Writing',
+    context: 'Client',
+    link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
+    cover: './img/covers/syllabus.webp',
+    target: '_blank',
     case: false,
 
   },
