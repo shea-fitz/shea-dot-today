@@ -12,8 +12,8 @@ import {
 
 import BlueFlower from './pages/bfa';
 import Habit from './pages/habit';
-// import Maker from './pages/maker';
 import People from './pages/people';
+import SketchDigital from './pages/sketch-digital';
 import Sketch from './pages/sketch';
 import StudentVisa from './pages/student-visa';
 import Flowers from './pages/flowers';
@@ -27,6 +27,7 @@ root.render(
       <Route path="bfa" element={<BlueFlower />} />
       <Route path="habit" element={<Habit />} />
       <Route path="people" element={<People />} />
+      <Route path="sketch-digital" element={<SketchDigital />} />
       <Route path="sketch" element={<Sketch />} />
       <Route path="student-visa" element={<StudentVisa />} />
       <Route path="flowers" element={<Flowers />} />

@@ -12,7 +12,7 @@ const Sketch = () => {
   const [images, setImg] = useState(null);
 
   useEffect(() => {
-    axios.get('https://api.are.na/v2/channels/website-gallery-2').then(res => {
+    axios.get('https://api.are.na/v2/channels/website-gallery-siuqv3hfpny').then(res => {
       setImg(res.data.contents);
     }).catch(err => console.log(err));
   }, []);
@@ -26,9 +26,9 @@ const Sketch = () => {
 
         <div className="page-content">
           <PageHeader
-              title='Ink Drawings'
-              type='Illustration'
-              year='2021 - present'
+              title='Digital Drawings'
+              type='Illustration, Animation'
+              year='2018 - 2020'
             />
 
         <p className="paragraph">

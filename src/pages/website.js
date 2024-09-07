@@ -24,7 +24,7 @@ const Archive = () => {
           <div className="page-content">
             <PageHeader
                 title='A History of My Personal Website'
-                type='Construction of self'
+                type='Web Design and Development'
                 year='2018 - forever'
               />
       </div>
@@ -36,7 +36,7 @@ const Archive = () => {
               <h2>Introduction</h2>
             <p className='paragraph'>I’ve built my website from scratch since 2018 and have taught myself everything it takes to do so along the way. It’s the most telling artifact of my relationship to my art practice and professional life over time.<br/><br/>
            
-           Through every iteration, some themes have stayed consistent:
+           Some themes extend through every iteration:
            
            <ol>
               <li>I’ve never wanted my website to feel purely professional.</li>

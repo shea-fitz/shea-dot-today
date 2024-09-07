@@ -25,27 +25,27 @@ export const projects = [
 
   },
 
-  // {  
-  //   title: "Rise With The Sun",
-  //   description: "A psych rock EP",
-  //   year: '2024',
-  //   type: 'Music, Design',
-  //   context: 'personal',
-  //   link: '/sun',
-  //   cover: './img/covers/rwts.png',
-  //   target: '_self',
-  //   case: false,
 
-  // },
+  {  
+    title: "Scent Access Memory",
+    description: "Imagery for Are.na x Dirt",
+    year: '2024',
+    type: 'Illustration',
+    context: 'client',
+    link: 'https://sam.are.na/',
+    cover: './img/covers/scent.png',
+    target: '_blank',
+    case: false,
+  },
 
   // {  
-  //   title: "Scent Access Memory",
-  //   description: "Imagery for Are.na x Dirt",
+  //   title: "Mark Makers Series, New York Times Advertising",
+  //   description: "Interview series of influential CMOs",
   //   year: '2024',
-  //   type: 'Illustration',
+  //   type: 'Web Design and Development',
   //   context: 'client',
-  //   link: 'https://sam.are.na/',
-  //   cover: './img/covers/scent.png',
+  //   link: 'https://www.nytimes.com/paidpost/nyta/mark-makers/mark-makers-on-the-moment.html',
+  //   cover: './img/covers/nyt.webp',
   //   target: '_blank',
   //   case: false,
   // },
@@ -90,19 +90,6 @@ export const projects = [
 
 
   {  
-    title: "Blue Flower Arts",
-    description: "Brand identity for a boutique literary agency",
-    year: '2021',
-    type: 'Brand Design',
-    context: 'client',
-    link: '/bfa',
-    cover: './img/covers/bfa.webp',
-    target: '_self',
-    case: false,
-
-  },
-
-  {  
     title: "Sunny Place for Shady People",
     description: "A Western-inspired visualizer",
     year: '2021',
@@ -116,17 +103,29 @@ export const projects = [
   },
 
   {  
-    title: "Student Visa Review",
-    description: "An online exhibition of interviews with architecture students",
+    title: "Blue Flower Arts",
+    description: "Brand identity for a boutique literary agency",
     year: '2021',
-    type: 'Web Design',
+    type: 'Brand Design',
     context: 'client',
-    link: '/student-visa',
-    cover: './img/covers/risd.webp',
+    link: '/bfa',
+    cover: './img/covers/bfa.webp',
     target: '_self',
     case: false,
 
   },
+
+  // {  
+  //   title: "Student Visa Review",
+  //   description: "An online exhibition of interviews with architecture students",
+  //   year: '2021',
+  //   type: 'Web Design',
+  //   context: 'client',
+  //   link: '/student-visa',
+  //   cover: './img/covers/risd.webp',
+  //   target: '_self',
+  //   case: false,
+  // },
 
   {  
     title: "Two People in a Room Over Time",
@@ -151,7 +150,18 @@ export const projects = [
     cover: './img/covers/habit.webp',
     target: '_self',
     case: false,
+  },
 
+  {  
+    title: "Ink Drawings",
+    description: "Sketchbook scans",
+    year: '2021 - present',
+    type: 'Illustration',
+    context: 'personal',
+    link: '/sketch',
+    cover: './img/covers/sketch-2.webp',
+    target: '_self',
+    case: false,
   },
 
   {  
@@ -160,12 +170,12 @@ export const projects = [
     year: '2018 - 2020',
     type: 'Animation, Illustration',
     context: 'personal',
-    link: '/sketch',
+    link: '/sketch-digital',
     cover: './img/covers/sketch.webp',
     target: '_self',
     case: false,
+  },
 
-  }
  
 
 ];

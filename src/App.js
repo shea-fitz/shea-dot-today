@@ -33,7 +33,7 @@ function App() {
         <div className="projects">
           <div className="header proj-header space-between">Projects
               <div className="categories">
-                  <span className="category"><img className="icon" src={client}></img>professional</span>
+                  <span className="category"><img className="icon" src={client}></img>client work + commissions</span>
                   <span className="category"><img className="icon" src={personal}></img>personal</span>
               </div>
           </div>
@@ -83,7 +83,7 @@ function App() {
     
       </div>    
 
-      <div className="footer">♫ Last updated May 9, 2024 ♫</div>    
+      <div className="footer">♫ Last updated September 7, 2024 ♫</div>    
     </>
   );
 }

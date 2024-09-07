@@ -9,7 +9,7 @@ const Info = () => {
 
 return (
 <div className="info">
-    <p className="bio">Web designer with an affinity for visual systems and understated narrative.<br/><br/>
+    <p className="bio">Designer with an affinity for visual systems, understated narrative, and abstract imagery.<br/><br/>
     Currently a Senior Web Designer for <a href="https://advertising.nytimes.com/custom-content/" target="_blank">T Brand Studio</a> at The New York Times.<br/><br/>
     </p>
 
