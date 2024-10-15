@@ -10,20 +10,20 @@ export const projects = [
     target: '_self',
     case: false,
 
-  // },
+  },
 
-  //   {  
-  //   title: "The Pleasure x Effort Matrix",
-  //   description: "Notes on the hypothetical self",
-  //   year: '2024',
-  //   type: 'Writing',
-  //   context: 'Client',
-  //   link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
-  //   cover: './img/covers/syllabus.webp',
-  //   target: '_blank',
-  //   case: false,
+    {  
+    title: "The Pleasure x Effort Matrix",
+    description: "Notes on the hypothetical self",
+    year: '2024',
+    type: 'Writing',
+    context: 'Client',
+    link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
+    cover: './img/covers/syllabus.webp',
+    target: '_blank',
+    case: false,
 
-  // },
+  },
 
 
   {  
