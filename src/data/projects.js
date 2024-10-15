@@ -10,20 +10,20 @@ export const projects = [
     target: '_self',
     case: false,
 
-  },
+  // },
 
-    {  
-    title: "The Pleasure x Effort Matrix",
-    description: "Notes on the hypothetical self",
-    year: '2024',
-    type: 'Writing',
-    context: 'Client',
-    link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
-    cover: './img/covers/syllabus.webp',
-    target: '_blank',
-    case: false,
+  //   {  
+  //   title: "The Pleasure x Effort Matrix",
+  //   description: "Notes on the hypothetical self",
+  //   year: '2024',
+  //   type: 'Writing',
+  //   context: 'Client',
+  //   link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
+  //   cover: './img/covers/syllabus.webp',
+  //   target: '_blank',
+  //   case: false,
 
-  },
+  // },
 
 
   {  
@@ -37,18 +37,6 @@ export const projects = [
     target: '_blank',
     case: false,
   },
-
-  // {  
-  //   title: "Mark Makers Series, New York Times Advertising",
-  //   description: "Interview series of influential CMOs",
-  //   year: '2024',
-  //   type: 'Web Design and Development',
-  //   context: 'client',
-  //   link: 'https://www.nytimes.com/paidpost/nyta/mark-makers/mark-makers-on-the-moment.html',
-  //   cover: './img/covers/nyt.webp',
-  //   target: '_blank',
-  //   case: false,
-  // },
 
   {  
     title: "The Memo, New York Times Advertising",
