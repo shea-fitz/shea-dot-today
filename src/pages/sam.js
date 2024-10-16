@@ -34,7 +34,7 @@ const Scent = () => {
   
           <p className="paragraph intro-p">
            <a href="https://sam.are.na" target="_blank">Scent Access Memory</a> is an editorial collaboration between <a href="https://dirt.fyi/" target="_blank">Dirt</a> and <a href="https://www.are.na/" target="_blank">Are.na</a> on scent and its connection to memories, or rather, "olfactory triggers, digital traces, mall fragrances, utopian cities, cherry chapstick, and the impressions we leave behind." <br/><br/>
-           Are.na commissioned me to create a title image for the series drawing upon the visual technique I used for my <a href="/flowers">radio show</a>. The distortion of the final image was created by manually scanning decaying roses and print-outs of text, and was edited entirely in Figma.
+           Are.na commissioned me to create a title image for the series drawing upon the visual technique I used for my <a href="/flowers">radio show</a>. The distortion of the final image was created by moving decaying roses and text print-outs across a scanning bed, and was edited entirely in Figma.
           </p>
 
           <Image source={final} caption='Final editorial image'/>
