@@ -32,9 +32,9 @@ export const projects = [
     year: '2024',
     type: 'Illustration',
     context: 'client',
-    link: 'https://sam.are.na/',
+    link: '/scent',
     cover: './img/covers/scent.png',
-    target: '_blank',
+    target: '_self',
     case: false,
   },
 

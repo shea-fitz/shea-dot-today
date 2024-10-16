@@ -18,6 +18,8 @@ import Sketch from './pages/sketch';
 import StudentVisa from './pages/student-visa';
 import Flowers from './pages/flowers';
 import Archive from './pages/website';
+import Scent from './pages/sam';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,6 +34,8 @@ root.render(
       <Route path="student-visa" element={<StudentVisa />} />
       <Route path="flowers" element={<Flowers />} />
       <Route path="website" element={<Archive />} />
+      <Route path="scent" element={<Scent />} />
+
     </Routes>
   </BrowserRouter>
   
