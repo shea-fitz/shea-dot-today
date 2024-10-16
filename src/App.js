@@ -60,7 +60,7 @@ function App() {
 
         <Fade>
         <div className="writing">
-            <div className="header">Writing + Features</div>
+            <div className="header">Writing</div>
             <div className="writing-list">
             {writing.map(piece => (
                         <Writing

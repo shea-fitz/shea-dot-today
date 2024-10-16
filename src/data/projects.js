@@ -12,6 +12,19 @@ export const projects = [
 
   },
 
+  {  
+    title: "Scent Access Memory",
+    description: "Imagery for Are.na x Dirt",
+    year: '2024',
+    type: 'Illustration',
+    context: 'client',
+    link: '/scent',
+    cover: './img/covers/scent.png',
+    target: '_self',
+    case: false,
+  },
+
+
     {  
     title: "The Pleasure x Effort Matrix",
     description: "Notes on the hypothetical self",
@@ -23,19 +36,6 @@ export const projects = [
     target: '_blank',
     case: false,
 
-  },
-
-
-  {  
-    title: "Scent Access Memory",
-    description: "Imagery for Are.na x Dirt",
-    year: '2024',
-    type: 'Illustration',
-    context: 'client',
-    link: '/scent',
-    cover: './img/covers/scent.png',
-    target: '_self',
-    case: false,
   },
 
   {  
