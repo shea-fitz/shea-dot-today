@@ -11,14 +11,14 @@
 
 
 :root {
-    /* --dark: #006434;
+    --dark: #2b7545;
     --mid: #01964E;
     --light: #f1f2cfd0;
     --text: #004926;
     --grad-left: #03896333;
     --grad-right: #57836415;
     --cs-grad-left: #BA55D333;
-    --cs-grad-right: #7E3ADA15; */
+    --cs-grad-right: #7E3ADA15;
 
     /* --dark: #4020b5;
     --mid: #986cde;
@@ -29,14 +29,14 @@
     --cs-grad-left: #BA55D333;
     --cs-grad-right: #7E3ADA15; */
 
-    --dark: #203FB5;
+    /* --dark: #203FB5;
     --mid: rgb(24, 24, 196);
     --light: rgb(233, 236, 247);
     --text: #292456;
     --grad-left: #202ab510;
     --grad-right: #7b7ff62c;
     --cs-grad-left: #BA55D333;
-    --cs-grad-right: #7E3ADA15;
+    --cs-grad-right: #7E3ADA15; */
   }
 
 
@@ -151,7 +151,7 @@ audio {
 .audio-label {
     font-family: meno-display-extra-condensed,serif;
     font-style: italic;
-    padding-top: 32px;
+    /* padding-top: 32px; */
     padding-bottom: 4px;
     font-size: 1.1rem;
     letter-spacing: .5;

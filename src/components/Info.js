@@ -8,22 +8,18 @@ const Info = () => {
 
 return (
 <div className="info">
-    <p className="bio">
+    {/* <p className="bio">
     
     <span className="audio-label">Today Shea is...</span>
     <ul>
-        <li>a senior web designer at The New York Times</li>
-        <li>drumming in a <a href="https://en.wikipedia.org/wiki/Progressive_rock#:~:text=Progressive%20rock%20was%20predicated%20on,the%20Beatles%20and%20the%20Yardbirds." target="_blank">prog rock (?)</a> band</li>
-        <li>relearning the <a href="https://www.youtube.com/watch?v=MN4pvzT8C6k&ab_channel=ClassicalSheetMusic" target="_blank">Chaminade flute concertino</a></li>
-        <li>writing about the <a href="https://www.are.na/block/19149705" target="_blank">pleasure x effort matrix</a></li>
-        <li>creating a history of my personal website</li>
+        
     </ul>
 
-    </p>
+    </p> */}
 
-    <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
-    {/* <span className="contact"><img className="icon" src={cv}></img> <a href="https://read.cv/shea" target="_blank" className="contact-link">read.cv/shea</a></span> */}
-    <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
+    {/* <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
+    <span className="contact"><img className="icon" src={cv}></img> <a href="https://read.cv/shea" target="_blank" className="contact-link">read.cv/shea</a></span>
+    <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span> */}
     <div className="audio-label">Emerald Web - Ars Nova (1982)</div>
     <audio className="audio" controls src={song}>
     </audio>   
