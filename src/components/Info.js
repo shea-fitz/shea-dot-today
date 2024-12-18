@@ -8,14 +8,13 @@ const Info = () => {
 
 return (
 <div className="info">
-    {/* <p className="bio">
+    <p className="bio">
     
-    <span className="audio-label">Today Shea is...</span>
-    <ul>
-        
-    </ul>
+    <span className="audio-label">This website is taking a break...</span>
+    <br/><br/>
+   
 
-    </p> */}
+    </p>
 
     {/* <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
     <span className="contact"><img className="icon" src={cv}></img> <a href="https://read.cv/shea" target="_blank" className="contact-link">read.cv/shea</a></span>
