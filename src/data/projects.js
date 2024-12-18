@@ -1,10 +1,23 @@
 export const projects = [  
   {  
-    title: "Subvert.fm",
+    title: "Subvert.fm Artist Platform",
     description: "A cooperatively-owned Bandcamp alternative",
     year: '2025',
     type: 'Product Design',
     context: 'client',
+    link: 'https://subvert.fm/',
+    cover: './img/covers/website.webp',
+    target: '_blank',
+    case: false,
+
+  },
+
+  {  
+    title: "First Birthday",
+    description: "An experimental flute alias",
+    year: '2025',
+    type: 'Music',
+    context: 'personal',
     link: 'https://subvert.fm/',
     cover: './img/covers/website.webp',
     target: '_blank',
@@ -41,7 +54,7 @@ export const projects = [
 
   {  
     title: "The Memo, New York Times Advertising",
-    description: "Recap of the 2023 DealBook Summit",
+    description: "DealBook Summit microsite",
     year: '2023',
     type: 'Web Design and Development',
     context: 'client',
@@ -65,17 +78,17 @@ export const projects = [
   },
 
 
-  {  
-    title: 'Playlist Prompts',
-    description: "A collection of playlist ideas",
-    year: '2022',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: 'https://www.playlistprompts.com/',
-    cover: './img/covers/playlist.webp',
-    target: '_blank',
-    case: false,
-  },
+  // {  
+  //   title: 'Playlist Prompts',
+  //   description: "A collection of playlist ideas",
+  //   year: '2022',
+  //   type: 'Web Design and Development',
+  //   context: 'personal',
+  //   link: 'https://www.playlistprompts.com/',
+  //   cover: './img/covers/playlist.webp',
+  //   target: '_blank',
+  //   case: false,
+  // },
 
 
   {  
