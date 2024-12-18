@@ -1,12 +1,12 @@
 export const writing = [
 
-  // {
-  //   title: 'sheafitz.com',
-  //   link:
-  //     'https://internetphonebook.net/',
-  //     source: 'Internet Phone Book',
-  //     year: '2024'
-  // },
+  {
+    title: 'sheafitz.com',
+    link:
+      'https://internetphonebook.net/',
+      source: 'Internet Phone Book',
+      year: '2024'
+  },
 
     {
       title: 'The Pleasure x Effort Matrix',

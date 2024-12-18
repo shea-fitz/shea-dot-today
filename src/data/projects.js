@@ -1,16 +1,17 @@
 export const projects = [  
   {  
-    title: "A History of My Personal Website",
-    description: "Change over time",
-    year: '2018 - forever',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website',
+    title: "Subvert.fm",
+    description: "A cooperatively-owned Bandcamp alternative",
+    year: '2025',
+    type: 'Product Design',
+    context: 'client',
+    link: 'https://subvert.fm/',
     cover: './img/covers/website.webp',
-    target: '_self',
+    target: '_blank',
     case: false,
 
   },
+
 
   {  
     title: "Scent Access Memory",
@@ -140,17 +141,17 @@ export const projects = [
     case: false,
   },
 
-  {  
-    title: "Ink Drawings",
-    description: "Sketchbook scans",
-    year: '2021 - present',
-    type: 'Illustration',
-    context: 'personal',
-    link: '/sketch',
-    cover: './img/covers/sketch-2.webp',
-    target: '_self',
-    case: false,
-  },
+  // {  
+  //   title: "Ink Drawings",
+  //   description: "Sketchbook scans",
+  //   year: '2021 - present',
+  //   type: 'Illustration',
+  //   context: 'personal',
+  //   link: '/sketch',
+  //   cover: './img/covers/sketch-2.webp',
+  //   target: '_self',
+  //   case: false,
+  // },
 
   {  
     title: "Digital Drawings",
@@ -163,6 +164,20 @@ export const projects = [
     target: '_self',
     case: false,
   },
+
+  {  
+    title: "A History of My Personal Website",
+    description: "Change over time",
+    year: '2018 - forever',
+    type: 'Web Design and Development',
+    context: 'personal',
+    link: '/website',
+    cover: './img/covers/website.webp',
+    target: '_self',
+    case: false,
+
+  },
+
 
  
 
