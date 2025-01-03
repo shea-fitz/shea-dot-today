@@ -6,20 +6,7 @@ export const projects = [
     type: 'Product Design',
     context: 'client',
     link: 'https://subvert.fm/',
-    cover: './img/covers/website.webp',
-    target: '_blank',
-    case: false,
-
-  },
-
-  {  
-    title: "First Birthday",
-    description: "An experimental flute alias",
-    year: '2025',
-    type: 'Music',
-    context: 'personal',
-    link: 'https://subvert.fm/',
-    cover: './img/covers/website.webp',
+    cover: './img/covers/subvert.webp',
     target: '_blank',
     case: false,
 
@@ -48,6 +35,19 @@ export const projects = [
     link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
     cover: './img/covers/syllabus.webp',
     target: '_blank',
+    case: false,
+
+  },
+
+  {  
+    title: "A History of My Personal Website",
+    description: "Change over time",
+    year: '2018 - forever',
+    type: 'Web Design and Development',
+    context: 'personal',
+    link: '/website',
+    cover: './img/covers/website.webp',
+    target: '_self',
     case: false,
 
   },
@@ -91,31 +91,31 @@ export const projects = [
   // },
 
 
-  {  
-    title: "Sunny Place for Shady People",
-    description: "A Western-inspired visualizer",
-    year: '2021',
-    type: 'Animation',
-    context: 'client',
-    link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
-    cover: './img/covers/sunny.webp',
-    target: '_blank',    
-    case: false,
+  // {  
+  //   title: "Sunny Place for Shady People",
+  //   description: "A Western-inspired visualizer",
+  //   year: '2021',
+  //   type: 'Animation',
+  //   context: 'client',
+  //   link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
+  //   cover: './img/covers/sunny.webp',
+  //   target: '_blank',    
+  //   case: false,
 
-  },
+  // },
 
-  {  
-    title: "Blue Flower Arts",
-    description: "Brand identity for a boutique literary agency",
-    year: '2021',
-    type: 'Brand Design',
-    context: 'client',
-    link: '/bfa',
-    cover: './img/covers/bfa.webp',
-    target: '_self',
-    case: false,
+  // {  
+  //   title: "Blue Flower Arts",
+  //   description: "Brand identity for a boutique literary agency",
+  //   year: '2021',
+  //   type: 'Brand Design',
+  //   context: 'client',
+  //   link: '/bfa',
+  //   cover: './img/covers/bfa.webp',
+  //   target: '_self',
+  //   case: false,
 
-  },
+  // },
 
   // {  
   //   title: "Student Visa Review",
@@ -154,17 +154,17 @@ export const projects = [
     case: false,
   },
 
-  // {  
-  //   title: "Ink Drawings",
-  //   description: "Sketchbook scans",
-  //   year: '2021 - present',
-  //   type: 'Illustration',
-  //   context: 'personal',
-  //   link: '/sketch',
-  //   cover: './img/covers/sketch-2.webp',
-  //   target: '_self',
-  //   case: false,
-  // },
+  {  
+    title: "Ink Drawings",
+    description: "Sketchbook scans",
+    year: '2021 - present',
+    type: 'Illustration',
+    context: 'personal',
+    link: '/sketch',
+    cover: './img/covers/sketch-2.webp',
+    target: '_self',
+    case: false,
+  },
 
   {  
     title: "Digital Drawings",
@@ -176,19 +176,6 @@ export const projects = [
     cover: './img/covers/sketch.webp',
     target: '_self',
     case: false,
-  },
-
-  {  
-    title: "A History of My Personal Website",
-    description: "Change over time",
-    year: '2018 - forever',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website',
-    cover: './img/covers/website.webp',
-    target: '_self',
-    case: false,
-
   },
 
 
