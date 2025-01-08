@@ -60,7 +60,7 @@ function App() {
 
         <Fade>
         <div className="writing">
-            <div className="header">Writing</div>
+            <div className="header">Writing + Features</div>
             <div className="writing-list">
             {writing.map(piece => (
                         <Writing
@@ -77,13 +77,13 @@ function App() {
           
 
           <Fade>
-            <a href="https://www.youtube.com/watch?v=a_EvjlM7We0&ab_channel=TheShuffler" target="_blank" className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></a>
+            <a href="https://www.youtube.com/watch?v=woENoP7QewM" target="_blank" className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></a>
           </Fade>
 
     
       </div>    
 
-      <div className="footer">♫ Last updated October 16, 2024 ♫</div>    
+      <div className="footer">♫ Last updated January 7, 2025 ♫</div>    
     </>
   );
 }

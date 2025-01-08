@@ -1,6 +1,14 @@
 export const writing = [
 
   // {
+  //   title: '2024 AOTY Bracket Picks',
+  //   link:
+  //     'https://sheafitz.notion.site/aoty',
+  //     source: '',
+  //     year: '2025'
+  // },
+
+  // {
   //   title: 'sheafitz.com',
   //   link:
   //     'https://internetphonebook.net/',
@@ -40,13 +48,13 @@ export const writing = [
         year: '2019'
     },
 
-    {
-        title: "The Queer Zine Library That's Finding a Global Community",
-        link:
-          'https://eyeondesign.aiga.org/the-queer-zine-library-in-hong-kong-thats-finding-a-global-community/',
-        source: 'AIGA Eye on Design',
-        year: '2019'
-    },
+    // {
+    //     title: "The Queer Zine Library That's Finding a Global Community",
+    //     link:
+    //       'https://eyeondesign.aiga.org/the-queer-zine-library-in-hong-kong-thats-finding-a-global-community/',
+    //     source: 'AIGA Eye on Design',
+    //     year: '2019'
+    // },
 
     {
         title: "RAPAPAWN's Mind-Bending Loops",

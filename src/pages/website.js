@@ -40,17 +40,17 @@ const Archive = () => {
            
            <ol>
               <li>I’ve never wanted my website to feel purely professional.</li>
-              <li>I’ve always been drawn to lightweight and low-fidelity website aesthetics that can be built with pure HTML and CSS.</li>
-              <li>I’ve always struggled to create a cohesive narrative about my interests, skills, and craft.</li>
-              <li>I‘ve always had a preference for organizing my website in as few pages as possible.</li>
-              <li>I’ve always loved list-based layouts.</li>
+              <li>I’ve always been drawn to low-fidelity web aesthetics.</li>
+              <li>I’ve always had more interests than I can contain in a cohesive narrative.</li>
+              <li>I‘ve always preferred organizing my website in as few pages as possible.</li>
+              <li>I’ve always loved lists.</li>
            </ol>
 
            </p>
 
            <p className='paragraph'>
            
-           *My true first website was a Squarespace portfolio site that I built in an all-nighter over Christmas break in 2017. This site was never crawled by the <a href="https://web.archive.org/" target="_blank">Wayback Machine</a> so it’s lost to the ether.</p>
+           *My true first website was a Squarespace portfolio site that I built in an all-nighter over winter break in 2017. This site was never crawled by the <a href="https://web.archive.org/" target="_blank">Wayback Machine</a> so it’s lost to the ether.</p>
 
 
             </div>

@@ -1,23 +1,38 @@
 export const projects = [  
+
   {  
-    title: "Subvert.fm Artist Platform",
-    description: "A cooperatively-owned Bandcamp alternative",
-    year: '2025',
-    type: 'Product Design',
-    context: 'client',
-    link: 'https://subvert.fm/',
-    cover: './img/covers/subvert.webp',
-    target: '_blank',
+    title: "A History of My Personal Website",
+    description: "Change over time",
+    year: '2018 - forever',
+    type: 'Web Design and Development',
+    context: 'personal',
+    link: '/website',
+    cover: './img/covers/website.webp',
+    target: '_self',
     case: false,
 
   },
+
+  // {  
+  //   title: "Subvert.fm",
+  //   description: "A cooperatively-owned Bandcamp alternative",
+  //   year: '2025',
+  //   type: 'Product Design',
+  //   context: 'client',
+  //   link: 'https://subvert.fm/',
+  //   cover: './img/covers/subvert.webp',
+  //   target: '_blank',
+  //   case: false,
+
+  // },
+
 
 
   {  
     title: "Scent Access Memory",
     description: "Imagery for Are.na x Dirt",
     year: '2024',
-    type: 'Illustration',
+    type: 'Design',
     context: 'client',
     link: '/scent',
     cover: './img/covers/scent.png',
@@ -40,21 +55,8 @@ export const projects = [
   },
 
   {  
-    title: "A History of My Personal Website",
-    description: "Change over time",
-    year: '2018 - forever',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website',
-    cover: './img/covers/website.webp',
-    target: '_self',
-    case: false,
-
-  },
-
-  {  
-    title: "The Memo, New York Times Advertising",
-    description: "DealBook Summit microsite",
+    title: "The Memo",
+    description: "Microsite for New York Times Advertising",
     year: '2023',
     type: 'Web Design and Development',
     context: 'client',
@@ -91,31 +93,31 @@ export const projects = [
   // },
 
 
-  // {  
-  //   title: "Sunny Place for Shady People",
-  //   description: "A Western-inspired visualizer",
-  //   year: '2021',
-  //   type: 'Animation',
-  //   context: 'client',
-  //   link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
-  //   cover: './img/covers/sunny.webp',
-  //   target: '_blank',    
-  //   case: false,
+  {  
+    title: "Sunny Place for Shady People",
+    description: "A Western-inspired visualizer",
+    year: '2021',
+    type: 'Animation',
+    context: 'client',
+    link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
+    cover: './img/covers/sunny.webp',
+    target: '_blank',    
+    case: false,
 
-  // },
+  },
 
-  // {  
-  //   title: "Blue Flower Arts",
-  //   description: "Brand identity for a boutique literary agency",
-  //   year: '2021',
-  //   type: 'Brand Design',
-  //   context: 'client',
-  //   link: '/bfa',
-  //   cover: './img/covers/bfa.webp',
-  //   target: '_self',
-  //   case: false,
+  {  
+    title: "Blue Flower Arts",
+    description: "Brand identity for a boutique literary agency",
+    year: '2021',
+    type: 'Brand Design',
+    context: 'client',
+    link: '/bfa',
+    cover: './img/covers/bfa.webp',
+    target: '_self',
+    case: false,
 
-  // },
+  },
 
   // {  
   //   title: "Student Visa Review",
