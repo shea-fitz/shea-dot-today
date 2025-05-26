@@ -655,13 +655,11 @@ ol {
 
 @media only screen and (max-width: 900px) {
     .wrapper {
-        grid-template-columns: minmax(auto, 1fr) minmax(auto, 2fr);
-        grid-template-areas: 
-            "info proj"
-            "shea proj"
-            "writing proj";
-        margin: 64px;
-        margin-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 24px 50px;
+        gap: 48px;
     }
 
     .timeline {

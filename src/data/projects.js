@@ -13,17 +13,17 @@ export const projects = [
 
   // },
 
-  {  
-    title: "Band Visuals",
-    description: "Posters, artwork, merch",
-    year: '2024',
-    type: 'Design',
-    context: 'personal',
-    link: '/bands',
-    cover: './img/covers/scent.png',
-    target: '_self',
-    case: false,
-  },
+  // {  
+  //   title: "Band Visuals",
+  //   description: "Posters, artwork, merch",
+  //   year: '2024',
+  //   type: 'Design',
+  //   context: 'personal',
+  //   link: '/bands',
+  //   cover: './img/covers/scent.png',
+  //   target: '_self',
+  //   case: false,
+  // },
 
 
 

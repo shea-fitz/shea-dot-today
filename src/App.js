@@ -25,11 +25,12 @@ function App() {
 
     <Fade>
       <div className="info">
-          <div className="header">Shea Fitzpatrick</div><Info/></div>
+          <div className="header">Shea Fitzpatrick</div>
+          <Info/></div>
     </Fade>
     
 
-    <Fade>   
+    {/* <Fade>   
         <div className="projects">
           <div className="header proj-header space-between">Projects
               <div className="categories">
@@ -55,9 +56,9 @@ function App() {
           </div>
 
           </div>
-        </Fade>      
+        </Fade>       */}
         
-
+{/* 
         <Fade>
         <div className="writing">
             <div className="header">Writing</div>
@@ -73,7 +74,7 @@ function App() {
 
             </div>
           </div>
-        </Fade>
+        </Fade> */}
           
 
           <Fade>
@@ -83,7 +84,7 @@ function App() {
     
       </div>    
 
-      <div className="footer">♫ Last updated January 7, 2025 ♫</div>    
+      {/* <div className="footer">♫ Last updated January 7, 2025 ♫</div>     */}
     </>
   );
 }
