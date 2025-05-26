@@ -1,21 +1,8 @@
 export const projects = [  
-
-  {  
-    title: "A History of My Personal Website",
-    description: "Change over time",
-    year: '2018 - forever',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website',
-    cover: './img/covers/website.webp',
-    target: '_self',
-    case: false,
-
-  },
-
+  
   // {  
   //   title: "Subvert.fm",
-  //   description: "A cooperatively-owned Bandcamp alternative",
+  //   description: "A cooperatively-owned Bandcamp successor",
   //   year: '2025',
   //   type: 'Product Design',
   //   context: 'client',
@@ -25,6 +12,19 @@ export const projects = [
   //   case: false,
 
   // },
+
+  {  
+    title: "Band Visuals",
+    description: "Posters, artwork, merch",
+    year: '2024',
+    type: 'Design',
+    context: 'personal',
+    link: '/bands',
+    cover: './img/covers/scent.png',
+    target: '_self',
+    case: false,
+  },
+
 
 
 
@@ -38,6 +38,19 @@ export const projects = [
     cover: './img/covers/scent.png',
     target: '_self',
     case: false,
+  },
+
+  {  
+    title: "A History of My Personal Website",
+    description: "Change over time",
+    year: '2018 - 2024',
+    type: 'Web Design and Development',
+    context: 'personal',
+    link: '/website',
+    cover: './img/covers/website.webp',
+    target: '_self',
+    case: false,
+
   },
 
 
@@ -54,17 +67,7 @@ export const projects = [
 
   },
 
-  {  
-    title: "The Memo",
-    description: "Microsite for New York Times Advertising",
-    year: '2023',
-    type: 'Web Design and Development',
-    context: 'client',
-    link: 'https://advertising.nytimes.com/thememo/',
-    cover: './img/covers/nyt.webp',
-    target: '_blank',
-    case: false,
-  },
+ 
 
 
   {  
@@ -76,6 +79,18 @@ export const projects = [
     link: '/flowers',
     cover: './img/covers/flowers.webp',
     target: '_self',
+    case: false,
+  },
+
+  {  
+    title: "The Memo",
+    description: "Microsite for New York Times Advertising",
+    year: '2023',
+    type: 'Web Design and Development',
+    context: 'client',
+    link: 'https://advertising.nytimes.com/thememo/',
+    cover: './img/covers/nyt.webp',
+    target: '_blank',
     case: false,
   },
 
@@ -106,18 +121,18 @@ export const projects = [
 
   },
 
-  {  
-    title: "Blue Flower Arts",
-    description: "Brand identity for a boutique literary agency",
-    year: '2021',
-    type: 'Brand Design',
-    context: 'client',
-    link: '/bfa',
-    cover: './img/covers/bfa.webp',
-    target: '_self',
-    case: false,
+  // {  
+  //   title: "Blue Flower Arts",
+  //   description: "Brand identity for a boutique literary agency",
+  //   year: '2021',
+  //   type: 'Brand Design',
+  //   context: 'client',
+  //   link: '/bfa',
+  //   cover: './img/covers/bfa.webp',
+  //   target: '_self',
+  //   case: false,
 
-  },
+  // },
 
   // {  
   //   title: "Student Visa Review",
@@ -179,6 +194,8 @@ export const projects = [
     target: '_self',
     case: false,
   },
+
+  
 
 
  

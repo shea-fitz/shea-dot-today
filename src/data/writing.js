@@ -1,19 +1,12 @@
 export const writing = [
 
-  // {
-  //   title: '2024 AOTY Bracket Picks',
-  //   link:
-  //     'https://sheafitz.notion.site/aoty',
-  //     source: '',
-  //     year: '2025'
-  // },
 
   // {
-  //   title: 'sheafitz.com',
+  //   title: 'The Internet Phone Book',
   //   link:
   //     'https://internetphonebook.net/',
-  //     source: 'Internet Phone Book',
-  //     year: '2024'
+  //     source: "(you'll find this website)",
+  //     year: '2025'
   // },
 
     {
