@@ -1,13 +1,13 @@
 export const writing = [
 
 
-  // {
-  //   title: 'The Internet Phone Book',
-  //   link:
-  //     'https://internetphonebook.net/',
-  //     source: "(you'll find this website)",
-  //     year: '2025'
-  // },
+  {
+    title: 'The Internet Phone Book',
+    link:
+      'https://internetphonebook.net/',
+      source: "(you'll find this website)",
+      year: '2025'
+  },
 
     {
       title: 'The Pleasure x Effort Matrix',

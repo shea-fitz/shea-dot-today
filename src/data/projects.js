@@ -70,17 +70,17 @@ export const projects = [
  
 
 
-  {  
-    title: "Flowers in Motion",
-    description: "A radio show",
-    year: '2023',
-    type: 'Music, Design',
-    context: 'personal',
-    link: '/flowers',
-    cover: './img/covers/flowers.webp',
-    target: '_self',
-    case: false,
-  },
+  // {  
+  //   title: "Flowers in Motion",
+  //   description: "A radio show",
+  //   year: '2023',
+  //   type: 'Music, Design',
+  //   context: 'personal',
+  //   link: '/flowers',
+  //   cover: './img/covers/flowers.webp',
+  //   target: '_self',
+  //   case: false,
+  // },
 
   {  
     title: "The Memo",
@@ -121,18 +121,18 @@ export const projects = [
 
   },
 
-  // {  
-  //   title: "Blue Flower Arts",
-  //   description: "Brand identity for a boutique literary agency",
-  //   year: '2021',
-  //   type: 'Brand Design',
-  //   context: 'client',
-  //   link: '/bfa',
-  //   cover: './img/covers/bfa.webp',
-  //   target: '_self',
-  //   case: false,
+  {  
+    title: "Blue Flower Arts",
+    description: "Brand identity for a boutique literary agency",
+    year: '2021',
+    type: 'Brand Design',
+    context: 'client',
+    link: '/bfa',
+    cover: './img/covers/bfa.webp',
+    target: '_self',
+    case: false,
 
-  // },
+  },
 
   // {  
   //   title: "Student Visa Review",
