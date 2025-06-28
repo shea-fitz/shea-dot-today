@@ -24,7 +24,7 @@ const Habit = () => {
 
 
         <p className="paragraph intro-p">
-        <i>I Didn't Ask for the Habit</i> is an abstract comic created with an experimental workflow incorporating image data from Processing sketches, 3D models in Rhino and Grasshopper, screenshots, and Photoshop. I gave a workshop on this process at <a href="https://itp.nyu.edu/camp2022/" target="_blank">ITP Camp</a> in 2018.
+        <i>I Didn't Ask for the Habit</i> is an abstract comic created with an experimental workflow incorporating image data from Processing sketches, 3D models in Rhino and Grasshopper, screenshots, and Photoshop.
         </p>
 
         <div className="image-gallery">

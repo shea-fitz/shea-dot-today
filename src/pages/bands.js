@@ -41,7 +41,7 @@ const Bands = () => {
         <h2>Lawrence Rothman – Sunny Place for Shady People (2021)</h2>
 
         <p className="paragraph">
-            I collaborated with <a href="https://www.matthixon.com/" target="_blank">Matt Hixon</a> on a chaotic Western-inspired visualizer for <a href="https://www.instagram.com/lawrencerothman/?hl=en" target="_blank">Lawrence Rothman's</a> single Sunny Place for Shady People. I created the animated sequences in Blender using generative landscapes, shaders, and archival glitch textures from Matt's deep collection of archival footage.
+            I collaborated with <a href="https://www.matthixon.com/" target="_blank">Matt Hixon</a> on a chaotic Western-inspired visualizer for <a href="https://www.instagram.com/lawrencerothman/?hl=en" target="_blank">Lawrence Rothman's</a> single Sunny Place for Shady People. I created the animated sequences in Blender using generative landscapes and glitch video textures from Matt's deep collection of archival footage.
         </p>
 
         <iframe className="video-iframe" width="auto" height="400" src="https://www.youtube.com/embed/sW4aexJe8-s?si=rzNbA30zjfJsw9fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -117,10 +117,6 @@ const Bands = () => {
             <Image source={tommy} caption="Tommy Baby – Hours (2023)"/>
               </div>
     </div>
-        
-
-
-
             
 
      </div>
