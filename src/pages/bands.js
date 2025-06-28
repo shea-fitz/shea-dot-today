@@ -72,7 +72,7 @@ const Bands = () => {
               </div>
 
               <div className="column-half"> 
-            <Image source={tattoo} caption="Band tattoos <3)"/>
+            <Image source={tattoo} caption="Band tattoos <3"/>
               </div>
         
     </div>
