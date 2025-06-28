@@ -1,12 +1,12 @@
 export const projects = [  
   
   // {  
-  //   title: "Subvert.fm",
-  //   description: "A cooperatively-owned Bandcamp successor",
+  //   title: "shea on air",
+  //   description: "A solo flute project",
   //   year: '2025',
-  //   type: 'Product Design',
-  //   context: 'client',
-  //   link: 'https://subvert.fm/',
+  //   type: 'Music, Design',
+  //   context: 'personal',
+  //   link: 'https://linktr.ee/sheaonair',
   //   cover: './img/covers/subvert.webp',
   //   target: '_blank',
   //   case: false,
@@ -20,7 +20,7 @@ export const projects = [
     type: 'Animation, Web and Graphic Design',
     context: 'client',
     link: '/bands',
-    cover: './img/covers/band.webp',
+    cover: './img/covers/sunny.webp',
     target: '_self',
     case: false,
   },
