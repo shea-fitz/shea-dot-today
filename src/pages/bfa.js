@@ -32,7 +32,7 @@ const BlueFlower = () => {
           <PageHeader
               title='Blue Flower Arts'
               type='Brand Design'
-              year='Summer 2021'
+              year='2021'
             />
 
         <Image

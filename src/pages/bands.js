@@ -50,7 +50,7 @@ const Bands = () => {
         <h2>Talon (2025)</h2>
 
         <p className="paragraph">
-          Talon is a Brooklyn-based lesbian rock band descendent from the likes of Mannequin Pussy, The Breeders, and Hole. I've helped them strengthen their brand presence through tour visuals, album art, and their <a href="https://www.talontheband.com/" target="_blank">first website</a>, taking a lo-res logo they made two years ago and building a visual universe around it to stay true to their punk DIY spirit.
+          Talon is a Brooklyn-based lesbian rock band descendent from the likes of Mannequin Pussy, The Breeders, and Hole. I've helped them strengthen their brand presence through tour visuals and their <a href="https://www.talontheband.com/" target="_blank">first website</a>, taking a lo-res logo they made two years ago and building a visual universe around it to stay true to their punk DIY spirit.
         </p>
 
         <iframe className="website-iframe" src="https://www.talontheband.com/"></iframe>

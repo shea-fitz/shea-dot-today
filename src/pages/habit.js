@@ -19,7 +19,7 @@ const Habit = () => {
           <PageHeader
               title="I Didn't Ask for the Habit"
               type='Illustration'
-              year='Spring 2018'
+              year='2018'
             />
 
 

@@ -26,7 +26,7 @@ const StudentVisa = () => {
           <PageHeader
               title='Student Visa Review'
               type='Browser-based Exhibition Design'
-              year='Winter 2020'
+              year='2020'
             />
 
 

@@ -28,7 +28,7 @@ const Scent = () => {
             <PageHeader
                 title="Scent Access Memory"
                 type='Illustration'
-                year='Spring 2024'
+                year='2024'
               />
   
   

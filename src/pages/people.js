@@ -30,7 +30,7 @@ const People = () => {
           <PageHeader
               title='Two People in a Room Over Time'
               type='Illustration, Exhibition'
-              year='Summer 2019'
+              year='2019'
             />
 
         <p className="paragraph intro-p">

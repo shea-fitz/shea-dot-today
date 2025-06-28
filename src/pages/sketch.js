@@ -28,7 +28,7 @@ const Sketch = () => {
           <PageHeader
               title='Ink Drawings'
               type='Illustration'
-              year='2021 - present'
+              year='2021 - 2024'
             />
 
         <p className="paragraph">
