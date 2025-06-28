@@ -5,7 +5,7 @@ export const writing = [
     title: 'The Internet Phone Book',
     link:
       'https://internetphonebook.net/',
-      source: "(you'll find this website)",
+      source: "(this website is recommended)",
       year: '2025'
   },
 
@@ -40,14 +40,6 @@ export const writing = [
         source: 'Are.na Blog',
         year: '2019'
     },
-
-    // {
-    //     title: "The Queer Zine Library That's Finding a Global Community",
-    //     link:
-    //       'https://eyeondesign.aiga.org/the-queer-zine-library-in-hong-kong-thats-finding-a-global-community/',
-    //     source: 'AIGA Eye on Design',
-    //     year: '2019'
-    // },
 
     {
         title: "RAPAPAWN's Mind-Bending Loops",

@@ -1,6 +1,45 @@
 export const projects = [  
+
+//  {  
+//     title: "shea on air",
+//     description: "A flute alias",
+//     year: '2025',
+//     type: 'Music, Design',
+//     context: 'personal',
+//     link: '/shea-on-air',
+//     cover: './img/covers/scent.png',
+//     target: '_self',
+//     case: false,
+//   },
+
+  //  {  
+  //   title: "Jewelry",
+  //   description: "A material practice",
+  //   year: '2025',
+  //   type: 'Design',
+  //   context: 'personal',
+  //   link: '/shea-on-air',
+  //   cover: './img/covers/scent.png',
+  //   target: '_self',
+  //   case: false,
+  // },
   
+
   // {  
+  //   title: "Band Visuals",
+  //   description: "Album, artist, and event graphics",
+  //   year: '2024 - 2025',
+  //   type: 'Design, Web Development',
+  //   context: 'client',
+  //   link: '/bands',
+  //   cover: './img/covers/band.png',
+  //   target: '_self',
+  //   case: false,
+  // },
+
+
+
+  //   {  
   //   title: "Subvert.fm",
   //   description: "A cooperatively-owned Bandcamp successor",
   //   year: '2025',
@@ -12,20 +51,6 @@ export const projects = [
   //   case: false,
 
   // },
-
-  // {  
-  //   title: "Band Visuals",
-  //   description: "Posters, artwork, merch",
-  //   year: '2024',
-  //   type: 'Design',
-  //   context: 'personal',
-  //   link: '/bands',
-  //   cover: './img/covers/scent.png',
-  //   target: '_self',
-  //   case: false,
-  // },
-
-
 
 
   {  
@@ -40,32 +65,19 @@ export const projects = [
     case: false,
   },
 
-  {  
-    title: "A History of My Personal Website",
-    description: "Change over time",
-    year: '2018 - 2024',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website',
-    cover: './img/covers/website.webp',
-    target: '_self',
-    case: false,
 
-  },
+  //   {  
+  //   title: "The Pleasure x Effort Matrix",
+  //   description: "Notes on the hypothetical self",
+  //   year: '2024',
+  //   type: 'Writing',
+  //   context: 'Client',
+  //   link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
+  //   cover: './img/covers/syllabus.webp',
+  //   target: '_blank',
+  //   case: false,
 
-
-    {  
-    title: "The Pleasure x Effort Matrix",
-    description: "Notes on the hypothetical self",
-    year: '2024',
-    type: 'Writing',
-    context: 'Client',
-    link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
-    cover: './img/covers/syllabus.webp',
-    target: '_blank',
-    case: false,
-
-  },
+  // },
 
  
 
@@ -77,7 +89,7 @@ export const projects = [
   //   type: 'Music, Design',
   //   context: 'personal',
   //   link: '/flowers',
-  //   cover: './img/covers/flowers.webp',
+  //   cover: './img/covers/flowers.png',
   //   target: '_self',
   //   case: false,
   // },
@@ -95,18 +107,6 @@ export const projects = [
   },
 
 
-  // {  
-  //   title: 'Playlist Prompts',
-  //   description: "A collection of playlist ideas",
-  //   year: '2022',
-  //   type: 'Web Design and Development',
-  //   context: 'personal',
-  //   link: 'https://www.playlistprompts.com/',
-  //   cover: './img/covers/playlist.webp',
-  //   target: '_blank',
-  //   case: false,
-  // },
-
 
   {  
     title: "Sunny Place for Shady People",
@@ -121,18 +121,18 @@ export const projects = [
 
   },
 
-  {  
-    title: "Blue Flower Arts",
-    description: "Brand identity for a boutique literary agency",
-    year: '2021',
-    type: 'Brand Design',
-    context: 'client',
-    link: '/bfa',
-    cover: './img/covers/bfa.webp',
-    target: '_self',
-    case: false,
+  // {  
+  //   title: "Blue Flower Arts",
+  //   description: "Brand identity for a boutique literary agency",
+  //   year: '2021',
+  //   type: 'Brand Design',
+  //   context: 'client',
+  //   link: '/bfa',
+  //   cover: './img/covers/bfa.webp',
+  //   target: '_self',
+  //   case: false,
 
-  },
+  // },
 
   // {  
   //   title: "Student Visa Review",
@@ -195,9 +195,18 @@ export const projects = [
     case: false,
   },
 
-  
+   {  
+    title: "A History of My Personal Website",
+    description: "Change over time",
+    year: '2018 - 2024',
+    type: 'Web Design and Development',
+    context: 'personal',
+    link: '/website',
+    cover: './img/covers/website.webp',
+    target: '_self',
+    case: false,
 
-
+  },
  
 
 ];
