@@ -5,7 +5,7 @@ export const writing = [
     title: 'The Internet Phone Book',
     link:
       'https://internetphonebook.net/',
-      source: "(you'll find this website)",
+      source: "(this website is recommended)",
       year: '2025'
   },
 

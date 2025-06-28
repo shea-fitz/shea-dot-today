@@ -13,17 +13,17 @@ export const projects = [
 
   // },
 
-  // {  
-  //   title: "Band Visuals",
-  //   description: "Posters, artwork, merch",
-  //   year: '2024',
-  //   type: 'Design',
-  //   context: 'personal',
-  //   link: '/bands',
-  //   cover: './img/covers/scent.png',
-  //   target: '_self',
-  //   case: false,
-  // },
+  {  
+    title: "Band Visuals",
+    description: "Artist, album, and event graphics",
+    year: '2020 - 2025',
+    type: 'Animation, Web and Graphic Design',
+    context: 'client',
+    link: '/bands',
+    cover: './img/covers/band.webp',
+    target: '_self',
+    case: false,
+  },
 
 
 
@@ -35,64 +35,51 @@ export const projects = [
     type: 'Design',
     context: 'client',
     link: '/scent',
-    cover: './img/covers/scent.png',
+    cover: './img/covers/scent.webp',
     target: '_self',
     case: false,
   },
 
-  {  
-    title: "A History of My Personal Website",
-    description: "Change over time",
-    year: '2018 - 2024',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website',
-    cover: './img/covers/website.webp',
-    target: '_self',
-    case: false,
 
-  },
+  //   {  
+  //   title: "The Pleasure x Effort Matrix",
+  //   description: "Notes on the hypothetical self",
+  //   year: '2024',
+  //   type: 'Writing',
+  //   context: 'Client',
+  //   link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
+  //   cover: './img/covers/syllabus.webp',
+  //   target: '_blank',
+  //   case: false,
 
-
-    {  
-    title: "The Pleasure x Effort Matrix",
-    description: "Notes on the hypothetical self",
-    year: '2024',
-    type: 'Writing',
-    context: 'Client',
-    link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
-    cover: './img/covers/syllabus.webp',
-    target: '_blank',
-    case: false,
-
-  },
+  // },
 
  
 
 
-  // {  
-  //   title: "Flowers in Motion",
-  //   description: "A radio show",
-  //   year: '2023',
-  //   type: 'Music, Design',
-  //   context: 'personal',
-  //   link: '/flowers',
-  //   cover: './img/covers/flowers.webp',
-  //   target: '_self',
-  //   case: false,
-  // },
-
   {  
-    title: "The Memo",
-    description: "Microsite for New York Times Advertising",
+    title: "Flowers in Motion",
+    description: "A radio show",
     year: '2023',
-    type: 'Web Design and Development',
-    context: 'client',
-    link: 'https://advertising.nytimes.com/thememo/',
-    cover: './img/covers/nyt.webp',
-    target: '_blank',
+    type: 'Music, Design',
+    context: 'personal',
+    link: '/flowers',
+    cover: './img/covers/flowers.webp',
+    target: '_self',
     case: false,
   },
+
+  // {  
+  //   title: "The Memo",
+  //   description: "Microsite for New York Times Advertising",
+  //   year: '2023',
+  //   type: 'Web Design and Development',
+  //   context: 'client',
+  //   link: 'https://advertising.nytimes.com/thememo/',
+  //   cover: './img/covers/nyt.webp',
+  //   target: '_blank',
+  //   case: false,
+  // },
 
 
   // {  
@@ -108,31 +95,31 @@ export const projects = [
   // },
 
 
-  {  
-    title: "Sunny Place for Shady People",
-    description: "A Western-inspired visualizer",
-    year: '2021',
-    type: 'Animation',
-    context: 'client',
-    link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
-    cover: './img/covers/sunny.webp',
-    target: '_blank',    
-    case: false,
+  // {  
+  //   title: "Sunny Place for Shady People",
+  //   description: "A Western-inspired visualizer",
+  //   year: '2021',
+  //   type: 'Animation',
+  //   context: 'client',
+  //   link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
+  //   cover: './img/covers/sunny.webp',
+  //   target: '_blank',    
+  //   case: false,
 
-  },
+  // },
 
-  {  
-    title: "Blue Flower Arts",
-    description: "Brand identity for a boutique literary agency",
-    year: '2021',
-    type: 'Brand Design',
-    context: 'client',
-    link: '/bfa',
-    cover: './img/covers/bfa.webp',
-    target: '_self',
-    case: false,
+  // {  
+  //   title: "Blue Flower Arts",
+  //   description: "Brand identity for a boutique literary agency",
+  //   year: '2021',
+  //   type: 'Brand Design',
+  //   context: 'client',
+  //   link: '/bfa',
+  //   cover: './img/covers/bfa.webp',
+  //   target: '_self',
+  //   case: false,
 
-  },
+  // },
 
   // {  
   //   title: "Student Visa Review",
@@ -195,9 +182,18 @@ export const projects = [
     case: false,
   },
 
-  
 
+    {  
+    title: "A History of My Personal Website",
+    description: "Change over time",
+    year: '2018 - 2024',
+    type: 'Web Design and Development',
+    context: 'personal',
+    link: '/website',
+    cover: './img/covers/website.webp',
+    target: '_self',
+    case: false,
 
- 
+  }
 
 ];
