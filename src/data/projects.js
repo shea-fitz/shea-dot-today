@@ -161,7 +161,7 @@ export const projects = [
   {  
     title: "Ink Drawings",
     description: "Sketchbook scans",
-    year: '2021 - present',
+    year: '2021 - 2024',
     type: 'Illustration',
     context: 'personal',
     link: '/sketch',

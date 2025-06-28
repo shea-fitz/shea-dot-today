@@ -227,7 +227,7 @@ audio {
 
 .proj-container {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     width: 100%;
     height: auto;
     border-bottom: .75px solid var(--mid);
@@ -248,7 +248,7 @@ audio {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 16px 0px 8px 0px;
+    margin: 12px 0px 8px 0px;
     gap: 6px;
     justify-content: space-between;
 }
