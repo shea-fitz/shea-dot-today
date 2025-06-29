@@ -5,14 +5,19 @@ import PageHeader from '../components/PageHeader';
 import Image from '../components/Image';
 import Back from '../components/Back';
 
+import render from '../media/bands/renders.gif';
+import jitter from '../media/bands/jitter.gif';
+
 import driversSeat from '../media/bands/the-gluu_drivers-seat.webp';
 import sooGood from '../media/bands/the-gluu_soo-good.webp';
 import dreaming from '../media/bands/the-gluu_dreaming.webp';
 import moodboard from '../media/bands/moodboard-gluu.webp';
+
 import charm from '../media/bands/charm.webp';
 import extra from '../media/bands/extracurriculars.webp';
 import tattoo from '../media/bands/talon-tattoo.webp';
 import posters from '../media/bands/talon-posters.webp';
+
 import mini from '../media/bands/mini.webp';
 import ah12 from '../media/bands/ah12.webp';
 import tommy from '../media/bands/tommy.webp';
@@ -41,11 +46,20 @@ const Bands = () => {
         <h2>Lawrence Rothman – Sunny Place for Shady People (2021)</h2>
 
         <p className="paragraph">
-            I collaborated with <a href="https://www.matthixon.com/" target="_blank">Matt Hixon</a> on a chaotic Western-inspired visualizer for <a href="https://www.instagram.com/lawrencerothman/?hl=en" target="_blank">Lawrence Rothman's</a> single Sunny Place for Shady People. I created the animated sequences in Blender using generative landscapes and glitch video textures from Matt's deep collection of archival footage.
+            I collaborated with <a href="https://www.matthixon.com/" target="_blank">Matt Hixon</a> on a chaotic Western-inspired visualizer for <a href="https://www.instagram.com/lawrencerothman/?hl=en" target="_blank">Lawrence Rothman's</a> single Sunny Place for Shady People. In a mad 48-hour dash I created the animated sequences in Blender using generative landscapes and glitch video textures from Matt's collection of archival footage.
         </p>
 
         <iframe className="video-iframe" width="auto" height="400" src="https://www.youtube.com/embed/sW4aexJe8-s?si=rzNbA30zjfJsw9fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+        
+        <Image source={render}/>
+         <Image source={jitter}/>
+
+
+
+
+
+      <div className="spacer"></div>
 
         <h2>Talon (2025)</h2>
 
@@ -61,13 +75,14 @@ const Bands = () => {
          For the Extracurriculars Tour posters, I drew a stamp-like motif of scissors cutting a love letter, which became so beloved the band got it tattooed.
         </p>
 
+
          <Image source={extra}/>
          <Image source={posters}/>
 
 
          <div className="image-gallery">
 
-      <div className="column-half"> 
+          <div className="column-half"> 
             <Image source={charm} caption="Laser cut brass charm for the bassist"/>
               </div>
 
@@ -75,13 +90,16 @@ const Bands = () => {
             <Image source={tattoo} caption="Band tattoos <3"/>
               </div>
         
-    </div>
+        </div>
+
+     <div className="spacer"></div>
+
       
 
-{/* 
-         <h2>The Gluu (2025)</h2>
 
-        <p className="paragraph">The Gluu is a pop project by Mark Matter and MK Charron. I made the single art for their debut releases. They wanted something very graphic and Y2k a la 90's teen magazines.</p>
+         {/* <h2>The Gluu (2025)</h2>
+
+        <p className="paragraph">The Gluu is a pop project by Mark Matter and MK Charron. I made the single art for their debut releases. They wanted something graphic and Y2K-inspired a la 90's teen magazines.</p>
 
       <div className="image-gallery">
         <div className="column-third"> 
@@ -98,7 +116,11 @@ const Bands = () => {
       
        <Image source={moodboard} caption="Moodboard provided by The Gluu"/>
 
-       </div> */}
+       </div>
+
+
+   <div className="spacer"></div> */}
+
 
         
     <h2>Other work for musicians (2020 - 2025)</h2>
