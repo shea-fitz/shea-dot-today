@@ -183,17 +183,17 @@ export const projects = [
   },
 
 
-    {  
-    title: "A History of My Personal Website",
-    description: "Change over time",
-    year: '2018 - 2024',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website',
-    cover: './img/covers/website.webp',
-    target: '_self',
-    case: false,
+  //   {  
+  //   title: "A History of My Personal Website",
+  //   description: "Change over time",
+  //   year: '2018 - 2024',
+  //   type: 'Web Design and Development',
+  //   context: 'personal',
+  //   link: '/website',
+  //   cover: './img/covers/website.webp',
+  //   target: '_self',
+  //   case: false,
 
-  }
+  // }
 
 ];

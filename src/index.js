@@ -35,9 +35,9 @@ root.render(
       <Route path="sketch" element={<Sketch />} />
       <Route path="student-visa" element={<StudentVisa />} />
       <Route path="flowers" element={<Flowers />} />
-      <Route path="website" element={<Archive />} />
+      {/* <Route path="website" element={<Archive />} /> */}
       <Route path="scent" element={<Scent />} />
-            <Route path="bands" element={<Bands />} />
+      <Route path="bands" element={<Bands />} />
 
 
     </Routes>
