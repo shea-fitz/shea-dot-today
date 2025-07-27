@@ -29,7 +29,7 @@ const Habit = () => {
 
         <div className="image-gallery">
         {habit.map(image => (
-              <div className="column-third">
+              <div className="column-half">
                 <Image
                     source={image.source}
                   />
