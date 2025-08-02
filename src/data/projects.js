@@ -92,20 +92,6 @@ export const projects = [
   //   case: false,
   // },
 
-
-  // {  
-  //   title: "Sunny Place for Shady People",
-  //   description: "A Western-inspired visualizer",
-  //   year: '2021',
-  //   type: 'Animation',
-  //   context: 'client',
-  //   link: 'https://www.youtube.com/watch?v=sW4aexJe8-s',
-  //   cover: './img/covers/sunny.webp',
-  //   target: '_blank',    
-  //   case: false,
-
-  // },
-
   // {  
   //   title: "Blue Flower Arts",
   //   description: "Brand identity for a boutique literary agency",
