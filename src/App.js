@@ -84,7 +84,7 @@ function App() {
     
       </div>    
 
-      <div className="footer">♫ Last updated July 27, 2025 ♫</div>    
+      <div className="footer">♫ Last updated Aug 12, 2025 ♫</div>    
     </>
   );
 }
