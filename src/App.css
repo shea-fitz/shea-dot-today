@@ -175,6 +175,10 @@ div.banner {
 .footer {
     font-family: var(--font-h);
     display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    gap: 12px;
     justify-content: center;
     font-style: italic;
     margin-bottom: 24px;
@@ -222,6 +226,17 @@ audio {
     padding-bottom: 4px;
 }
 
+.gossips-badge {
+    border: .5px solid black;
+    width: 200px;
+    opacity: 75%;
+}
+
+.phone-badge {
+    width: 75px;
+    opacity: 75%;
+
+}
 
 /* PROJECTS */
 
