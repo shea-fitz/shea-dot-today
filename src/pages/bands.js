@@ -16,7 +16,7 @@ import moodboard from '../media/bands/moodboard-gluu.webp';
 import charm from '../media/bands/charm.webp';
 import extra from '../media/bands/extracurriculars.webp';
 import tattoo from '../media/bands/talon-tattoo.webp';
-import posters from '../media/bands/talon-posters.webp';
+import codes from '../media/bands/codes.webp';
 
 import mini from '../media/bands/mini.webp';
 import ah12 from '../media/bands/ah12.webp';
@@ -43,6 +43,38 @@ const Bands = () => {
             />
 
 
+      <div></div>
+
+        <h2>Talon (2025)</h2>
+
+        <p className="paragraph">
+          <a href="https://open.spotify.com/artist/3QBo4tlekZDVCgtpMwQA64?si=9ip-9zsDTbO1fwO-pFfbHw" target="_blank">Talon</a> is a Brooklyn-based rock band descendent from the likes of Mannequin Pussy, The Breeders, and Hole. I've helped them strengthen their brand presence through tour visuals and their <a href="https://www.talontheband.com/" target="_blank">first website</a>, taking a lo-res logo they made two years ago and building a visual universe around it to stay true to their punk DIY spirit. I designed the album art for their debut LP, Codes, out September 2025.
+          
+        </p>
+
+                 <Image source={codes} caption="Album art and tracklist for Talon's debut LP, Codes"/>
+
+
+        <iframe className="website-iframe" src="https://www.talontheband.com/"></iframe>
+
+
+         <Image source={extra}/>
+
+         <div className="image-gallery">
+
+          <div className="column-half"> 
+            <Image source={charm} caption="Laser cut brass charm for the bassist"/>
+              </div>
+
+              <div className="column-half"> 
+            <Image source={tattoo} caption="Band tattoos <3"/>
+              </div>
+        
+        </div>
+
+     <div className="spacer"></div>
+
+
         <h2>Lawrence Rothman – Sunny Place for Shady People (2021)</h2>
 
         <p className="paragraph">
@@ -59,41 +91,7 @@ const Bands = () => {
 
 
 
-      <div className="spacer"></div>
-
-        <h2>Talon (2025)</h2>
-
-        <p className="paragraph">
-          Talon is a Brooklyn-based lesbian rock band descendent from the likes of Mannequin Pussy, The Breeders, and Hole. I've helped them strengthen their brand presence through tour visuals and their <a href="https://www.talontheband.com/" target="_blank">first website</a>, taking a lo-res logo they made two years ago and building a visual universe around it to stay true to their punk DIY spirit.
-        </p>
-
-        <iframe className="website-iframe" src="https://www.talontheband.com/"></iframe>
-
-        <h3>2025 Extracurriculars Tour</h3>
-
-        <p className="paragraph">
-         For the Extracurriculars Tour posters, I drew a stamp-like motif of scissors cutting a love letter, which became so beloved the band got it tattooed.
-        </p>
-
-
-         <Image source={extra}/>
-         <Image source={posters}/>
-
-
-         <div className="image-gallery">
-
-          <div className="column-half"> 
-            <Image source={charm} caption="Laser cut brass charm for the bassist"/>
-              </div>
-
-              <div className="column-half"> 
-            <Image source={tattoo} caption="Band tattoos <3"/>
-              </div>
-        
-        </div>
-
-     <div className="spacer"></div>
-
+      
       
 
 

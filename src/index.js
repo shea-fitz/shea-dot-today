@@ -10,12 +10,12 @@ import {
   Route,
 } from "react-router-dom";
 
-import BlueFlower from './pages/bfa';
+// import BlueFlower from './pages/bfa';
 import Habit from './pages/habit';
 import People from './pages/people';
 import SketchDigital from './pages/sketch-digital';
 import Sketch from './pages/sketch';
-import StudentVisa from './pages/student-visa';
+// import StudentVisa from './pages/student-visa';
 import Flowers from './pages/flowers';
 import Archive from './pages/website';
 import Scent from './pages/sam';
@@ -28,12 +28,12 @@ root.render(
   <BrowserRouter>
    <Routes>
       <Route path="/" element={<App />} />
-      <Route path="bfa" element={<BlueFlower />} />
+      {/* <Route path="bfa" element={<BlueFlower />} /> */}
       <Route path="habit" element={<Habit />} />
       <Route path="people" element={<People />} />
       <Route path="sketch-digital" element={<SketchDigital />} />
       <Route path="sketch" element={<Sketch />} />
-      <Route path="student-visa" element={<StudentVisa />} />
+      {/* <Route path="student-visa" element={<StudentVisa />} /> */}
       <Route path="flowers" element={<Flowers />} />
       {/* <Route path="website" element={<Archive />} /> */}
       <Route path="scent" element={<Scent />} />
