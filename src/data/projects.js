@@ -13,6 +13,19 @@ export const projects = [
 
   },
 
+  //   {  
+  //   title: "Jewelry",
+  //   description: "Wax and metalwork",
+  //   year: '2025',
+  //   type: 'Design',
+  //   context: 'personal',
+  //   link: 'https://linktr.ee/sheaonair',
+  //   cover: './img/covers/air.webp',
+  //   target: '_blank',
+  //   case: false,
+
+  // },
+
   {  
     title: "Band Visuals",
     description: "Artist, album, and event graphics",

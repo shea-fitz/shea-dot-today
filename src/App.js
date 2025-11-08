@@ -86,9 +86,9 @@ function App() {
 
       <div className="footer">♫ Last updated Aug 12, 2025 ♫
         
-        <div className="gossips-badge"><a href="https://gossipsweb.net"><img src="https://gossipsweb.net/images/twwmwh-lime.jpg" alt="This website was made with hands." /></a></div>
+        {/* <div className="gossips-badge"><a href="https://gossipsweb.net"><img src="https://gossipsweb.net/images/twwmwh-lime.jpg" alt="This website was made with hands." /></a></div>
         <div className="phone-badge"><a href="https://internetphonebook.net"><img src="https://internetphonebook.net/images/badges/laptop-hands-sun.png"></img></a></div> 
-        
+         */}
       </div>   
         
 
