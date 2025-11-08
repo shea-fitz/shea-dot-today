@@ -20,7 +20,7 @@ import Flowers from './pages/flowers';
 import Archive from './pages/website';
 import Scent from './pages/sam';
 import Bands from './pages/bands';
-import Metal from './pages/metal';
+// import Metal from './pages/metal';
 
 
 
@@ -40,7 +40,7 @@ root.render(
       <Route path="website" element={<Archive />} />
       <Route path="scent" element={<Scent />} />
       <Route path="bands" element={<Bands />} />
-      <Route path="metal" element={<Metal />} />
+      {/* <Route path="metal" element={<Metal />} /> */}
 
 
 
