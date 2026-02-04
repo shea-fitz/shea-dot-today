@@ -78,13 +78,13 @@ function App() {
           
 
           <Fade>
-            <a href="https://www.youtube.com/watch?v=woENoP7QewM" target="_blank" className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></a>
+            <a href="https://www.youtube.com/watch?v=bu58brYNRu0" target="_blank" className="shea"><img src={shea}/><div className="banner">"This reminded me of you"</div></a>
           </Fade>
 
     
       </div>    
 
-      <div className="footer">♫ Last updated Aug 12, 2025 ♫
+      <div className="footer">♫ Last updated Feb 3, 2026 ♫
         
         {/* <div className="gossips-badge"><a href="https://gossipsweb.net"><img src="https://gossipsweb.net/images/twwmwh-lime.jpg" alt="This website was made with hands." /></a></div>
         <div className="phone-badge"><a href="https://internetphonebook.net"><img src="https://internetphonebook.net/images/badges/laptop-hands-sun.png"></img></a></div> 
