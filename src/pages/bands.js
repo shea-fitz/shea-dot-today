@@ -39,20 +39,21 @@ const Bands = () => {
           <PageHeader
               title='Band Visuals'
               type='Animation, Web Design, Graphic Design'
-              year='2020 - 2025'
+              year='2020 - ongoing'
             />
 
 
       <div></div>
 
-        <h2>Talon (2025)</h2>
+        <h2>Talon (2025 - 2026)</h2>
 
         <p className="paragraph">
-          <a href="https://open.spotify.com/artist/3QBo4tlekZDVCgtpMwQA64?si=9ip-9zsDTbO1fwO-pFfbHw" target="_blank">Talon</a> is a Brooklyn-based rock band descendent from the likes of Mannequin Pussy, The Breeders, and Hole. I've helped them strengthen their brand presence through tour visuals and their <a href="https://www.talontheband.com/" target="_blank">first website</a>, taking a lo-res logo they made two years ago and building a visual universe around it to stay true to their punk DIY spirit. I designed the album art for their debut LP, Codes, out September 2025.
+          <a href="https://open.spotify.com/artist/3QBo4tlekZDVCgtpMwQA64?si=9ip-9zsDTbO1fwO-pFfbHw" target="_blank">Talon</a> is a Brooklyn-based rock band descendent from the likes of Mannequin Pussy, The Breeders, and Hole.
           
         </p>
 
-                 <Image source={codes} caption="Album art and tracklist for Talon's debut LP, Codes"/>
+          
+          <Image source={codes} caption="Album art and tracklist for Talon's debut LP, Codes"/>
 
 
         <iframe className="website-iframe" src="https://www.talontheband.com/"></iframe>
@@ -86,13 +87,6 @@ const Bands = () => {
         
         <Image source={render}/>
          <Image source={jitter}/>
-
-
-
-
-
-      
-      
 
 
          {/* <h2>The Gluu (2025)</h2>

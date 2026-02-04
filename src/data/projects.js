@@ -3,7 +3,7 @@ export const projects = [
   {  
     title: "shea on air",
     description: "A solo flute project",
-    year: '2025',
+    year: '2025 – ongoing',
     type: 'Music, Design',
     context: 'personal',
     link: 'https://linktr.ee/sheaonair',
@@ -12,6 +12,19 @@ export const projects = [
     case: false,
 
   },
+
+     {  
+    title: "Band Visuals",
+    description: "Artist, album, and event graphics",
+    year: '2020 - ongoing',
+    type: 'Animation, Web and Graphic Design',
+    context: 'client',
+    link: '/bands',
+    cover: './img/covers/sunny.webp',
+    target: '_self',
+    case: false,
+  },
+  
 
   //   {  
   //   title: "Jewelry",
@@ -26,17 +39,6 @@ export const projects = [
 
   // },
 
-  {  
-    title: "Band Visuals",
-    description: "Artist, album, and event graphics",
-    year: '2020 - 2025',
-    type: 'Animation, Web and Graphic Design',
-    context: 'client',
-    link: '/bands',
-    cover: './img/covers/sunny.webp',
-    target: '_self',
-    case: false,
-  },
 
 
   {  
@@ -138,6 +140,18 @@ export const projects = [
     context: 'personal',
     link: '/sketch',
     cover: './img/covers/sketch-2.webp',
+    target: '_self',
+    case: false,
+  },
+
+    {  
+    title: "Sunny Place for Shady People",
+    description: "A western-inspired visualizer",
+    year: '2021',
+    type: 'Animation',
+    context: 'client',
+    link: '/bands',
+    cover: './img/covers/sunny.webp',
     target: '_self',
     case: false,
   },
