@@ -16,7 +16,7 @@ export const projects = [
      {  
     title: "Band Visuals",
     description: "Artist, album, and event graphics",
-    year: '2020 - ongoing',
+    year: '2020 - 2026',
     type: 'Animation, Web and Graphic Design',
     context: 'client',
     link: '/bands',
