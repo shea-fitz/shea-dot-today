@@ -13,6 +13,8 @@ import sooGood from '../media/bands/the-gluu_soo-good.webp';
 import dreaming from '../media/bands/the-gluu_dreaming.webp';
 import moodboard from '../media/bands/moodboard-gluu.webp';
 
+import codesTour from '../media/bands/talon_codes-tour.webp';
+import codesTour2 from '../media/bands/code-tour-2.webp';
 import charm from '../media/bands/charm.webp';
 import extra from '../media/bands/extracurriculars.webp';
 import tattoo from '../media/bands/talon-tattoo.webp';
@@ -48,15 +50,16 @@ const Bands = () => {
         <h2>Talon (2025 - 2026)</h2>
 
         <p className="paragraph">
-          <a href="https://open.spotify.com/artist/3QBo4tlekZDVCgtpMwQA64?si=9ip-9zsDTbO1fwO-pFfbHw" target="_blank">Talon</a> is a Brooklyn-based rock band descendent from the likes of Mannequin Pussy, The Breeders, and Hole.
+          <a href="https://open.spotify.com/artist/3QBo4tlekZDVCgtpMwQA64?si=9ip-9zsDTbO1fwO-pFfbHw" target="_blank">Talon</a> is a Brooklyn-based rock band descendent from the likes of Mannequin Pussy, The Breeders, and Hole. I've worked with them on many of their tour and album visuals, and also made their <a href="https://www.talontheband.com/" target='_blank'>website</a>.
           
         </p>
-
+          <Image source={codesTour}/>
+          <Image source={codesTour2}/>
           
           <Image source={codes} caption="Album art and tracklist for Talon's debut LP, Codes"/>
 
 
-        <iframe className="website-iframe" src="https://www.talontheband.com/"></iframe>
+        {/* <iframe className="website-iframe" src="https://www.talontheband.com/"></iframe> */}
 
 
          <Image source={extra}/>
@@ -115,20 +118,20 @@ const Bands = () => {
 
 
         
-    <h2>Other work for musicians (2020 - 2025)</h2>
+    <h2>Other album art (2020 - 2025)</h2>
 
     <div className="image-gallery">
 
       <div className="column-third"> 
-            <Image source={ah12} caption="Angel Hair No. 12 – Rise With The Sun (2024)"/>
+            <Image source={ah12}/>
               </div>
 
               <div className="column-third"> 
-            <Image source={mini} caption="Mini – Mass (2020)"/>
+            <Image source={mini}/>
               </div>
 
               <div className="column-third"> 
-            <Image source={tommy} caption="Tommy Baby – Hours (2023)"/>
+            <Image source={tommy}/>
               </div>
     </div>
             
