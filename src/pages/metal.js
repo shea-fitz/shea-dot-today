@@ -17,7 +17,7 @@ const Habit = () => {
 
         <div className="page-content">
           <PageHeader
-              title="Jewelry and Metalwork"
+              title="Jewelry and Waxwork"
               type='Design'
               year='2025'
             />

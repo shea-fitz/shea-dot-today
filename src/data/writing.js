@@ -17,13 +17,13 @@ export const writing = [
         year: '2024'
     },
 
-    // {
-    //   title: 'Shea Fitz on sheafitz.com',
-    //   link:
-    //     'https://blog.gossipsweb.net/behind-the-scenes/shea-fitz-on-shea-fitz.html',
-    //     source: "Gossip's Web",
-    //     year: '2021'
-    // },
+    {
+      title: 'Shea Fitz on sheafitz.com',
+      link:
+        'https://blog.gossipsweb.net/behind-the-scenes/shea-fitz-on-shea-fitz.html',
+        source: "Gossip's Web",
+        year: '2021'
+    },
 
     {
         title: 'A playlist that is a poem',

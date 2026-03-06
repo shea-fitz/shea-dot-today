@@ -82,17 +82,17 @@ export const projects = [
     case: false,
   },
 
-  // {  
-  //   title: "The Memo",
-  //   description: "Microsite for New York Times Advertising",
-  //   year: '2023',
-  //   type: 'Web Design and Development',
-  //   context: 'client',
-  //   link: 'https://advertising.nytimes.com/thememo/',
-  //   cover: './img/covers/nyt.webp',
-  //   target: '_blank',
-  //   case: false,
-  // },
+  {  
+    title: "The Memo",
+    description: "Microsite for New York Times Advertising",
+    year: '2023',
+    type: 'Web Design and Development',
+    context: 'client',
+    link: 'https://web.archive.org/web/20240202042332/https://advertising.nytimes.com/thememo/',
+    cover: './img/covers/nyt.webp',
+    target: '_blank',
+    case: false,
+  },
 
 
   // {  
@@ -107,18 +107,18 @@ export const projects = [
   //   case: false,
   // },
 
-  // {  
-  //   title: "Blue Flower Arts",
-  //   description: "Brand identity for a boutique literary agency",
-  //   year: '2021',
-  //   type: 'Brand Design',
-  //   context: 'client',
-  //   link: '/bfa',
-  //   cover: './img/covers/bfa.webp',
-  //   target: '_self',
-  //   case: false,
+  {  
+    title: "Blue Flower Arts",
+    description: "Brand identity for a boutique literary agency",
+    year: '2021',
+    type: 'Brand Design',
+    context: 'client',
+    link: '/bfa',
+    cover: './img/covers/bfa.webp',
+    target: '_self',
+    case: false,
 
-  // },
+  },
 
   // {  
   //   title: "Student Visa Review",

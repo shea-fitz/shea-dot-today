@@ -34,7 +34,7 @@ function App() {
         <div className="projects">
           <div className="header proj-header space-between">Projects
               <div className="categories">
-                  <span className="category"><img className="icon" src={client}></img>client work + commissions</span>
+                  <span className="category"><img className="icon" src={client}></img>client work</span>
                   <span className="category"><img className="icon" src={personal}></img>personal</span>
               </div>
           </div>

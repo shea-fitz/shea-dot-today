@@ -10,7 +10,7 @@ import {
   Route,
 } from "react-router-dom";
 
-// import BlueFlower from './pages/bfa';
+import BlueFlower from './pages/bfa';
 import Habit from './pages/habit';
 import People from './pages/people';
 import SketchDigital from './pages/sketch-digital';
@@ -30,7 +30,7 @@ root.render(
   <BrowserRouter>
    <Routes>
       <Route path="/" element={<App />} />
-      {/* <Route path="bfa" element={<BlueFlower />} /> */}
+      <Route path="bfa" element={<BlueFlower />} />
       <Route path="habit" element={<Habit />} />
       <Route path="people" element={<People />} />
       <Route path="sketch-digital" element={<SketchDigital />} />
