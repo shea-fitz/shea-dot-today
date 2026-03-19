@@ -106,18 +106,18 @@ export const projects = [
   //   case: false,
   // },
 
-  {  
-    title: "Blue Flower Arts",
-    description: "Brand identity for a boutique literary agency",
-    year: '2021',
-    type: 'Brand Design',
-    context: 'client',
-    link: '/bfa',
-    cover: './img/covers/bfa.webp',
-    target: '_self',
-    case: false,
+  // {  
+  //   title: "Blue Flower Arts",
+  //   description: "Brand identity for a boutique literary agency",
+  //   year: '2021',
+  //   type: 'Brand Design',
+  //   context: 'client',
+  //   link: '/bfa',
+  //   cover: './img/covers/bfa.webp',
+  //   target: '_self',
+  //   case: false,
 
-  },
+  // },
 
   // {  
   //   title: "Student Visa Review",
@@ -143,17 +143,17 @@ export const projects = [
     case: false,
   },
 
-    {  
-    title: "Sunny Place for Shady People",
-    description: "A western-inspired visualizer",
-    year: '2021',
-    type: 'Animation',
-    context: 'client',
-    link: '/bands',
-    cover: './img/covers/sunny.webp',
-    target: '_self',
-    case: false,
-  },
+  //   {  
+  //   title: "Sunny Place for Shady People",
+  //   description: "A western-inspired visualizer",
+  //   year: '2021',
+  //   type: 'Animation',
+  //   context: 'client',
+  //   link: '/bands',
+  //   cover: './img/covers/sunny.webp',
+  //   target: '_self',
+  //   case: false,
+  // },
 
   {  
     title: "Two People in a Room Over Time",
