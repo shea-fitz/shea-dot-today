@@ -8,7 +8,7 @@ export const projects = [
     context: 'personal',
     link: 'https://linktr.ee/sheaonair',
     cover: './img/covers/air.webp',
-    target: '_blank',
+    target: '_self',
     case: false,
 
   },
@@ -92,19 +92,6 @@ export const projects = [
     target: '_self',
     case: false,
   },
-
-
-  // {  
-  //   title: 'Playlist Prompts',
-  //   description: "A collection of playlist ideas",
-  //   year: '2022',
-  //   type: 'Web Design and Development',
-  //   context: 'personal',
-  //   link: 'https://www.playlistprompts.com/',
-  //   cover: './img/covers/playlist.webp',
-  //   target: '_blank',
-  //   case: false,
-  // },
 
   // {  
   //   title: "Blue Flower Arts",

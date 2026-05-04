@@ -15,12 +15,13 @@ import Habit from './pages/habit';
 import People from './pages/people';
 import SketchDigital from './pages/sketch-digital';
 import Sketch from './pages/sketch';
-// import StudentVisa from './pages/student-visa';
+import StudentVisa from './pages/student-visa';
 import Flowers from './pages/flowers';
 import Archive from './pages/website';
 import Scent from './pages/sam';
 import Bands from './pages/bands';
 // import Metal from './pages/metal';
+import SheaOnAir from './pages/shea-on-air';
 
 
 
@@ -35,11 +36,13 @@ root.render(
       <Route path="people" element={<People />} />
       <Route path="sketch-digital" element={<SketchDigital />} />
       <Route path="sketch" element={<Sketch />} />
-      {/* <Route path="student-visa" element={<StudentVisa />} /> */}
+      <Route path="student-visa" element={<StudentVisa />} />
       <Route path="flowers" element={<Flowers />} />
       <Route path="website" element={<Archive />} />
       <Route path="scent" element={<Scent />} />
       <Route path="bands" element={<Bands />} />
+      <Route path="shea-on-air" element={<SheaOnAir />} />
+
       {/* <Route path="metal" element={<Metal />} /> */}
 
 
