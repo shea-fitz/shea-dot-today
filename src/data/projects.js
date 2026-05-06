@@ -24,6 +24,18 @@ export const projects = [
     target: '_self',
     case: false,
   },
+
+     {  
+    title: "Subvert",
+    description: "V1 of a cooperatively owned Bandcamp alternative",
+    year: '2025',
+    type: 'Product Design',
+    context: 'client',
+    link: 'https://alpha.subvert.fm/',
+    cover: './img/covers/subvert.webp',
+    target: '_blank',
+    case: false,
+  },
   
 
   //   {  
