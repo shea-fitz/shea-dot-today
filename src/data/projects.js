@@ -19,7 +19,7 @@ export const projects = [
     year: '2025',
     type: 'Product Design',
     context: 'client',
-    link: 'https://alpha.subvert.fm/',
+    link: 'https://www.subvert.fm/',
     cover: './img/covers/subvert.webp',
     target: '_blank',
     case: false,
@@ -50,6 +50,19 @@ export const projects = [
 
   // },
 
+  {  
+    title: "A History of My Personal Website",
+    description: "Change over time",
+    year: '2018 - 2024',
+    type: 'Web Design and Development',
+    context: 'personal',
+    link: '/website',
+    cover: './img/covers/website.webp',
+    target: '_self',
+    case: false,
+
+  },
+
 
   {  
     title: "Scent Access Memory",
@@ -62,6 +75,8 @@ export const projects = [
     target: '_self',
     case: false,
   },
+
+
 
 
   //   {  
@@ -140,18 +155,6 @@ export const projects = [
     case: false,
   },
 
-  //   {  
-  //   title: "Sunny Place for Shady People",
-  //   description: "A western-inspired visualizer",
-  //   year: '2021',
-  //   type: 'Animation',
-  //   context: 'client',
-  //   link: '/bands',
-  //   cover: './img/covers/sunny.webp',
-  //   target: '_self',
-  //   case: false,
-  // },
-
   {  
     title: "Two People in a Room Over Time",
     description: "A series of Risograph prints",
@@ -190,17 +193,6 @@ export const projects = [
   },
 
 
-    {  
-    title: "A History of My Personal Website",
-    description: "Change over time",
-    year: '2018 - 2024',
-    type: 'Web Design and Development',
-    context: 'personal',
-    link: '/website',
-    cover: './img/covers/website.webp',
-    target: '_self',
-    case: false,
 
-  }
 
 ];

@@ -20,8 +20,10 @@ import Flowers from './pages/flowers';
 import Archive from './pages/website';
 import Scent from './pages/sam';
 import Bands from './pages/bands';
-// import Metal from './pages/metal';
+import Subvert from './pages/subvert';
 import SheaOnAir from './pages/shea-on-air';
+// import Metal from './pages/metal';
+
 
 
 
@@ -42,6 +44,8 @@ root.render(
       <Route path="scent" element={<Scent />} />
       <Route path="bands" element={<Bands />} />
       <Route path="shea-on-air" element={<SheaOnAir />} />
+      <Route path="subvert" element={<Subvert />} />
+
 
       {/* <Route path="metal" element={<Metal />} /> */}
 

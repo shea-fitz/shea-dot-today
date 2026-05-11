@@ -75,7 +75,7 @@ const BlueFlower = () => {
         </div>
 
 
-        <h3>Research</h3>
+        <h3>Process</h3>
 
         <p className="paragraph last-p">
         BFA's Project Manager provided us with initial brand research conducted with the in-house team - evocative questions like, <span className="highlight">"If BFA was a physical space, what would it be?"</span> (A vintage brownstone, they said, or a cozy old victorian house). From there, we provided four visual themes to choose from, mix, and match.
