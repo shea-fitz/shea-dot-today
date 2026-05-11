@@ -10,6 +10,13 @@ import look from '../media/subvert/look&feel.gif'
 import analysis from '../media/subvert/platformanalysis.gif'
 import featureMap from '../media/subvert/feature-map.webp'
 import pages from '../media/subvert/pages.webp'
+import connect from '../media/subvert/connectivity.webp'
+import alpha from '../media/subvert/alpha.webp'
+import flows from '../media/subvert/flows.webp'
+import collections from '../media/subvert/collections.webp'
+import upload from '../media/subvert/upload.webp'
+
+
 
   
 const Subvert = () => {
@@ -82,9 +89,9 @@ const Subvert = () => {
 
         <h3>Process</h3>
 
-        {/* <p className="paragraph last-p">
-        We started with a competitor audit 
-        </p> */}
+        <p className="paragraph last-p">
+        We started with a competitor audit to identify industry precedents – not just in music streaming, but marketplaces and governance models too – supplemented by co-op feedback collected via the <a href="https://forum.subvert.fm/" target="_blank">Subvert member forum</a>.
+        </p>
 
         <Image
           source={analysis}
@@ -96,6 +103,7 @@ const Subvert = () => {
 
          <Image
           source={featureMap}
+          caption='Feature map for the artist page. Features that persist across page navigation, like the audio player, are coded in yellow; Alpha features out of scope for MVP are greyed out.'
         />
 
 
@@ -107,6 +115,11 @@ const Subvert = () => {
         The long-term vision for Collections is a place for user-generated editorial, akin to liner notes, blogs, journals, shrines, posters on the wall...
 
        </p>
+
+         <Image
+          source={collections}
+          caption='MVP collections libary (2025) and Alpha collections page (2026)'
+        />
 
         <h3>Page Structure and Content Agnosticism</h3>
 
@@ -126,12 +139,41 @@ const Subvert = () => {
         <p className="paragraph">
             To encourage organic (rather than algorithmic) discovery, akin to rifling through a record store or swapping mixtapes, we wanted as many opportunities for back-linking and rabbit-holing as possible. <span className="highlight">Song metrics aren’t streams,</span> but how many times someone purchased or collected it – a <span className="highlight">subtle but important shift that feels less superficial</span> than stream counts. <br/><br/>
 
-            To further cater to artists, we also included song data like key, BPM, contributors (linked to Subvert profiles where applicable, and genre tags.
+            To further cater to artists, we also included song data like key, BPM, contributors (linked to Subvert profiles where applicable), and genre tags.
           
         </p>
 
+         <Image
+          source={connect}
+        />
+
         <h3>Delivering and Scaling V1 Design System</h3>
 
+        <p className="paragraph">
+          By the end of our 3-month split, design delivered a foundational component library and core product flows:
+
+          <ul>
+              <li>Log in and account creation</li>
+              <li>Profile editing</li>
+              <li>Album and track uploads</li>
+              <li>Add to cart and check-out</li>
+          </ul>
+        </p>
+
+        <Image
+          source={flows}
+          caption='Foundational components and core product flows'
+        />
+
+        <Image
+          source={upload}
+          caption='MVP track upload within the artist dashboard'
+        />
+
+        <Image
+          source={alpha}
+          caption='MVP design system scaled to Alpha launch in 2026'
+        />
         
 
        
