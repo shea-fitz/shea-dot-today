@@ -12,6 +12,9 @@ return (
     <p className="bio">Designer by trade & multimodal hobbyist at large...currently a senior product designer at The New York Times<br/><br/>
 
    "Shea's whole thing is figuring stuff out" – my manager <br/><br/>
+
+    "whimsical, reverent, maximalist" – the group chat <br/><br/>
+
         
         </p>
 
