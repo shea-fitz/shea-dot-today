@@ -110,7 +110,7 @@ function App() {
     
       </div>    
 
-      <div className="footer">♫ Last updated May 11, 2026 ♫
+      <div className="footer"><span>♫ I built this site from scratch with React.js and the <a href="https://www.are.na/developers/explore" target="_blank">Are.na API</a>. Last updated May 11, 2026 ♫</span>
         
         {/* <div className="gossips-badge"><a href="https://gossipsweb.net"><img src="https://gossipsweb.net/images/twwmwh-lime.jpg" alt="This website was made with hands." /></a></div>
         <div className="phone-badge"><a href="https://internetphonebook.net"><img src="https://internetphonebook.net/images/badges/laptop-hands-sun.png"></img></a></div> 

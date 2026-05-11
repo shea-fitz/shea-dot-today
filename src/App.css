@@ -174,8 +174,7 @@ div.banner {
 
 .footer {
     font-family: var(--font-h);
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
     width: 100vw;
     align-items: center;
     gap: 12px;
