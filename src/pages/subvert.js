@@ -173,20 +173,7 @@ const Subvert = () => {
         <Image
           source={alpha}
           caption='MVP design system scaled to Alpha launch in 2026'
-        />
-        
-
-       
-
-
-        
-
-
-
-
-    
-
-
+        /> 
             
 
         </div>
