@@ -791,8 +791,14 @@ ol {
         margin-right: 8px;
     }
 
+    .proj-header {
+        display: flex;
+        flex-direction: column;
+    }
     .categories {
-        display: none;
+        display: flex;
+        justify-content: left;
+        padding-top:12px;
     }
 
     .out-icon{ 

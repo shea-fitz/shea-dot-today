@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 
 import './App.css';
@@ -17,6 +18,13 @@ import Info from './components/Info';
 
 
 function App() {
+
+  const [filter, setFilter] = useState(null);
+  
+  const filteredProjects = filter
+    ? projects.filter(p => p.context === filter)
+    : projects;
+
   return (
     <>
 
@@ -32,15 +40,33 @@ function App() {
 
     <Fade>   
         <div className="projects">
-          <div className="header proj-header space-between">Projects
-              <div className="categories">
-                  <span className="category"><img className="icon" src={client}></img>client work</span>
-                  <span className="category"><img className="icon" src={personal}></img>personal</span>
-              </div>
+        <div className="header proj-header space-between">Projects
+
+            <div className="categories">
+              <span className="category pointer" onClick={() => setFilter(null)} style={{ opacity: filter === null ? 1 : 0.8 }}>
+                   <span className="icon">꩜</span>everything
+              </span>
+
+              <span
+                className="category pointer"
+                onClick={() => setFilter('client')}
+                style={{ opacity: filter === 'client' ? 1 : 0.65 }}
+              >
+                <img className="icon" src={client} />client work
+              </span>
+
+              <span
+                className="category pointer"
+                onClick={() => setFilter('personal')}
+                style={{ opacity: filter === 'personal' ? 1 : 0.65 }}
+              >
+                <img className="icon" src={personal} />personal
+              </span>
+            </div>
           </div>
 
           <div className="proj-list">
-          {projects.map(project => (
+          {filteredProjects.map(project => (
                       <Project
                         cover={project.cover}
                         title={project.title}
@@ -84,7 +110,7 @@ function App() {
     
       </div>    
 
-      <div className="footer">♫ Last updated Feb 3, 2026 ♫
+      <div className="footer">♫ Last updated May 11, 2026 ♫
         
         {/* <div className="gossips-badge"><a href="https://gossipsweb.net"><img src="https://gossipsweb.net/images/twwmwh-lime.jpg" alt="This website was made with hands." /></a></div>
         <div className="phone-badge"><a href="https://internetphonebook.net"><img src="https://internetphonebook.net/images/badges/laptop-hands-sun.png"></img></a></div> 

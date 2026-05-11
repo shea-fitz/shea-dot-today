@@ -51,6 +51,8 @@ return (
                         <div className="proj-desc">{description}</div>
                         <div className="space-between">
                         <div className="pills">
+                            <div className={caseStudy ? 'case-study' : 'none'}>Case Study</div>
+
                             <div className="proj-type">{type}</div>
                         </div>
                             

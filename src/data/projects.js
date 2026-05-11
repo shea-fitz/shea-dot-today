@@ -13,19 +13,7 @@ export const projects = [
 
   },
 
-     {  
-    title: "Band Visuals",
-    description: "Artist, album, and event graphics",
-    year: '2020 - 2026',
-    type: 'Animation, Web and Graphic Design',
-    context: 'client',
-    link: '/bands',
-    cover: './img/covers/sunny.webp',
-    target: '_self',
-    case: false,
-  },
-
-     {  
+  {  
     title: "Subvert",
     description: "V1 of a cooperatively owned Bandcamp alternative",
     year: '2025',
@@ -36,7 +24,18 @@ export const projects = [
     target: '_blank',
     case: false,
   },
-  
+
+     {  
+    title: "Band Visuals",
+    description: "Artist, album, and event graphics",
+    year: '2020 - 2025',
+    type: 'Animation, Web and Graphic Design',
+    context: 'client',
+    link: '/bands',
+    cover: './img/covers/sunny.webp',
+    target: '_self',
+    case: false,
+  },
 
   //   {  
   //   title: "Jewelry",
@@ -50,7 +49,6 @@ export const projects = [
   //   case: false,
 
   // },
-
 
 
   {  
@@ -105,18 +103,18 @@ export const projects = [
     case: false,
   },
 
-  // {  
-  //   title: "Blue Flower Arts",
-  //   description: "Brand identity for a boutique literary agency",
-  //   year: '2021',
-  //   type: 'Brand Design',
-  //   context: 'client',
-  //   link: '/bfa',
-  //   cover: './img/covers/bfa.webp',
-  //   target: '_self',
-  //   case: false,
+  {  
+    title: "Blue Flower Arts",
+    description: "Brand identity for a boutique literary agency",
+    year: '2021',
+    type: 'Brand Design',
+    context: 'client',
+    link: '/bfa',
+    cover: './img/covers/bfa.webp',
+    target: '_self',
+    case: false,
 
-  // },
+  },
 
   // {  
   //   title: "Student Visa Review",
