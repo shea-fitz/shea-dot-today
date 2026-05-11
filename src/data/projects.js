@@ -13,21 +13,9 @@ export const projects = [
 
   },
 
-  // {  
-  //   title: "Subvert",
-  //   description: "V1 of a cooperatively owned Bandcamp alternative",
-  //   year: '2025',
-  //   type: 'Product Design',
-  //   context: 'client',
-  //   link: '/subvert',
-  //   cover: './img/covers/subvert.webp',
-  //   target: '_self',
-  //   case: false,
-  // },
-
     {  
     title: "Subvert",
-    description: "V1 of a cooperatively owned Bandcamp alternative",
+    description: "MVP of a cooperatively owned Bandcamp alternative",
     year: '2025',
     type: 'Product Design',
     context: 'client',
