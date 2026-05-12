@@ -3,7 +3,7 @@ export const projects = [
   {  
     title: "shea on air",
     description: "A solo flute project",
-    year: '2025 – ongoing',
+    year: '2025 – 2026',
     type: 'music, worldbuilding',
     tags: ['music', 'design'],
     context: 'personal',
@@ -12,6 +12,33 @@ export const projects = [
     target: '_self',
     case: false,
 
+  },
+
+
+  {  
+    title: "T Brand Studio",
+    description: "Premium ad experiences",
+    year: '2023 - 2026',
+    type: 'product design',
+    tags: ['design', 'web'],
+    context: 'client',
+    link: 'https://advertising.nytimes.com/custom-content/',
+    cover: './img/covers/nyt.webp',
+    target: '_blank',
+    case: false,
+  },
+
+       {  
+    title: "Band Visuals",
+    description: "Artist, album, and event graphics",
+    year: '2020 - 2026',
+    type: 'animation, graphics, web design & dev',
+    tags: ['animation', 'web', 'design'],
+    context: 'client',
+    link: '/bands',
+    cover: './img/covers/sunny.webp',
+    target: '_self',
+    case: false,
   },
 
     {  
@@ -27,18 +54,8 @@ export const projects = [
     case: false,
   },
 
-     {  
-    title: "Band Visuals",
-    description: "Artist, album, and event graphics",
-    year: '2020 - 2025',
-    type: 'animation, graphics, web design & dev',
-    tags: ['animation', 'web', 'design'],
-    context: 'client',
-    link: '/bands',
-    cover: './img/covers/sunny.webp',
-    target: '_self',
-    case: false,
-  },
+
+
 
   //   {  
   //   title: "Jewelry",
