@@ -5,7 +5,7 @@ export const projects = [
     description: "A solo flute project",
     year: '2025 – 2026',
     type: 'music, worldbuilding',
-    tags: ['music', 'design'],
+    tags: ['music'],
     context: 'personal',
     link: 'https://linktr.ee/sheaonair',
     cover: './img/covers/air.webp',
