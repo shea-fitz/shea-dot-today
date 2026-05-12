@@ -407,6 +407,7 @@ span.contact {
 .tag-filters {
     display: flex;
     padding: 12px 0;
+    justify-content: left;
 }
 
 .tag-list {
@@ -419,6 +420,9 @@ span.contact {
     background-color: var(--cs-grad-right);
     font-size: .75rem;
     padding: 2px 4px;
+    font-family: var(--font-body);
+    text-transform: lowercase;
+    font-style: normal;
 }
 
 .tag-active {
@@ -628,6 +632,7 @@ img {
 
 p.bio {
     margin-block-start: 0;
+    line-height: 130%;
 }
 
 .iframe-container {
