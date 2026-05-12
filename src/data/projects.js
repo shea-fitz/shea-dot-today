@@ -15,25 +15,25 @@ export const projects = [
   },
 
 
-  {  
-    title: "T Brand Studio",
-    description: "Premium ad experiences",
-    year: '2023 - 2026',
-    type: 'product design',
-    tags: ['design', 'web'],
-    context: 'client',
-    link: 'https://advertising.nytimes.com/custom-content/',
-    cover: './img/covers/nyt.webp',
-    target: '_blank',
-    case: false,
-  },
+  // {  
+  //   title: "T Brand Studio",
+  //   description: "Premium ad experiences",
+  //   year: '2023 - 2026',
+  //   type: 'product design',
+  //   tags: ['design', 'web'],
+  //   context: 'client',
+  //   link: 'https://advertising.nytimes.com/products/display-units/',
+  //   cover: './img/covers/nyt.webp',
+  //   target: '_blank',
+  //   case: false,
+  // },
 
        {  
     title: "Band Visuals",
     description: "Artist, album, and event graphics",
     year: '2020 - 2026',
     type: 'animation, graphics, web design & dev',
-    tags: ['animation', 'web', 'design'],
+    tags: ['animation', 'web', 'design', 'illustration', 'music'],
     context: 'client',
     link: '/bands',
     cover: './img/covers/sunny.webp',
