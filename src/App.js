@@ -77,8 +77,8 @@ function App() {
                   onClick={() => setTagFilter(prev => 
                       prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]
                   )}
-                  style={{ opacity: tagFilter.includes(tag) ? 1 : 0.65 }}
-                >
+                  className={`tag pointer ${tagFilter.includes(tag) ? 'tag-active' : ''}`}
+                  >
                   {tag}
                 </span>
               ))}
