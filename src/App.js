@@ -20,10 +20,12 @@ import Info from './components/Info';
 function App() {
 
   const [filter, setFilter] = useState(null);
+  const [tagFilter, setTagFilter] = useState([]);
+
   
-  const filteredProjects = filter
-    ? projects.filter(p => p.context === filter)
-    : projects;
+  const filteredProjects = projects
+  .filter(p => filter === null || p.context === filter)
+  .filter(p => tagFilter.length === 0 || tagFilter.every(t => p.tags.includes(t)));
 
   return (
     <>
@@ -62,6 +64,24 @@ function App() {
               >
                 <img className="icon" src={personal} />personal
               </span>
+            </div>
+          </div>
+
+         <div className="tag-filters">
+            <span className="category">type:</span>
+            <div className="tag-list">
+              {['design', 'web', 'music', 'illustration', 'animation'].map(tag => (
+                <span
+                  className="tag pointer"
+                  key={tag}
+                  onClick={() => setTagFilter(prev => 
+                      prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]
+                  )}
+                  className={`tag pointer ${tagFilter.includes(tag) ? 'tag-active' : ''}`}
+                >
+                  {tag}
+                </span>
+              ))}
             </div>
           </div>
 

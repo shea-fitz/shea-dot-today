@@ -8,6 +8,7 @@ import out from '../icons/out.svg'
 const Project = ({cover, caseStudy, title, year, type, description, context, link, target}) => {
 
     const [blur, setBlur] = useState(true);
+    const [filter, setFilter] = useState(null); // null means "show all"
 
 return (
     <div className="proj-container" onMouseEnter={() => setBlur(!blur)} onMouseLeave={() => setBlur(!blur)}>

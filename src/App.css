@@ -403,6 +403,32 @@ span.contact {
     gap: 12px;
 }
 
+/* FILTERS */
+.tag-filters {
+    display: flex;
+    padding: 12px 0;
+}
+
+.tag-list {
+    display: flex;
+    gap: 4px;
+    padding-left: 4px;
+}
+
+.tag {
+    background-color: var(--cs-grad-right);
+    font-size: .75rem;
+    padding: 2px 4px;
+}
+
+.tag-active {
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+
+
+
 /* LINKS AND DISPLAY */
 
 .project-link, .no-link {
@@ -809,6 +835,10 @@ ol {
 
     .projects {
         margin-left: 0;
+    }
+
+    .tag-filters {
+        display: none;
     }
 
 
