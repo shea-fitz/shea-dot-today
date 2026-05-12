@@ -46,7 +46,7 @@ export const projects = [
     description: "MVP of a cooperatively owned Bandcamp alternative",
     year: '2025',
     type: 'product design',
-    tags: ['design', 'web'],
+    tags: ['design', 'web', 'music'],
     context: 'client',
     link: 'https://www.subvert.fm/',
     cover: './img/covers/subvert.webp',
