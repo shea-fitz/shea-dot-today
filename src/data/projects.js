@@ -213,7 +213,7 @@ export const projects = [
     description: "Experiments with 3D software, screenshots, and Photoshop",
     year: '2018 - 2020',
     type: 'animation, illustration',
-    tags: ['illustration', 'design', 'animation'],
+    tags: ['illustration', 'animation'],
     context: 'personal',
     link: '/sketch-digital',
     cover: './img/covers/sketch.webp',
