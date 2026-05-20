@@ -55,8 +55,8 @@ const StudentVisa = () => {
               </div>
 
               <div className="detail-column">
-                <h3 className="reset-margin">Team</h3>
-                <a href="https://lsyl.live/" target="_blank">Lucy Siyao Liu</a>, Dan Taeyoung, and myself as Surplus+
+                <h3 className="reset-margin">Collaborators</h3>
+                <a href="https://lsyl.live/" target="_blank">Lucy Siyao Liu</a> and Dan Taeyoung
 
               </div>
 

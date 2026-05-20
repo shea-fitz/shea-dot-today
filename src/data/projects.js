@@ -42,6 +42,19 @@ export const projects = [
   },
 
     {  
+    title: "New York Times Advertising",
+    description: "House web campaigns",
+    year: '2023 - 2025',
+    type: 'web design & development',
+    tags: ['design', 'web'],
+    context: 'client',
+    link: '/nyta',
+    cover: './img/covers/nyt.webp',
+    target: '_self',
+    case: false,
+  },
+
+    {  
     title: "Subvert",
     description: "MVP of a cooperatively owned Bandcamp alternative",
     year: '2025',
@@ -114,18 +127,7 @@ export const projects = [
 
   // },
 
-   {  
-    title: "The Memo",
-    description: "Microsite for New York Times Advertising",
-    year: '2023',
-    type: 'web design & development',
-    tags: ['design', 'web'],
-    context: 'client',
-    link: 'https://web.archive.org/web/20240202042332/https://advertising.nytimes.com/thememo/',
-    cover: './img/covers/nyt.webp',
-    target: '_blank',
-    case: false,
-  },
+ 
  
 
 
@@ -156,17 +158,18 @@ export const projects = [
 
   },
 
-  // {  
-  //   title: "Student Visa Review",
-  //   description: "An online exhibition of interviews with architecture students",
-  //   year: '2021',
-  //   type: 'Web Design',
-  //   context: 'client',
-  //   link: '/student-visa',
-  //   cover: './img/covers/risd.webp',
-  //   target: '_self',
-  //   case: false,
-  // },
+  {  
+    title: "RISD Student Visa Review",
+    description: "An online exhibition of interviews with architecture students",
+    year: '2021',
+    type: 'web design',
+    tags: ['design', 'web'],
+    context: 'client',
+    link: '/student-visa',
+    cover: './img/covers/risd.webp',
+    target: '_self',
+    case: false,
+  },
 
     {  
     title: "Ink Drawings",

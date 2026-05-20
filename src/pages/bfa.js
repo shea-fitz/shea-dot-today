@@ -60,8 +60,8 @@ const BlueFlower = () => {
           </div>
 
           <div className="detail-column">
-            <h3 className="reset-margin">Team</h3>
-            <a href="https://lsyl.live/" target="_blank">Lucy Siyao Liu</a>, <a href="https://spectrastudio.xxx/" target="_blank">Renée Christiane</a>, and myself as Surplus+
+            <h3 className="reset-margin">Collaborators</h3>
+            <a href="https://lsyl.live/" target="_blank">Lucy Siyao Liu</a> and <a href="https://spectrastudio.xxx/" target="_blank">Renée Christiane</a>
 
           </div>
 
