@@ -14,20 +14,6 @@ export const projects = [
 
   },
 
-
-  // {  
-  //   title: "T Brand Studio",
-  //   description: "Premium ad experiences",
-  //   year: '2023 - 2026',
-  //   type: 'product design',
-  //   tags: ['design', 'web'],
-  //   context: 'client',
-  //   link: 'https://advertising.nytimes.com/products/display-units/',
-  //   cover: './img/covers/nyt.webp',
-  //   target: '_blank',
-  //   case: false,
-  // },
-
        {  
     title: "Band Visuals",
     description: "Artist, album, and event graphics",
