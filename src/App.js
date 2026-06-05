@@ -70,7 +70,7 @@ function App() {
          <div className="tag-filters">
             <span className="category">type:</span>
             <div className="tag-list">
-              {['design', 'web', 'music', 'illustration', 'animation'].map(tag => (
+              {['design', 'development', 'product', 'brand', 'music', 'illustration', 'animation'].map(tag => (
                 <span
                   className="tag pointer"
                   key={tag}

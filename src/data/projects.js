@@ -19,7 +19,7 @@ export const projects = [
     description: "Artist, album, and event graphics",
     year: '2020 - 2026',
     type: 'animation, graphics, web design & dev',
-    tags: ['animation', 'web', 'design', 'illustration', 'music'],
+    tags: ['animation', 'design', 'illustration', 'music', 'development'],
     context: 'client',
     link: '/bands',
     cover: './img/covers/sunny.webp',
@@ -32,7 +32,7 @@ export const projects = [
     description: "House web campaigns",
     year: '2023 - 2025',
     type: 'web design & development',
-    tags: ['design', 'web'],
+    tags: ['design', 'development'],
     context: 'client',
     link: '/nyta',
     cover: './img/covers/nyt.webp',
@@ -45,7 +45,7 @@ export const projects = [
     description: "MVP of a cooperatively owned Bandcamp alternative",
     year: '2025',
     type: 'product design',
-    tags: ['design', 'web', 'music'],
+    tags: ['design', 'music', 'product'],
     context: 'client',
     link: 'https://www.subvert.fm/',
     cover: './img/covers/subvert.webp',
@@ -74,7 +74,7 @@ export const projects = [
     description: "Change over time",
     year: '2018 - 2024',
     type: 'web design & development',
-    tags: ['web', 'design'],
+    tags: ['development', 'design'],
     context: 'personal',
     link: '/website',
     cover: './img/covers/website.webp',
@@ -97,45 +97,25 @@ export const projects = [
     case: false,
   },
 
-
-
-
-  //   {  
-  //   title: "The Pleasure x Effort Matrix",
-  //   description: "Notes on the hypothetical self",
-  //   year: '2024',
-  //   type: 'Writing',
-  //   context: 'Client',
-  //   link: 'https://syllabusproject.org/the-pleasure-x-effort-matrix/',
-  //   cover: './img/covers/syllabus.webp',
-  //   target: '_blank',
+  // {  
+  //   title: "Flowers in Motion",
+  //   description: "A radio show",
+  //   year: '2023',
+  //   type: 'music, graphics',
+  //   tags: ['music', 'design'],
+  //   context: 'personal',
+  //   link: '/flowers',
+  //   cover: './img/covers/flowers.webp',
+  //   target: '_self',
   //   case: false,
-
   // },
-
- 
- 
-
-
-  {  
-    title: "Flowers in Motion",
-    description: "A radio show",
-    year: '2023',
-    type: 'music, graphics',
-    tags: ['music', 'design'],
-    context: 'personal',
-    link: '/flowers',
-    cover: './img/covers/flowers.webp',
-    target: '_self',
-    case: false,
-  },
 
   {  
     title: "Blue Flower Arts",
     description: "Brand identity for a boutique literary agency",
     year: '2021',
     type: 'brand design',
-    tags: ['design'],
+    tags: ['design', 'brand'],
     context: 'client',
     link: '/bfa',
     cover: './img/covers/bfa.webp',
@@ -149,13 +129,27 @@ export const projects = [
     description: "An online exhibition of interviews with architecture students",
     year: '2021',
     type: 'web design',
-    tags: ['design', 'web'],
+    tags: ['design'],
     context: 'client',
     link: '/student-visa',
     cover: './img/covers/risd.webp',
     target: '_self',
     case: false,
   },
+
+    {  
+    title: "MakerDAO Community Development",
+    description: "An open-source wiki for a global crypto community",
+    year: '2020',
+    type: 'visual design, brand',
+    tags: ['design', 'development', 'product', 'brand'],
+    context: 'client',
+    link: '/maker',
+    cover: './img/covers/maker.png',
+    target: '_self',
+    case: false,
+  },
+
 
     {  
     title: "Ink Drawings",
@@ -209,8 +203,5 @@ export const projects = [
     target: '_self',
     case: false,
   },
-
-
-
 
 ];
