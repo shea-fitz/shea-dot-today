@@ -9,7 +9,7 @@ export const projects = [
     context: 'personal',
     link: 'https://sheaon.earth/',
     cover: './img/covers/air.webp',
-    target: '_self',
+    target: '_blank',
     case: false,
 
   },
