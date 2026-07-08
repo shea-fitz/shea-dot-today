@@ -9,14 +9,15 @@ const Info = () => {
 
 return (
 <div className="info">
-    <p className="bio">Designer who can build things, multimodal hobbyist at large...currently a senior product designer at The New York Times.<br/><br/>
+    <p className="bio">Designer across product, brand, and development; multimodal hobbyist at large...currently a senior designer at The New York Times.
+    <br/><br/>
 
    "Shea's whole thing is figuring stuff out" – my manager <br/><br/>
 
     "whimsical, reverent, maximalist" – the group chat <br/><br/>
 
         
-        </p>
+    </p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
     {/* <span className="contact"><img className="icon" src={insta}></img><a href="https://instagram.com/sheafitz" target='_blank' className="contact-link">@sheafitz</a></span> */}

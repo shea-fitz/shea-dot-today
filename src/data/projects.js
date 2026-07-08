@@ -124,18 +124,18 @@ export const projects = [
 
   },
 
-  {  
-    title: "RISD Student Visa Review",
-    description: "An online exhibition of interviews with architecture students",
-    year: '2021',
-    type: 'web design',
-    tags: ['design'],
-    context: 'client',
-    link: '/student-visa',
-    cover: './img/covers/risd.webp',
-    target: '_self',
-    case: false,
-  },
+  // {  
+  //   title: "RISD Student Visa Review",
+  //   description: "An online exhibition of interviews with architecture students",
+  //   year: '2021',
+  //   type: 'web design',
+  //   tags: ['design'],
+  //   context: 'client',
+  //   link: '/student-visa',
+  //   cover: './img/covers/risd.webp',
+  //   target: '_self',
+  //   case: false,
+  // },
 
     {  
     title: "MakerDAO Community Development",
