@@ -44,7 +44,7 @@ const NYTA = () => {
             The Memo was an internal initiative to create a summary of The New York Times' annual <a href="https://www.nytimes.com/section/business/dealbook" target="_blank">Dealbook Summit</a>. The aim was for the site to feel like a classified document and I explored designs across a spectrum of skeumorphism. Ultimately we opted for the analog reference to be a nod rather than a gimmick, amplified out by collage and sketch elements by illustrator <a href="https://mikemcquade.com/" target="_blank">Mike McQuade</a>. I designed and coded a microsite that lived on the NYTA website.
             </p>
 
-            <div className="details">
+            {/* <div className="details">
               <div className="detail-column">
                 <h3 className="reset-margin">Timeline</h3>
                3 weeks
@@ -60,17 +60,13 @@ const NYTA = () => {
                 <h3 className="reset-margin">Tools</h3>
                 HTML, CSS, Javascript, Figma
             </div>
-        </div>
+        </div> */}
 
          <Image
             source={ideas}
             caption="Design ideation"
           />
 
-           <Image
-            source={ref}
-            caption="Reference"
-          />
            <Image
             source={mobile}
             caption="Mobile nav"
@@ -80,9 +76,9 @@ const NYTA = () => {
 
         <h2>Mark Makers on the Moment (2024 - 2025)</h2>
 
-        <p className="paragraph"><a href="https://www.nytimes.com/mark-makers-on-the-moment" target="_blank">Mark Makers on the Moment</a> is an ongoing NYTA intiative to provide a platform for stories from Marketing industry.</p>
+        <p className="paragraph"><a href="https://www.nytimes.com/mark-makers-on-the-moment" target="_blank">Mark Makers on the Moment</a> is an ongoing NYTA intiative to provide a platform for stories from Marketing industry. Illustrations by <a href="http://www.uliknoerzer.com/" target="_blank">Uli Knözer</a>.</p> 
 
-          <div className="details">
+          {/* <div className="details">
               <div className="detail-column">
                 <h3 className="reset-margin">Timeline</h3>
                3 articles shipped quarterly
@@ -97,7 +93,7 @@ const NYTA = () => {
                 <h3 className="reset-margin">Tools</h3>
                 Webflow, Figma
             </div>
-        </div>
+        </div> */}
     
       <Image
             source={mark}

@@ -14,6 +14,19 @@ export const projects = [
 
   },
 
+   {  
+    title: "New York Times Advertising",
+    description: "House web campaigns",
+    year: '2023 - 2026',
+    type: 'web design & development',
+    tags: ['design', 'development'],
+    context: 'client',
+    link: '/nyta',
+    cover: './img/covers/nyt.webp',
+    target: '_self',
+    case: false,
+  },
+
        {  
     title: "Band Visuals",
     description: "Artist, album, and event graphics",
@@ -27,18 +40,7 @@ export const projects = [
     case: false,
   },
 
-    {  
-    title: "New York Times Advertising",
-    description: "House web campaigns",
-    year: '2023 - 2025',
-    type: 'web design & development',
-    tags: ['design', 'development'],
-    context: 'client',
-    link: '/nyta',
-    cover: './img/covers/nyt.webp',
-    target: '_self',
-    case: false,
-  },
+ 
 
     {  
     title: "Subvert",
