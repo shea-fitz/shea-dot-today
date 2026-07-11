@@ -205,10 +205,7 @@ function App() {
 
       <div className="footer">
         <span>
-          ♫ I built this site from scratch with React.js and the{' '}
-          <a href="https://www.are.na/developers/explore" target="_blank" rel="noreferrer">
-            Are.na API
-          </a>. For recent updates I used Cursor. Last updated July 10, 2026 ♫
+          ♫ I built this site from scratch with React.js and the Are.na API. For recent updates I used Cursor. Last updated July 10, 2026 ♫
         </span>
       </div>
     </>
