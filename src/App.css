@@ -264,7 +264,9 @@ audio {
 .proj-img-container {
     position: relative;
     width: 4.5rem;
-    aspect-ratio: 1 / 1;
+    height: 4.5rem;
+    flex-shrink: 0;
+    align-self: center;
     overflow: visible;
 }
 
@@ -466,7 +468,7 @@ span.contact {
     text-decoration: none;
     display: grid;
     grid-template-columns: auto 1fr;
-    align-items: stretch;
+    align-items: center;
     width: 100%;
     gap: 16px;
 }
@@ -912,6 +914,10 @@ ol {
 
     .projects {
         margin-left: 0;
+    }
+
+    .tag-filters > .category {
+        display: none;
     }
 
     /* .tag-filters {
