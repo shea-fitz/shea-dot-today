@@ -208,8 +208,7 @@ function App() {
           ♫ I built this site from scratch with React.js and the{' '}
           <a href="https://www.are.na/developers/explore" target="_blank" rel="noreferrer">
             Are.na API
-          </a>
-          . Last updated June 5, 2026 ♫
+          </a>. For recent updates I used Cursor. Last updated July 10, 2026 ♫
         </span>
       </div>
     </>
