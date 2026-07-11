@@ -188,17 +188,25 @@ div.banner {
 
 .footer {
     font-family: var(--font-h);
-    display: inline-flex;
-    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
     align-items: center;
     gap: 12px;
     justify-content: center;
+    text-align: center;
     font-style: italic;
     margin-bottom: 24px;
     padding: 0 24px;
     color: var(--text);
     font-size: .875rem;
     letter-spacing: .1px;
+}
+
+.footer span {
+    min-width: 0;
+    max-width: 100%;
 }
 
 
