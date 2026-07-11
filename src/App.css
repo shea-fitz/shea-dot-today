@@ -60,7 +60,7 @@ html, body {
     font-family: var(--font-body);
     color: var(--text);
     background-color: #f4f5f2;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 a {
@@ -800,6 +800,28 @@ ol {
         width: 100%;
     }
 
+    .proj-controls {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: linear-gradient(
+            to bottom,
+            #f4f5f2 0%,
+            #f4f5f2 70%,
+            rgba(244, 245, 242, 0) 100%
+        );
+        margin-left: -50px;
+        margin-right: -50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 16px;
+        margin-bottom: -16px;
+    }
+
+    .proj-controls-released {
+        position: static;
+    }
+
     .writing-slot {
         order: 3;
         width: 100%;
@@ -914,6 +936,13 @@ ol {
 
     .projects {
         margin-left: 0;
+    }
+
+    .proj-controls {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .tag-filters > .category {

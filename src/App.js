@@ -1,4 +1,4 @@
-import React, { useState, useRef, useLayoutEffect } from 'react';
+import React, { useState, useRef, useLayoutEffect, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 
 import './App.css';
@@ -22,17 +22,31 @@ function App() {
   const [filter, setFilter] = useState(null);
   const [tagFilter, setTagFilter] = useState([]);
   const [sheaHeight, setSheaHeight] = useState(null);
+  const [releaseSticky, setReleaseSticky] = useState(false);
 
   const leftRef = useRef(null);
   const infoRef = useRef(null);
   const writingRef = useRef(null);
   const projectsRef = useRef(null);
+  const footerRef = useRef(null);
 
   const isFiltered = filter !== null || tagFilter.length > 0;
 
   const projectMatches = (p) =>
     (filter === null || p.context === filter) &&
     (tagFilter.length === 0 || tagFilter.every(t => p.tags.includes(t)));
+
+  useEffect(() => {
+    const footer = footerRef.current;
+    if (!footer) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setReleaseSticky(entry.isIntersecting),
+      { threshold: 0 }
+    );
+    observer.observe(footer);
+    return () => observer.disconnect();
+  }, []);
 
   useLayoutEffect(() => {
     const syncSheaHeight = () => {
@@ -123,80 +137,80 @@ function App() {
         </div>
 
         <div className="projects" ref={projectsRef}>
-          <Fade>
-            <div>
-              <div className="header proj-header space-between">
-                Projects
-                <div className="categories">
-                  <span
-                    className="category pointer"
-                    onClick={() => setFilter(null)}
-                    style={{ opacity: filter === null ? 1 : 0.8 }}
-                  >
-                    <span className="icon">꩜</span>everything
-                  </span>
+          <div className={`proj-controls${releaseSticky ? ' proj-controls-released' : ''}`}>
+            <div className="header proj-header space-between">
+              Projects
+              <div className="categories">
+                <span
+                  className="category pointer"
+                  onClick={() => setFilter(null)}
+                  style={{ opacity: filter === null ? 1 : 0.8 }}
+                >
+                  <span className="icon">꩜</span>everything
+                </span>
 
-                  <span
-                    className="category pointer"
-                    onClick={() => setFilter('client')}
-                    style={{ opacity: filter === 'client' ? 1 : 0.65 }}
-                  >
-                    <img className="icon" src={client} alt="" />client work
-                  </span>
+                <span
+                  className="category pointer"
+                  onClick={() => setFilter('client')}
+                  style={{ opacity: filter === 'client' ? 1 : 0.65 }}
+                >
+                  <img className="icon" src={client} alt="" />client work
+                </span>
 
-                  <span
-                    className="category pointer"
-                    onClick={() => setFilter('personal')}
-                    style={{ opacity: filter === 'personal' ? 1 : 0.65 }}
-                  >
-                    <img className="icon" src={personal} alt="" />personal
-                  </span>
-                </div>
+                <span
+                  className="category pointer"
+                  onClick={() => setFilter('personal')}
+                  style={{ opacity: filter === 'personal' ? 1 : 0.65 }}
+                >
+                  <img className="icon" src={personal} alt="" />personal
+                </span>
               </div>
+            </div>
 
-              <div className="tag-filters">
-                <span className="category">type:</span>
-                <div className="tag-list">
-                  {['design', 'development', 'product', 'brand', 'music', 'illustration', 'animation'].map(tag => (
-                    <span
-                      key={tag}
-                      onClick={() =>
-                        setTagFilter(prev =>
-                          prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]
-                        )
-                      }
-                      className={`tag pointer ${tagFilter.includes(tag) ? 'tag-active' : ''}`}
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              <div className="proj-list">
-                {projects.map(project => (
-                  <Project
-                    key={project.title}
-                    cover={project.cover}
-                    title={project.title}
-                    type={project.type}
-                    year={project.year}
-                    description={project.description}
-                    context={project.context}
-                    link={project.link}
-                    target={project.target}
-                    caseStudy={project.case}
-                    dimmed={isFiltered && !projectMatches(project)}
-                    highlighted={isFiltered && projectMatches(project)}
-                  />
+            <div className="tag-filters">
+              <span className="category">type:</span>
+              <div className="tag-list">
+                {['design', 'development', 'product', 'brand', 'music', 'illustration', 'animation'].map(tag => (
+                  <span
+                    key={tag}
+                    onClick={() =>
+                      setTagFilter(prev =>
+                        prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]
+                      )
+                    }
+                    className={`tag pointer ${tagFilter.includes(tag) ? 'tag-active' : ''}`}
+                  >
+                    {tag}
+                  </span>
                 ))}
               </div>
+            </div>
+          </div>
+
+          <Fade>
+            <div className="proj-list">
+              {projects.map(project => (
+                <Project
+                  key={project.title}
+                  cover={project.cover}
+                  title={project.title}
+                  type={project.type}
+                  year={project.year}
+                  description={project.description}
+                  context={project.context}
+                  link={project.link}
+                  target={project.target}
+                  caseStudy={project.case}
+                  dimmed={isFiltered && !projectMatches(project)}
+                  highlighted={isFiltered && projectMatches(project)}
+                />
+              ))}
             </div>
           </Fade>
         </div>
       </div>
 
-      <div className="footer">
+      <div className="footer" ref={footerRef}>
         <span>
           ♫ I built this site from scratch with React.js and the Are.na API. For recent updates I used Cursor. Last updated July 10, 2026 ♫
         </span>
