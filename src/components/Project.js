@@ -27,12 +27,9 @@ return (
                     
                 </div>
 
-                <div>
+                <div className="space-between">
                     <div className="proj-desc">{description}</div>
-                    <div className="space-between">
-                        <div className="proj-type">{type}</div>                        
-                        <img className="icon proj-context" src={context==='personal' ? personal : client}></img>
-                    </div>
+                    <img className="icon proj-context" src={context==='personal' ? personal : client}></img>
                 </div> 
             </div> 
         </a> 
@@ -45,20 +42,15 @@ return (
                 <div className='proj-content'>
                     <div className="space-between">
                         <div className="proj-title">{title}</div>
-                        <div className="proj-year">[{year}]</div>
+                        <div className="proj-meta">
+                            <div className={caseStudy ? 'case-study' : 'none'}>Case Study</div>
+                            <div className="proj-year">[{year}]</div>
+                        </div>
                     </div>
 
-                    <div>
+                    <div className="space-between">
                         <div className="proj-desc">{description}</div>
-                        <div className="space-between">
-                        <div className="pills">
-                            <div className={caseStudy ? 'case-study' : 'none'}>Case Study</div>
-
-                            <div className="proj-type">{type}</div>
-                        </div>
-                            
-                            <img className="icon proj-context" src={context==='personal' ? personal : client}></img>
-                        </div>
+                        <img className="icon proj-context" src={context==='personal' ? personal : client}></img>
                     </div> 
                 </div> 
         </Link>

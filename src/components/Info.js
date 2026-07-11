@@ -12,9 +12,6 @@ return (
     <p className="bio">Designer who can build things, musician who can design things...currently a senior designer at The New York Times.
     <br/><br/>
 
-   "Shea's whole thing is figuring stuff out" – my manager <br/><br/>
-
-    "whimsical, reverent, maximalist" – the group chat <br/><br/>
 
         
     </p>
