@@ -5,13 +5,12 @@ import { Link } from "react-router-dom";
 import out from '../icons/out.svg'
 
 
-const Project = ({cover, caseStudy, title, year, type, description, context, link, target}) => {
+const Project = ({cover, caseStudy, title, year, type, description, context, link, target, dimmed, highlighted}) => {
 
     const [blur, setBlur] = useState(true);
-    const [filter, setFilter] = useState(null); // null means "show all"
 
 return (
-    <div className="proj-container" onMouseEnter={() => setBlur(!blur)} onMouseLeave={() => setBlur(!blur)}>
+    <div className={`proj-container${highlighted ? ' proj-highlighted' : ''}`} style={{ opacity: dimmed ? 0.3 : 1 }} onMouseEnter={() => setBlur(!blur)} onMouseLeave={() => setBlur(!blur)}>
         <a href={link} target={target} className={link && target==='_blank' ? 'project-link out' : link && target==='_self' ? 'none' : 'no-link'}>
 
             <div className="proj-img-container">

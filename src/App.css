@@ -260,6 +260,7 @@ audio {
     width: 100%;
     height: auto;
     border-bottom: .75px solid var(--mid);
+    transition: opacity 0.2s ease;
 }
 
 .proj-img-container {
@@ -478,6 +479,11 @@ span.contact {
 .project-link:hover {
     background: var(--light);
     color: var(--mid);
+}
+
+.proj-highlighted .project-link,
+.proj-highlighted .no-link {
+    background: var(--light);
 }
 
 .pointer:hover {

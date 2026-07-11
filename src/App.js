@@ -27,13 +27,12 @@ function App() {
   const infoRef = useRef(null);
   const writingRef = useRef(null);
   const projectsRef = useRef(null);
-  const unfilteredProjectsHeightRef = useRef(null);
 
-  const isUnfiltered = filter === null && tagFilter.length === 0;
+  const isFiltered = filter !== null || tagFilter.length > 0;
 
-  const filteredProjects = projects
-    .filter(p => filter === null || p.context === filter)
-    .filter(p => tagFilter.length === 0 || tagFilter.every(t => p.tags.includes(t)));
+  const projectMatches = (p) =>
+    (filter === null || p.context === filter) &&
+    (tagFilter.length === 0 || tagFilter.every(t => p.tags.includes(t)));
 
   useLayoutEffect(() => {
     const syncSheaHeight = () => {
@@ -47,16 +46,8 @@ function App() {
         return;
       }
 
-      // Only sample projects height when the full list is showing.
-      if (isUnfiltered) {
-        unfilteredProjectsHeightRef.current = projectsEl.offsetHeight;
-      }
-
-      const targetHeight = unfilteredProjectsHeightRef.current;
-      if (targetHeight == null) return;
-
       const nextHeight = Math.max(
-        targetHeight - info.offsetHeight - writingEl.offsetHeight,
+        projectsEl.offsetHeight - info.offsetHeight - writingEl.offsetHeight,
         0
       );
       setSheaHeight((prev) => (prev === nextHeight ? prev : nextHeight));
@@ -79,7 +70,7 @@ function App() {
       window.clearTimeout(t1);
       window.clearTimeout(t2);
     };
-  }, [isUnfiltered]);
+  }, []);
 
   return (
     <>
@@ -183,7 +174,7 @@ function App() {
               </div>
 
               <div className="proj-list">
-                {filteredProjects.map(project => (
+                {projects.map(project => (
                   <Project
                     key={project.title}
                     cover={project.cover}
@@ -195,6 +186,8 @@ function App() {
                     link={project.link}
                     target={project.target}
                     caseStudy={project.case}
+                    dimmed={isFiltered && !projectMatches(project)}
+                    highlighted={isFiltered && projectMatches(project)}
                   />
                 ))}
               </div>
