@@ -44,7 +44,7 @@ export const projects = [
 
     {  
     title: "Subvert",
-    description: "MVP of a cooperatively owned Bandcamp alternative",
+    description: "MVP of a collectively owned music marketplace",
     year: '2025',
     type: 'product design',
     tags: ['design', 'music', 'product'],
