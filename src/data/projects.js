@@ -49,7 +49,7 @@ export const projects = [
     type: 'product design',
     tags: ['design', 'music', 'product'],
     context: 'client',
-    link: 'https://www.subvert.fm/',
+    link: 'https://subvert.fm/',
     cover: './img/covers/subvert.webp',
     target: '_blank',
     case: false,
@@ -122,8 +122,18 @@ export const projects = [
     link: '/bfa',
     cover: './img/covers/bfa.webp',
     target: '_self',
-    case: false,
+  },
 
+  {  
+    title: "Altana",
+    description: "Search tools for a supply chain database",
+    year: '2022',
+    type: 'design',
+    tags: ['design', 'product'],
+    context: 'client',
+    link: '/altana',
+    cover: './img/covers/altana.webp',
+    target: '_self',
   },
 
   // {  
@@ -136,7 +146,7 @@ export const projects = [
   //   link: '/student-visa',
   //   cover: './img/covers/risd.webp',
   //   target: '_self',
-  //   case: false,
+
   // },
 
     {  
@@ -149,7 +159,7 @@ export const projects = [
     link: '/maker',
     cover: './img/covers/maker.png',
     target: '_self',
-    case: false,
+
   },
 
 
@@ -163,7 +173,6 @@ export const projects = [
     link: '/sketch',
     cover: './img/covers/sketch-2.webp',
     target: '_self',
-    case: false,
   },
 
   {  
@@ -176,7 +185,6 @@ export const projects = [
     link: '/people',
     cover: './img/covers/people.webp',
     target: '_self',
-    case: false,
 
   },
 
@@ -190,7 +198,6 @@ export const projects = [
     link: '/habit',
     cover: './img/covers/habit.webp',
     target: '_self',
-    case: false,
   },
 
   {  
@@ -203,7 +210,6 @@ export const projects = [
     link: '/sketch-digital',
     cover: './img/covers/sketch.webp',
     target: '_self',
-    case: false,
   },
 
 ];

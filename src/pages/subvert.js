@@ -118,7 +118,7 @@ const Subvert = () => {
 
          <Image
           source={collections}
-          caption='MVP collections libary (2025) and Alpha collections page (2026)'
+          caption='MVP collections libary'
         />
 
         <h3>Page Structure and Content Agnosticism</h3>
