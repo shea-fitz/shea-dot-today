@@ -613,12 +613,21 @@ span.code {
 .details {
     display: flex;
     gap: 32px;
+    justify-content: space-between;
     margin-bottom: 24px;
 }
 
 .detail-column {
-    display: block;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: max-content;
+    max-width: 100%;
+}
+
+.detail-column h3 {
+    width: auto;
+    white-space: nowrap;
 }
 
 .reset-margin {

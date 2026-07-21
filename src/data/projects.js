@@ -19,13 +19,25 @@ export const projects = [
     description: "House web campaigns",
     year: '2023 - 2026',
     type: 'web design & development',
-    tags: ['design', 'development'],
+    tags: ['design', 'development', 'brand'],
     context: 'client',
     link: '/nyta',
     cover: './img/covers/nyt.webp',
     target: '_self',
     case: false,
   },
+
+  // {  
+  //   title: "T Brand Studio",
+  //   description: "Premium ad products for The New York Times",
+  //   year: '2023 - 2026',
+  //   type: 'design',
+  //   tags: ['design', 'product', 'development', 'brand'],
+  //   context: 'client',
+  //   link: '/tbrand',
+  //   cover: './img/covers/tbrand.webp',
+  //   target: '_self',
+  // },
 
        {  
     title: "Band Visuals",

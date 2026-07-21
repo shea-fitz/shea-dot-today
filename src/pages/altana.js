@@ -29,7 +29,7 @@ const Altana = () => {
         <div className="page-content">
           <PageHeader
               title='Altana'
-              type='Product Design'
+              type='Product Design (contracted as an agency worker)'
               year='2022'
             />
 
@@ -40,19 +40,14 @@ const Altana = () => {
         <h3>Client</h3>
 
         <p className="paragraph">
-        <a href="https://altana.ai/" target="_blank">Altana</a> seeks to be a source of truth for global trade, mapping relationships between companies, facilities, and the goods that move between them. Altana's primary users were US government analysts trying to answer questions like: who is connected to this company? What products are involved? Are there bad actors in this supply chain?
-
-        <br /><br />
-
-        I was contracted while working as a Product Designer at the agency Giant Machines, which has since been acquired by Deloitte.
+        <a href="https://altana.ai/" target="_blank">Altana</a> seeks to be a <span className="highlight">source of truth for global trade,</span> mapping relationships between companies, facilities, and the goods that move between them.
         </p>
 
 
         <h3>Ask</h3>
 
         <p className="paragraph">
-        Altana's existing search interface was a single input field that couldn't support the complexity of analysts’ needs. The underlying data required many permutations of search types, each with different results.   <br /><br />
-        The goals were to:
+        Altana's existing search interface was a single input field that <span className="highlight">couldn't support the complexity of analysts’ needs</span>. The goals were to:
 
         <ol>
           <li>Redesign the search experience to support the complexity of Altana’s data model</li>
@@ -94,7 +89,7 @@ const Altana = () => {
 
         <p className="paragraph last-p">
         I designed a structured natural language form: <br /><br />
-        "I'd like to search for a [company] in this [place] that trades these [goods] in this [industry]." Each term is an interactive input, making the query readable rather than technical. <br /><br />
+        "I'd like to search for a [company] in this [place] that trades these [goods] in this [industry]." Each term is an interactive input, <span className="highlight">making the query readable rather than technical.</span> <br /><br />
         Advanced search extended this with an integrated map, letting analysts draw geographic bounding boxes or upload shapefiles — critical for intelligence use cases where regional trade patterns were the focus. </p>
 
 <Image
@@ -116,15 +111,12 @@ const Altana = () => {
         <h3>Knowledge Graph</h3>
 
         <p className="paragraph last-p">
-        Once a user found a company of interest, the Knowledge Graph let them explore its connections with an interactive node-based diagram:<br /><br />
+        Once a user found a company of interest, the Knowledge Graph let them explore its connections with an <span className="highlight">interactive node-based diagram</span>:<br /><br />
         <ul>
           <li>Trading partner</li>
           <li>Owned companies</li>
           <li>Facilities</li>
         </ul> 
-        <br /><br />
-
-          I designed the node and edge system from scratch: three node types (searched company, company, facility), four edge types (sends to, receives from, sends and receives, operated by), and full state coverage for both. 
           </p>
 
           <Image
@@ -133,11 +125,9 @@ const Altana = () => {
 
           <h3>Node Grouping</h3>
           <p className="paragraph last-p">
-          The hardest problem was scale. A single company might have 250 trading partners or 100 owned subsidiaries — rendering everything at once made the graph unreadable. <br /><br />
+          The hardest problem was scale. A single company might have 250 trading partners or 100 owned subsidiaries. Rendering everything at once made the graph unreadable. <br /><br />
 
-          I designed a node grouping system that collapsed high-connection nodes into labeled group nodes with pagination, letting analysts drill into relationships progressively. <br /><br />
-
-          Groups could also be created manually to consolidate duplicate company entries in the dataset.
+          I designed a node grouping system that <span className="highlight">collapsed high-connection nodes into labeled group nodes with pagination</span>, letting analysts drill into relationships progressively.
           </p>
 
           

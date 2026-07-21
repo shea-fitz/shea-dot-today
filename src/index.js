@@ -24,7 +24,7 @@ import Maker from './pages/maker';
 import SheaOnAir from './pages/shea-on-air';
 import NYTA from './pages/nyta';
 import Altana from './pages/altana';
-import Subvert from './pages/subvert';
+import TBrand from './pages/tbrand';
 
 
 
@@ -37,6 +37,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="bfa" element={<BlueFlower />} />
       <Route path="altana" element={<Altana />} />
+      <Route path="tbrand" element={<TBrand />} />
       <Route path="habit" element={<Habit />} />
       <Route path="people" element={<People />} />
       <Route path="sketch-digital" element={<SketchDigital />} />
@@ -49,7 +50,6 @@ root.render(
       <Route path="shea-on-air" element={<SheaOnAir />} />
       <Route path="nyta" element={<NYTA />} />
       <Route path="maker" element={<Maker />} />
-      <Route path="subvert" element={<Subvert />} />
 
 
 
