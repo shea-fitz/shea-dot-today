@@ -9,13 +9,12 @@ const Info = () => {
 
 return (
 <div className="info">
-    <p className="bio">Designer who can build things, musician who can design things, currently at The New York Times. Full product design portfolio available upon request.
+    <p className="bio">Designer who can build things, musician who can design things...currently at The New York Times.
     <br/><br/>
 
     </p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
-    <span className="contact"><img className="icon" src={cv}></img><a href="https://www.linkedin.com/in/sheafitz/" target='_blank' className="contact-link">in/sheafitz</a></span>
     <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
 
 
