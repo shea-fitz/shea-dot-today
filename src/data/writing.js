@@ -2,10 +2,17 @@ export const writing = [
 
 
   {
-    title: 'The Internet Phone Book',
+    title: 'shea on air',
+    link:
+      'https://sheaon.earth/notes/',
+      source: "personal music blog",
+      year: '2025-2026'
+  },
+  {
+    title: 'Recommended website (sheafitz.com)',
     link:
       'https://internetphonebook.net/',
-      source: "(this website is recommended)",
+      source: "The Internet Phone Book",
       year: '2025'
   },
 
