@@ -2,22 +2,20 @@ import React from 'react';
 import arena from '../icons/arena.svg';
 import mail from '../icons/mail.svg';
 import insta from '../icons/insta.svg'
-// import cv from '../icons/file.svg';
+import cv from '../icons/file.svg';
 import song from '../media/ars-nova.mp3';
 
 const Info = () => {
 
 return (
 <div className="info">
-    <p className="bio">Designer who can build things, musician who can design things...currently at The New York Times.
+    <p className="bio">Designer who can build things, musician who can design things...currently at The New York Times. Full product design portfolio available upon request.
     <br/><br/>
 
-
-        
     </p>
 
     <span className="contact"><img className="icon" src={arena}></img> <a href="https://are.na/shea" target="_blank" className="contact-link">are.na/shea</a></span>
-    {/* <span className="contact"><img className="icon" src={insta}></img><a href="https://instagram.com/sheafitz" target='_blank' className="contact-link">@sheafitz</a></span> */}
+    <span className="contact"><img className="icon" src={cv}></img><a href="https://www.linkedin.com/in/sheafitz/" target='_blank' className="contact-link">in/sheafitz</a></span>
     <span className="contact"><img className="icon" src={mail}></img> sheafitz10@gmail.com</span>
 
 
