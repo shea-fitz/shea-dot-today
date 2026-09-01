@@ -9,7 +9,7 @@ const Info = () => {
 
 return (
 <div className="info">
-    <p className="bio">Designer who can build things, musician who can design things...currently at The New York Times.
+    <p className="bio">I design products with a brand sensibility and create narrative experiences systematically, currently at The New York Times.
     <br/><br/>
 
     </p>
